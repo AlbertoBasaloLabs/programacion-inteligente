@@ -38,13 +38,11 @@ Este curso está orientado a **desarrolladores profesionales** que:
 
 ## Temario
 
-### 1. Ecosistema y vibraciones
+### [1.](1-0-0-ecosistema_y_vibraciones.md) Ecosistema y vibraciones
 
-```markdown	
-- 1.1. Modelos, agentes, editores y primitivas
-- 1.2. Vibe coding, sin preocuparse por el código	
+- [1.1.](1-1-0-modelos_agentes_editores_y_primitivas.md) Modelos, agentes, editores y primitivas
+- [1.2.](1-2-0-vibe_coding_sin_preocuparse_por_el_codigo.md) Vibe coding, sin preocuparse por el código	
 - 1.3. AI-DD, metodología para todo el SDLC
-```
 
 ### 2. Bibliotecas y talleres
 

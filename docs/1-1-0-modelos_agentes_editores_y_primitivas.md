@@ -1,18 +1,20 @@
 ---
 title: Modelos, agentes, editores y primitivas
-description: Introducción a los modelos de lenguaje, agentes, editores y primitivas de programación con IA.
+description: Programar en lenguaje natural con un ecosistema de herramientas basado en los LLMs.
 author: Alberto Basalo
 url: 1-1-0-modelos_agentes_editores_y_primitivas
 marp: true
 theme: ab
 ---
 
+[1. Ecosistema y vibraciones](./1-0-0-ecosistema_y_vibraciones.md)  
 # 1.1. Modelos, agentes, editores y primitivas
 
-Módulo [1. Ecosistema y vibraciones](./1-0-0-ecosistema_y_vibraciones.md) del curso de **[Programación Inteligente](https://aicode.academy/cursos/programacion_inteligente/)**.  
+- Programar en lenguaje natural con un ecosistema de herramientas basado en los LLMs.
 
 
-> Por [Alberto Basalo](https://albertobasalo.dev) &copy; 2026
+#### [Programación Inteligente](programacion_inteligente.md)  
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 
 ---
 
@@ -55,6 +57,6 @@ Módulo [1. Ecosistema y vibraciones](./1-0-0-ecosistema_y_vibraciones.md) del c
 - La industria del software está en plena transformación.
 - Los modelos, agentes, editores y primitivas son las bases del nuevo ecosistema.
 
-#### Programación Inteligente
+#### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
