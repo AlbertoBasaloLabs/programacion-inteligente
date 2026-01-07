@@ -70,7 +70,7 @@ li {
 
 li:before {
   position: absolute;
-  content: ">";
+  content: "➢";
   color: var(--ab-cyan-deep);
   left: 10px;
 }
