@@ -43,7 +43,7 @@ theme: ab
 Generate the scaffolding for a REST API in Node using Express. 
 ```
 ```markdown
-Include an endpoint for health status.
+Add an endpoint for health status.
 ```
 ```markdown
 Add a Playwright e2e test to check the health endpoint.
