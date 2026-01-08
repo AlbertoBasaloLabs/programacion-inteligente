@@ -41,7 +41,7 @@ theme: ab
 
 ```markdown
 - Scaffold here a REST API in TypeScript using Express. Just the basic structure.
-- Add an endpoint for health status.
+- Add an endpoint for health status, and remove any other endpoints.
 - Add a Playwright e2e test to check the health endpoint.
 - Document the Dev workflow at README.md
 - Generate ChangeLog, update version and merge on main branch.
