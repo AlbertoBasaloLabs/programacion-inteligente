@@ -55,7 +55,7 @@ Add a Playwright e2e test to check the health endpoint.
 ## Conclusión
 - El **vibe coding** consiste en 
   - Desarrollar sin preocuparte por el código.
-  - El resultado es lo único que i mporta.
+  - El resultado es lo único que importa.
 
 #### [Programación Inteligente](programacion_inteligente.md)
 > _No es magia, es tecnología._  
