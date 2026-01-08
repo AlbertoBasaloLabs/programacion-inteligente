@@ -52,8 +52,7 @@ theme: ab
 
 ```markdown
 /plan #file:rockets.spec.md 
-/code #file:rockets.spec.plan.md #file:code.instructions.md
-/test #file:rockets.spec.plan.md #file:test.instructions.md
+/code #file:rockets.spec.plan.md 
 /release #file:release.instructions.md
 ``` 
 

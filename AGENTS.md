@@ -63,3 +63,4 @@ npm test
   - EARS requirements format for specifications:
   - User stories (AS A..., I WANT TO..., SO THAT...)
   - Conventional commits, change logs and versioning
+- This is a windows environment using git bash terminal. 
