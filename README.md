@@ -7,35 +7,11 @@ Domina las nuevas primitivas de programación con IA para desarrollos más produ
 
 ---
 
-## Development Workflow
+## Demo Astro Bookings REST API
 
-This repository includes a scaffolded REST API in Node.js using Express as part of the labs.
-
-### Setup
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Copy environment defaults:
-   ```bash
-   cp .env.example .env
-   ```
-
-### Running the API
-- Development mode (with auto-reload):
-  ```bash
-  npm run dev
-  ```
-- Production mode:
-  ```bash
-  npm start
-  ```
-
-### Testing
-Run end-to-end tests with Playwright:
-```bash
-npm test
-```
+- **Specifications**: [specs/](./specs/)
+- **AGENTS.md**: [Astro Bookings Rest API](./AGENTS.md)
+- **CHANGELOG**: [CHANGELOG.md](./CHANGELOG.md)
 
 ---
 

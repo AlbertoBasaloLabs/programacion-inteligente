@@ -1,7 +1,7 @@
 {
-  "name": "programacion-inteligente-api",
+  "name": "astro-bookings-api",
   "version": "0.2.0",
-  "description": "Scaffolding for a REST API in Node using Express",
+  "description": "An Express.js API for managing Bookings in an Astro tourism application.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

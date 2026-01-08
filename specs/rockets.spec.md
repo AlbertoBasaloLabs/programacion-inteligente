@@ -4,8 +4,12 @@
 
 - We need a way to manage rockets in our system. 
 - Each rocket should have a unique ID, a name, a range, and a passenger capacity. 
-- The system should allow creating new rockets and retrieving existing ones.
-- To do so, we will implement a REST API to be called by client applications.
+
+### User Stories
+
+- As a user, I want to **create a new rocket by providing its name, range, and capacity.**
+- As a user, I want to **retrieve a list of all rockets in the system.**
+- As a user, I want to **retrieve details of a specific rocket by its ID.**
 
 ## Solution Overview
 
