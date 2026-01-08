@@ -41,7 +41,7 @@ theme: ab
 
 ```markdown
 - GPT5.1-Codex-Max
-  - Generate the scaffolding for a REST API in TypeScript using modern Node/Express. 
+  - Minimal scaffolding for a REST API in TypeScript using Express. 
 - Claude Sonnet 4.5
   - Add an endpoint for health status.
 - Gemini 3 Pro
