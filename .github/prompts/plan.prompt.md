@@ -19,6 +19,7 @@ Ask for the specification file if not provided.
 1. **Understand the Specification**: Read the specification file thoroughly to grasp the requirements and objectives.
 2. **Break Down the Task**: Divide the overall functionality into smaller, manageable tasks or components.
 3. **Write the Plan**: Write the plan outlining the steps needed to implement each task without going into code specifics.
+4. **Commit changes**: Commit the changes.
 
 ## Output
 
