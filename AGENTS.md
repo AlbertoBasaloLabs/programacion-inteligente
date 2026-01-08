@@ -52,6 +52,7 @@ npm test
 ├── tests/                # Test files
 ├── specs/                # Specification documents for AI-driven development
 ├── docs/                 # Documentation for humans
+├── .github/              # GitHub copilot prompts and instructions
 └── .vscode/              # Visual Studio Code configuration files
 ```
 
