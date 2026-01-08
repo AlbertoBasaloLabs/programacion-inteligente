@@ -19,6 +19,10 @@ This project scaffolds a REST API in Node using Express without defining endpoin
    ```bash
    npm start
    ```
+5. Run tests:
+   ```bash
+   npm test
+   ```
 
 ## Next steps
 - Add routes/controllers as needed; register them in `src/app.js`.

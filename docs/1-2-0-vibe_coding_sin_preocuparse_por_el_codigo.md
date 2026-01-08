@@ -40,13 +40,20 @@ theme: ab
 ## Concreción
 
 ```markdown
+- GPT5.1-Codex-Max
 Generate the scaffolding for a REST API in Node using Express. 
 ```
 ```markdown
+- Claude Sonnet 4.5
 Add an endpoint for health status.
 ```
 ```markdown
+- Gemini 3 Pro
 Add a Playwright e2e test to check the health endpoint.
+```
+```markdown
+- Grok Code Fast 1
+Document the Dev workflow at README.
 ```
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
