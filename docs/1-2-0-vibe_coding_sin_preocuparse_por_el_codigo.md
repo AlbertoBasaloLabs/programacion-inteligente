@@ -41,15 +41,15 @@ theme: ab
 
 ```markdown
 - GPT5.1-Codex-Max
-Generate the scaffolding for a REST API in Node using Express. 
+  - Generate the scaffolding for a REST API in Node using Express. 
 - Claude Sonnet 4.5
-Add an endpoint for health status.
+  - Add an endpoint for health status.
 - Gemini 3 Pro
-Add a Playwright e2e test to check the health endpoint.
+  - Add a Playwright e2e test to check the health endpoint.
 - Grok Code Fast 1
-Document the Dev workflow at README.md
+  - Document the Dev workflow at README.md
 - Raptor mini
-Generate ChangeLog, update version and merge on main branch.
+  - Generate ChangeLog, update version and merge on main branch.
 ```
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
