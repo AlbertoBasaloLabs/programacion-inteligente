@@ -42,7 +42,7 @@ theme: ab
 ## Concreción
 
 - **Spec-Driven Development**: What to build & How to verify it
-  - `rockets.specs.md`
+  - `rockets.spec.md`
 - **Rules over Tools**: How to build it
   - `AGENTS.md`
 - **Human in the Loop**: How to verify it
