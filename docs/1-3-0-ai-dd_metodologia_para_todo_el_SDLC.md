@@ -41,12 +41,12 @@ theme: ab
 
 ## Concreción
 
-- Human in the Loop
-  - `code.md` -> `tests.md`
-- Rules over Tools
-  - `AGENTS.md`
-- Spec-Driven Development
+- **Spec-Driven Development**: What to build & How to verify it
   - `rockets.specs.md`
+- **Rules over Tools**: How to build it
+  - `AGENTS.md`
+- **Human in the Loop**: How to verify it
+  - `plan.md` -> `code.md` -> `tests.md` -> `release.md`
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
