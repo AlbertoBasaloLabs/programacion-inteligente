@@ -19,8 +19,8 @@ theme: ab
 
 ## Conexión
 
-- **¿Qué relación tienes con el producto y con su código?**
-  - Las piezas de software que permiten programar usando Inteligencia Artificial Generativa.
+- **¿Puedo mantener el control y la calidad, aumentando la productividad?**
+  - Sí, siguiendo la metodología AI-Driven Development (AI-DD) durante todo el ciclo de vida del desarrollo de software (SDLC).
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
@@ -28,10 +28,12 @@ theme: ab
 
 ## Conceptos
 
-- **Chat**: 
-- **Prompt**: 
-- **Refinado**: 
-- **Validación**: 
+- **Slops**: La IA derrapa por falta de contexto tecnológico o de negocio
+- **Context**: Demasiado o inadecuado contexto confunde a la IA
+- **Principios AI-DD**: Metodología para todo el SDLC
+  - **Human in the Loop**: Verificación en pasos cortos, repetibles y controlables
+  - **Rules over Tools**: Guiar con reglas, instrucciones y enseñar habilidades
+  - **Spec-Driven Development**: Explicar en detalle el problema y su verificación
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
@@ -39,23 +41,17 @@ theme: ab
 
 ## Concreción
 
-```markdown
-Generate the scaffolding for a REST API in Node using Express. 
-```
-```markdown
-Include an endpoint for health status.
-```
-```markdown
-Add a Playwright e2e test to check the health endpoint.
-```
+- To Do: ... WIP ...
+
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
 
 ## Conclusión
-- El **vibe coding** consiste en 
-  - Desarrollar sin preocuparte por el código.
-  - El resultado es lo único que i mporta.
+- El **AI-Driven Development** consiste en 
+  - Seguir workflows de pequeñas tareas controlables y repetibles
+  - Aportar el contexto técnico mediante reglas, instrucciones y habilidades
+  - Aportar el contexto de negocio mediante especificaciones detalladas 
 
 #### [Programación Inteligente](programacion_inteligente.md)
 > _No es magia, es tecnología._  
