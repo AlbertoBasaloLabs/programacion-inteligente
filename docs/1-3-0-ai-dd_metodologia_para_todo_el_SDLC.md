@@ -41,7 +41,12 @@ theme: ab
 
 ## Concreción
 
-- To Do: ... WIP ...
+- Human in the Loop
+  - `code.md` -> `tests.md`
+- Rules over Tools
+  - `AGENTS.md`
+- Spec-Driven Development
+  - `rockets.specs.md`
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
