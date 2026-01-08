@@ -17,8 +17,8 @@ Ask for the plan file if not provided.
 ## Steps to follow:
 
 0. **Version Control**: 
-- Commit any existing changes in the codebase before starting new work to ensure a clean working state. 
-- Create a new branch named after the specification file with a `dev/` prefix (e.g., for `rockets.spec.md`, create a branch named `dev/rockets`).
+- 0.1 Commit any existing changes in the codebase before starting new work to ensure a clean working state. 
+- 0.2 Create a new branch named after the specification file with a `dev/` prefix (e.g., for `rockets.spec.md`, create a branch named `dev/rockets`).
 
 1. **Understand the Plan**: Read the plan file thoroughly to grasp the tasks, acceptance criteria, and implementation notes.
 2. **Write the Code**: Write the minimum code necessary to fulfill the plan in the specified order.
