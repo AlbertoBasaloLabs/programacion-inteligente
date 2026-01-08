@@ -40,11 +40,16 @@ theme: ab
 ## Concreción
 
 ```markdown
-- Scaffold here a REST API in TypeScript using Express. Just the basic structure.
-- Add an endpoint for health status, and remove any other endpoints.
-- Add a Playwright e2e test to check the health endpoint.
-- Document the Dev workflow at README.md
-- Generate ChangeLog, update version and merge on main branch.
+- GPT5.1-Codex-Max
+  - Create a minimal Node application with Typescript.
+- Claude Sonnet 4.5
+  - Add Express with an endpoint for health status.
+- Gemini 3 Pro
+  - Add a Playwright e2e test to check the health endpoint.
+- Grok Code Fast 1
+  - Document the Dev workflow at README.md
+- Raptor mini
+  - Generate ChangeLog, update version and merge on main branch.
 ```
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
