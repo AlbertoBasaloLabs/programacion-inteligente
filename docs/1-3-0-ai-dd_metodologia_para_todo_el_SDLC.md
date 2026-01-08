@@ -46,7 +46,7 @@ theme: ab
 - **Rules over Tools**: How to build it
   - `AGENTS.md` , `code.instructions.md`
 - **Human in the Loop**: How to verify it
-  - `plan.prompt.md` -> `code.prompt.md` -> `test.prompt.md` -> `release.prompt.md`
+  - `plan.prompt.md` -> `code.prompt.md` -> `release.prompt.md`
 
 ---
 
