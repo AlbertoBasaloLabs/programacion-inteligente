@@ -40,16 +40,10 @@ theme: ab
 ## Concreción
 
 ```markdown
-- GPT5.1-Codex-Max
-  - Create a minimal Node application with Typescript.
-- Claude Sonnet 4.5
-  - Add Express with an endpoint for health status.
-- Gemini 3 Pro
-  - Add a Playwright e2e test to check the health endpoint.
-- Grok Code Fast 1
-  - Document the Dev workflow at README.md
-- Raptor mini
-  - Generate ChangeLog, update version and merge on main branch.
+1. Create a minimal (No test or features) Node app with Typescript. Run it.
+2. Add Express with an API endpoint for health status. Smoke test with curl.
+3. Add a Playwright e2e test to check the health endpoint. Run the test.
+4. Commit with descriptive message. Update README with dev instructions.
 ```
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)

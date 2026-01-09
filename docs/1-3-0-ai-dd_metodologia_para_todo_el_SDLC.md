@@ -42,18 +42,18 @@ theme: ab
 ## Concreción
 
 - **Spec-Driven Development**: What to build & How to verify it
-  - `rockets.spec.md`
+  - `specs/rockets.spec.md`
 - **Rules over Tools**: How to build it
   - `AGENTS.md` , `code.instructions.md`
 - **Human in the Loop**: How to verify it
-  - `plan.prompt.md` -> `code.prompt.md` -> `release.prompt.md`
+  - `specs/plan.prompt.md` -> `code.prompt.md` -> `release.prompt.md`
 
 ---
 
 ```markdown
-/plan #file:rockets.spec.md 
-/code #file:rockets.spec.plan.md 
-/release #file:release.instructions.md
+/plan #file:specs/rockets.spec.md 
+/code #file:specs/rockets.spec.plan.md 
+/release
 ``` 
 
 #### Programación Inteligente
