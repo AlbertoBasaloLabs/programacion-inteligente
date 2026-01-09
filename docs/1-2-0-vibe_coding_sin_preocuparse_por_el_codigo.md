@@ -40,11 +40,11 @@ theme: ab
 ## Concreción
 
 ```markdown
-1. Create a minimal (No test or features) Node app with Typescript. Run it.
+1. Create at root a modern Node Typescript bare-bone setup. Run it.
 2. Add Express with an API endpoint for health status. Smoke test with curl.
-3. Add a Playwright e2e test to check the health endpoint. Run the test.
-4. Commit with descriptive message. Update README with dev instructions.
+3. Commit with descriptive message. Update README with dev instructions.
 ```
+
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
