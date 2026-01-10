@@ -39,13 +39,15 @@ theme: ab
 
 ## En busca del estándar
 
-- Cada editor/agente desarrolló su propio formato.
+- Cada editor/agente desarrolló su propio formato y nomenclatura.
+
+  - `Guidelines`, `Instructions`, `Rules`... son generalmente equivalentes.
   
-- Aún no existe un estándar universal, pero hay avances en esa dirección.
+  - Aún no existe un estándar universal, pero hay avances en esa dirección.
 
 - En cualquier caso, los principios son similares.
 
-- Forman parte de las **primitivas** de programación con IA.
+  - Forman parte de las **primitivas** de programación con IA.
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
@@ -53,8 +55,6 @@ theme: ab
 ---
 
 ## Lecciones
-
-To Do: crear documentos y contenidos para las siguientes lecciones:
 
 - [`2.1.0`](2-1-0-reglas_generales_en_agentsmd.md) Reglas generales en AGENTS.md
 - [`2.2.0`](2-2-0-instrucciones_particulares_contextuales.md) Instrucciones particulares contextuales	
