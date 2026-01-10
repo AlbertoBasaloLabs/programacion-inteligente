@@ -42,11 +42,11 @@ theme: ab
 ## Concreción
 
 - **Spec-Driven Development**: What to build & How to verify it
-  - `rockets-spec.prompt.md` -> `rockets.spec.md`
+  - `rockets_spec.prompt.md` -> `rockets.spec.md`
 - **Rules over Tools**: How to build it
-  - `rockets-code.prompt.md` -> working code
+  - `rockets_code.prompt.md` -> working code
 - **Human in the Loop**: How to verify it
-  - `rockets-release.prompt.md` -> release
+  - `rockets_release.prompt.md` -> release
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
