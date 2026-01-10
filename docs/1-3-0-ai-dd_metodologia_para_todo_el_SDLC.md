@@ -42,19 +42,11 @@ theme: ab
 ## Concreción
 
 - **Spec-Driven Development**: What to build & How to verify it
-  - `specs/rockets.spec.md`
+  - `rockets-spec.prompt.md` -> `rockets.spec.md`
 - **Rules over Tools**: How to build it
-  - `AGENTS.md` , `code.instructions.md`
+  - `rockets-code.prompt.md` -> working code
 - **Human in the Loop**: How to verify it
-  - `specs/plan.prompt.md` -> `code.prompt.md` -> `release.prompt.md`
-
----
-
-```markdown
-/plan #file:specs/rockets.spec.md 
-/code #file:specs/rockets.spec.plan.md 
-/release
-``` 
+  - `rockets-release.prompt.md` -> release
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)

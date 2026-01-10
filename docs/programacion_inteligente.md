@@ -44,21 +44,22 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - [1.2.](1-2-0-vibe_coding_sin_preocuparse_por_el_codigo.md) Vibe coding, sin preocuparse por el código	
 - [1.3.](1-3-0-ai-dd_metodologia_para_todo_el_SDLC.md) AI-DD, metodología para todo el SDLC
 
-### 2. Bibliotecas y talleres
+### 2. Instrucciones y habilidades para agentes
 
 ```markdown	  
-- 2.1. Prompt as Code, ficheros en lenguaje formal
-- 2.2. Agentes aumentados con MCPs
-- 2.3. Roles y trabajo en paralelo y en la nube
+- 2.1. Reglas generales en AGENTS.md
+- 2.2. Instrucciones particulares contextuales
+- 2.3. Skills para enseñar a tus agentes
 ```
 
-### 3. Instrucciones y habilidades para agentes
+### 3. Bibliotecas y talleres
 
 ```markdown	  
-- 3.1. Reglas generales en AGENTS.md
-- 3.2. Instrucciones particulares contextuales
-- 3.3. Skills para enseñar a tus agentes
+- 3.1. Prompt as Code, ficheros en lenguaje formal
+- 3.2. Agentes aumentados con MCPs
+- 3.3. Roles y trabajo en paralelo y en la nube
 ```
+
 
 ### 4. Flujo de trabajo basado en especificaciones
 

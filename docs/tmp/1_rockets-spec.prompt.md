@@ -37,7 +37,7 @@ Follow this template for writing the specification file `rockets.spec.md`:
 1. **Define the Problem**: Clearly outline the problem that the API endpoint aims to solve.
 2. **List User Stories**: Up to 3 US that describe the feature from the user's perspective.
 3. **Outline the Solution**: Describe the simplest approach for endpoints, model, error handling.
-4. **Set Acceptance Criteria**: Use EARS format to define clear, testable acceptance criteria.
+4. **Set Acceptance Criteria**: Up to 9 acceptance criteria in EARS format.
 
 ## Output
 

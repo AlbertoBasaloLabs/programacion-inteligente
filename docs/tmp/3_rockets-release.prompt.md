@@ -6,12 +6,12 @@ Act as a software release manager.
 
 ## Task
 
-Prepare and execute the release of the current version of the software, ensuring all changes are properly documented, tested, and versioned.
+Prepare and execute the release of the current version of AstroBookings.
+Ensure all changes are properly documented, tested, and versioned.
 
 ## Context
 
-The current branch contains implemented features and fixes based on specifications. 
-These changes must be validated, documented, and integrated into the `main|master` branch.
+The current branch `dev/rockets` has implementation of `rockets.spec.md` 
 
 ## Steps to follow:
 
@@ -21,10 +21,14 @@ These changes must be validated, documented, and integrated into the `main|maste
    - **Package.json**: Update version number according to semantic versioning.
    - **CHANGELOG.md**: Add new version entry with date and categorize changes.
    - **README.md**: Update links or workflows for new features if applicable.
-3. **Create Version Tag**: Create a git tag and merge changes to the `main|master` branch.
 
-## Output Checklist
+3. **Manageº Version Tag**: 
+   - Commit changes with message: `chore: prepare release v{version}`
+   - Create a git tag with message: `Release v{version}`
+   - Merge changes to the `main|master` branch.
+
+## Output
 
 - [ ] All tests pass successfully
-- [ ] Documentation updated: `package.json` version, `CHANGELOG.md`, `README.md`
+- [ ] Documentation updated: `package.json`, `CHANGELOG.md`, `README.md`
 - [ ] Git tag created and merged into `main|master` branch
