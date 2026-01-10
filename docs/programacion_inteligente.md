@@ -38,19 +38,17 @@ Este curso está orientado a **desarrolladores profesionales** que:
 
 ## Temario
 
-### [1.](1-0-0-ecosistema_y_vibraciones.md) Ecosistema y vibraciones
+### [`1.`](1-0-0-ecosistema_y_vibraciones.md) Ecosistema y vibraciones
 
-- [1.1.](1-1-0-modelos_agentes_editores_y_primitivas.md) Modelos, agentes, editores y primitivas
-- [1.2.](1-2-0-vibe_coding_sin_preocuparse_por_el_codigo.md) Vibe coding, sin preocuparse por el código	
-- [1.3.](1-3-0-ai-dd_metodologia_para_todo_el_SDLC.md) AI-DD, metodología para todo el SDLC
+- [`1.1.`](1-1-0-modelos_agentes_editores_y_primitivas.md) Modelos, agentes, editores y primitivas
+- [`1.2.`](1-2-0-vibe_coding_sin_preocuparse_por_el_codigo.md) Vibe coding, sin preocuparse por el código	
+- [`1.3.`](1-3-0-ai-dd_metodologia_para_todo_el_SDLC.md) AI-DD, metodología para todo el SDLC
 
-### 2. Instrucciones y habilidades para agentes
+### [`2.`](2-0-0-instrucciones_y_habilidades_para_agentes.md) Instrucciones y habilidades para agentes
 
-```markdown	  
-- 2.1. Reglas generales en AGENTS.md
-- 2.2. Instrucciones particulares contextuales
-- 2.3. Skills para enseñar a tus agentes
-```
+- [`2.1.`](2-1-0-reglas_generales_en_agentsmd.md) Reglas generales en AGENTS.md
+- [`2.2.`](2-2-0-instrucciones_particulares_contextuales.md) Instrucciones particulares contextuales
+- [`2.3.`](2-3-0-skills_para_ensenar_a_tus_agentes.md) Skills para enseñar a tus agentes
 
 ### 3. Bibliotecas y talleres
 
@@ -59,7 +57,6 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - 3.2. Agentes aumentados con MCPs
 - 3.3. Roles y trabajo en paralelo y en la nube
 ```
-
 
 ### 4. Flujo de trabajo basado en especificaciones
 
