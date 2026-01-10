@@ -1,6 +1,6 @@
 ---
-description: Best practices for clean and maintainable code in app.js.
-applyTo: '**/*.ts'
+description: Best practices for clean and maintainable code 
+globs: '**/*.ts'
 ---
 
 # Code Instructions

@@ -41,7 +41,7 @@ npm test
 ### Folder Structure
 
 ```txt
-.
+.                         # Project root  
 ├── AGENTS.md             # This file with rules for AI agents
 ├── README.md             # Project documentation
 ├── CHANGELOG.md          # Release notes and changelog
@@ -52,7 +52,8 @@ npm test
 ├── tests/                # Test files
 ├── specs/                # Specification documents for AI-driven development
 ├── docs/                 # Documentation for humans
-├── .github/              # GitHub copilot prompts and instructions
+├── .cursor/              # Cursor commands, rules and skills
+├── .github/              # GitHub copilot prompts, instructions and skills
 └── .vscode/              # Visual Studio Code configuration files
 ```
 
