@@ -15,14 +15,15 @@ The current branch `dev/rockets` has implementation of `rockets.spec.md`
 
 ## Steps to follow:
 
-1. **Verify Implementation**: run tests to ensure they pass.
+1. **Verify Implementation**: 
+  - Run tests to ensure they pass.
 
 2. **Update Documentation**:
-   - **Package.json**: Update version number according to semantic versioning.
-   - **CHANGELOG.md**: Add new version entry with date and categorize changes.
-   - **README.md**: Update links or workflows for new features if applicable.
+   - `Package.json`: Update version number according to semantic versioning.
+   - `CHANGELOG.md`: Add new version entry with date and categorize changes.
+   - `README.md`: Update links or workflows for new features if applicable.
 
-3. **Manageº Version Tag**: 
+3. **Manage Version Tag**: 
    - Commit changes with message: `chore: prepare release v{version}`
    - Create a git tag with message: `Release v{version}`
    - Merge changes to the `main|master` branch.
