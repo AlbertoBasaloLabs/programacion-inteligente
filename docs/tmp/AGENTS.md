@@ -2,13 +2,16 @@
 
 ## Product Overview
 
-This is a demo project to be used in workshops and labs, not intended for production use.
-AstroBookings is a fictitious space tourism company that offer travel bookings to space destinations.
-To do so, needs a REST API to allows the management of rockets, launches and passenger bookings.
+This is a demo project to be used in workshops and labs.
+Not intended for production use.
+
+AstroBookings is a fictitious space tourism company offering travel bookings.
+Requires management of rockets, launches and passenger bookings.
+This repository contains a REST API for managing these resources.
 
 ## Technical Implementation
 
-- A REST API built with Express.js and TypeScript.
+- A REST API built with Node/Express written in TypeScript.
 - Storage will be implemented using in-memory data structures for simplicity.
 - No need for authentication or authorization in this demo.
 - Monitoring and logging with simple console outputs.
@@ -33,6 +36,7 @@ cp .env.example .env
 # Run in development mode (with auto-reload)
 npm run dev
 # Run in production mode
+npm run build
 npm start
 # Run end-to-end tests with Playwright
 npm test
@@ -45,24 +49,22 @@ npm test
 ├── AGENTS.md             # This file with rules for AI agents
 ├── README.md             # Project documentation
 ├── CHANGELOG.md          # Release notes and changelog
-├── .gitignore            # Git ignore file
 ├── package.json          # NPM package configuration
+├── tsconfig.json         # TypeScript configuration
+├── .gitignore            # Git ignore file
 ├── .env.example          # Environment variables example
+├── docs/                 # Documentation for humans
+├── specs/                # Spec-driven development files
 ├── src/                  # Source code
 ├── tests/                # Test files
-├── specs/                # Specification documents for AI-driven development
-├── docs/                 # Documentation for humans
 ├── .cursor/              # Cursor commands, rules and skills
 ├── .github/              # GitHub copilot prompts, instructions and skills
 └── .vscode/              # Visual Studio Code configuration files
 ```
 
-## Rules
+## Environment
 
 - Code and documentation must be in English.
-- Chat responses must be extremely concise in the language of the user prompt.
-- Follow standard best practices such:
-  - EARS requirements format for specifications:
-  - User stories (AS A..., I WANT TO..., SO THAT...)
-  - Conventional commits, change logs and versioning
+- Chat responses must be in the language of the user prompt.
+- Sacrifice grammar for conciseness when needed to fit response limits.
 - This is a windows environment using git bash terminal. 

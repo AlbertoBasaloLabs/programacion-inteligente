@@ -20,8 +20,8 @@ applyTo: '**/*.ts'
 
 ## TypeScript specific guidelines
 
+- Use ES modules (`import`/`export`) instead of CommonJS.
 - Use strict typing and avoid using `any`.
-- Use `type` for data structures and `interface` for class contracts.
+- Declare `types` for data structures and `interfaces` for class contracts.
 - Avoid `null` and `undefined` where possible; prefer optional properties.
 - Leverage TypeScript's utility types (e.g., `Partial`, `Pick`, `Omit`).
-- Use ES modules (`import`/`export`) instead of CommonJS (`require`/`module.exports`).
