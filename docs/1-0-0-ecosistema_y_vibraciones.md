@@ -1,8 +1,8 @@
 ---
-title: "Ecosistema y vibraciones"
-description: "La IA no te quitará el trabajo, pero lo cambiará para siempre."
-author: "Alberto Basalo"
-url: "1-0-0-ecosistema_y_vibraciones"
+title: Ecosistema y vibraciones
+description: La IA no te quitará el trabajo, pero lo cambiará para siempre.
+url: 1-0-0-ecosistema_y_vibraciones
+author: Alberto Basalo
 marp: true
 theme: ab
 ---

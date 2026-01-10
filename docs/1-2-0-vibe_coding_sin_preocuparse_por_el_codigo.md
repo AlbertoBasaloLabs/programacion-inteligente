@@ -1,8 +1,8 @@
 ---
 title: Vibe Coding sin preocuparse por el código
 description: Desarrollar siguiendo el flujo de tus vibraciones sin preocuparse por el código.
-author: Alberto Basalo
 url: 1-2-0-vibe_coding_sin_preocuparse_por_el_codigo
+author: Alberto Basalo
 marp: true
 theme: ab
 ---

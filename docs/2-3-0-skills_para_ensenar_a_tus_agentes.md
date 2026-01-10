@@ -1,8 +1,8 @@
 ---
 title: Skills para enseñar a tus agentes
 description: To Do descripción del documento.
-author: Alberto Basalo
 url: 2-3-0-skills_para_ensenar_a_tus_agentes
+author: Alberto Basalo
 marp: true
 theme: ab
 ---

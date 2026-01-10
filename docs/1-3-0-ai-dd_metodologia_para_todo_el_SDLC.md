@@ -1,8 +1,8 @@
 ---
 title: AI-DD, metodología para todo el SDLC
 description: Metodología profesional para desarrollar software con IA durante todo el ciclo de vida del desarrollo
-author: Alberto Basalo
 url: 1-3-0-ai-dd_metodologia_para_todo_el_SDLC
+author: Alberto Basalo
 marp: true
 theme: ab
 ---

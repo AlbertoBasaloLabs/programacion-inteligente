@@ -1,8 +1,8 @@
 ---
 title: Reglas generales en AGENTS.md
 description: To Do descripción del documento.
-author: Alberto Basalo
 url: 2-1-0-reglas_generales_en_agentsmd
+author: Alberto Basalo
 marp: true
 theme: ab
 ---

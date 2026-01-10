@@ -1,8 +1,8 @@
 ---
 title: Modelos, agentes, editores y primitivas
 description: Programar en lenguaje natural con un ecosistema de herramientas basado en los LLMs.
-author: Alberto Basalo
 url: 1-1-0-modelos_agentes_editores_y_primitivas
+author: Alberto Basalo
 marp: true
 theme: ab
 ---

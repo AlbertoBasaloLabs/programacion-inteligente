@@ -1,25 +1,25 @@
 ---
-title: "Instrucciones y habilidades para agentes"
-description: "To Do: descripción del módulo."
-author: "Alberto Basalo"
-url: "2-0-0-instrucciones_y_habilidades_para_agentes"
+title: Instrucciones y habilidades para agentes
+description: Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
+url: 2-0-0-instrucciones_y_habilidades_para_agentes
+author: Alberto Basalo
 marp: true
 theme: ab
 ---
 
 # 2. Instrucciones y habilidades para agentes
 
-- To Do: descripción del módulo.
+- Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 ---
 
-## La IA necesita guías claras
+## Los LLM necesitan guías claras
 
-- Lo que tu no aportes, la IA lo completará por defecto, o lo inventará.
-- Repetir instrucciones en cada petición es ineficiente.
-- Los agentes pueden almacenar instrucciones y habilidades.
+- Lo que tu no aportes, la I.A. lo completará por defecto... o lo _inventará_.
+- Repetir instrucciones en cada petición es _ineficiente_.
+- Los agentes pueden recordar **reglas y habilidades**.
   
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
@@ -30,8 +30,8 @@ theme: ab
 - **Organización**: para todos los proyectos.
 - **Usuario**: para un usuario específico.
 - **Proyecto**: para un proyecto concreto.
-- **Patrón**: para ficheros o carpetas específicos.
-- **Contextuales**: para situaciones concretas.
+- **Patrón**: para ficheros o carpetas seleccionados.
+- **Contextuales**: para situaciones elegidas inteligentemente.
   
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
