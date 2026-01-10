@@ -1,6 +1,6 @@
 ---
 title: Reglas generales en AGENTS.md
-description: To Do descripción del documento.
+description: Un README para agentes; reglas generales que siempre deben seguir.
 url: 2-1-0-reglas_generales_en_agentsmd
 author: Alberto Basalo
 marp: true
@@ -10,8 +10,7 @@ theme: ab
 [2. Instrucciones y habilidades para agentes](./2-0-0-instrucciones_y_habilidades_para_agentes.md)  
 # 2.1. Reglas generales en AGENTS.md
 
-- To Do: descripción del documento.
-
+- Un README para agentes; reglas generales que siempre deben seguir.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
@@ -31,10 +30,14 @@ theme: ab
 
 ## Conceptos
 
-- **AGENTS.md**: Fichero donde se definen las reglas generales para los agentes.
-- **Contexto**: El agente lo agrega SIEMPRE al contexto de sus peticiones.
-- **Alcance**: Aplica al proyecto completo, al usuario o a carpetas específicas.
-- **Contenido**: Muy pocas instrucciones muy generales.(Puede auto generarse).
+- **AGENTS.md**: 
+  - Fichero donde se definen las reglas generales para los agentes.
+- **Contexto**: 
+  - El agente lo agrega SIEMPRE al contexto de sus peticiones.
+- **Alcance**:
+  - Aplica al proyecto completo, al usuario o a carpetas específicas.
+- **Contenido**: 
+  - Muy pocas instrucciones muy generales.(Puede auto generarse).
 
 #### Programación Inteligente
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
