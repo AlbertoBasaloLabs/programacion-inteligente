@@ -10,7 +10,7 @@ theme: ab
 [3. Bibliotecas y talleres](./3-0-0-bibliotecas_y_talleres.md)
 # 3.3. Roles y trabajo en paralelo y en la nube
 
-- Orquestando equipos de agentes.
+- Orquestando equipos de agentes en trabajos largos y complejos.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
@@ -20,20 +20,19 @@ theme: ab
 ## Conexión
 
 - **¿Un solo programador para todo el proyecto?**
-  - En equipos humanos especializamos roles (QA, Dev, Ops).
-  - Los agentes también son más eficientes cuando tienen roles y objetivos acotados.
+  - En equipos humanos especializamos roles (QA, Dev, Arch).
+  - Los miembros de equipo trabajan en paralelo.
 
 ---
 
 ## Conceptos
 
 - **Roles especializados**:
-  - Definición de perfiles (Arquitecto, Code Reviewer, Tester) mediante instrucciones específicas.
+  - Capacidades y herramientas específicas para cada función.
 - **Orquestación**:
-  - Coordinación de múltiples agentes trabajando en tareas interdependientes.
-- **Trabajo en paralelo**:
-  - Ejecución simultánea de tareas para reducir tiempos de espera.
-
+  - Coordinación de múltiples agentes en flujos de trabajo.
+    - **Cloud**: Infraestructura escalable.
+    - **WorkTree**: Ramas simultáneas locales.
 ---
 
 ## Concreción

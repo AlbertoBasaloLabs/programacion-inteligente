@@ -19,37 +19,40 @@ theme: ab
 
 ## Conexión
 
-- **¿Puede tu agente acceder a tu base de datos en tiempo real?**
-  - Los modelos están aislados, necesitan brazos y ojos para interactuar con el mundo.
-  - MCP es el estándar para conectar cerebros digitales con herramientas digitales.
+- **¿Puede tu agente acceder a tu base de datos? ¿Y al gestor de tareas?**
+  - Los LLM están aislados, necesitan herramientas para interactuar.
+  - Los agentes de los IDEs les dan acceso al sistema de ficheros y a la terminal.
+  - Pero, pueden ir mucho más allá.
 
 ---
 
 ## Conceptos
 
 - **Model Context Protocol (MCP)**:
-  - Estándar abierto para conectar asistentes de IA a sistemas de datos.
-- **Servidores MCP**:
-  - Proveen recursos, herramientas y promts a los clientes (agentes).
+  - Estándar abierto para conectar agentes de IA a sistemas de software.
+- **Cliente-Servidores**:
+  - El cliente trabaja en lenguaje natural.
+  - El servidor gestiona las herramientas y la lógica.
 - **Herramientas (Tools)**:
-  - Funciones ejecutables por el modelo para realizar acciones (consultar BD, leer archivos).
+  - Cada MCP ofrece un conjunto de herramientas específicas.
+  - Los agentes las utilizan según las necesidades contextuales.
 
 ---
 
 ## Concreción
 
-- **Configuración de un servidor MCP**:
-  - Instalación de dependencias.
-  - Definición de herramientas disponibles.
-  - Conexión con el cliente (IDE o Agente).
+- ToDo: Instalar y usar uno de estos MCPS:
+  - Github
+  - Context7
+  - DbHub
 
 ---
 
 ## Conclusión
 
-- Los MCPs transforman un **chat** en un **agente capaz**.
-- Permiten **integraciones seguras** y estandarizadas.
-- El futuro es **agentes colaborando** a través de protocolos comunes.
+- Los MCPs transforman un **conversador** en un **trabajador**.
+- Permiten **integraciones en lenguaje natural**.
+- Un gran poder conlleva una gran responsabilidad: **seguridad y control**.
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  

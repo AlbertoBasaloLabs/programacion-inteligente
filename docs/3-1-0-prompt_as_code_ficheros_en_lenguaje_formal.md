@@ -21,7 +21,8 @@ theme: ab
 
 - **¿Cómo gestionas la evolución de tus prompts?**
   - Copiar y pegar en chats es efímero y difícil de mejorar.
-  - El código se versiona, los prompts deberían también.
+  - El prompt es la principal primitiva del código.
+  - El código se comparte y versiona, los prompts deberían también.
 
 ---
 
@@ -31,30 +32,23 @@ theme: ab
   - Tratar a las instrucciones a la IA como activos de software.
 - **Estructura formal**:
   - Separar contexto, instrucciones, ejemplos variables y formato de salida.
-- **Versionado**:
-  - Uso de git para control de cambios y evolución de prompts.
+- **Prompt engineering**:
+  - Aplicaremos los principios de ingeniería al desarrollo de prompts.
 
 ---
 
 ## Concreción
 
 ```markdown
----
-description: Generar tests unitarios
----
-# Contexto
-Eres un experto en testing con Jest.
 
-# Instrucciones
-Genera tests para la función proporcionada.
 ```
 
 ---
 
 ## Conclusión
 
-- Los prompts son **software**.
-- Necesitan **mantenimiento y versionado**.
+- Los prompts son la primitiva del **software**.
+- Necesitan **mantenimiento y colaboración**.
 - La calidad del prompt determina la **calidad del resultado**.
 
 #### [Programación Inteligente](programacion_inteligente.md).  

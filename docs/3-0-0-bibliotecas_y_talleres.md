@@ -1,6 +1,6 @@
 ---
 title: Bibliotecas y talleres
-description: Organizar y compartir conocimientos de IA.
+description: Conocimiento intelectual y trabajo manual.
 url: 3-0-0-bibliotecas_y_talleres
 footer: 3. Bibliotecas y talleres. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
@@ -9,7 +9,7 @@ theme: ab
 
 # 3. Bibliotecas y talleres
 
-- Organizar y compartir conocimientos de IA.
+- Conocimiento intelectual y trabajo manual.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
@@ -18,19 +18,28 @@ theme: ab
 
 ## Prompt as Code
 
-- Tratar los prompts como código fuente.
+- Las peticiones son cada vez más complejas 
+  - Y deben serlo para aportar contexto.
+- Ese esfuerzo debe ser reutilizable y mantenible.
+  - Como el código tradicional.
 
 ---
 
 ## Agentes aumentados con MCPs
 
-- Extender las capacidades de los agentes con herramientas.
+- No basta con trabajo intelectual.
+  - Necesitamos interacción con el mundo.
+- Extender las capacidades en el uso de herramientas.
+  - Siempre en lenguaje natural.
 
 ---
 
 ## Roles y trabajo en paralelo
 
-- Orquestando equipos de agentes.
+- Las tareas que encomendamos son complejas.
+  - Y cada vez lo serán más.
+- Esperar a que terminen es ineficiente (y aburrido).
+  - Trabajar en paralelo y en la nube es la solución.
 
 ---
 
