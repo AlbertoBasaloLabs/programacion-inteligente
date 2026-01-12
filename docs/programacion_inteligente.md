@@ -50,7 +50,7 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - [`2.2.`](2-2-0-instrucciones_particulares_contextuales.md) Instrucciones particulares contextuales
 - [`2.3.`](2-3-0-skills_para_ensenar_a_tus_agentes.md) Skills para enseñar a tus agentes
 
-### 3. Bibliotecas y talleres
+### [`3.`](3-0-0-bibliotecas_y_talleres.md) Bibliotecas y talleres
 
 - [`3.1.`](3-1-0-prompt_as_code_ficheros_en_lenguaje_formal.md) Prompt as Code, ficheros en lenguaje formal
 - [`3.2.`](3-2-0-agentes_aumentados_con_mcps.md) Agentes aumentados con MCPs
@@ -118,3 +118,7 @@ El curso es **agnóstico en cuanto a tecnologías de IA y frameworks de desarrol
 
 Este curso es la **puerta de entrada natural** al resto del itinerario formativo de ingeniería de software con IA.
   
+--- 
+
+> Repositorio con ejemplos y material adicional:
+> [GitHub/AlbertoBasaloLabs/programacion-inteligente](https://github.com/AlbertoBasaloLabs/programacion-inteligente)
