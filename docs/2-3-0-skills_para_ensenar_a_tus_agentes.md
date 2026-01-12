@@ -2,7 +2,7 @@
 title: Skills para enseñar a tus agentes
 description: Educar a tu agente con nuevas habilidades.
 url: 2-3-0-skills_para_ensenar_a_tus_agentes
-author: Alberto Basalo
+footer: 2.3. Skills para enseñar a tus agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -23,8 +23,6 @@ theme: ab
 - **¿Pueden los agentes aprender?**
   - Las instrucciones se quedan cortas para procesos complejos.
    
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Conceptos
@@ -35,28 +33,24 @@ theme: ab
 - **Contenido complejo**:
   - Pueden incluir lógica, flujos de trabajo o integraciones con APIs externas.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Concreción
 
 - **¿Qué incluir?**
   - Una carpeta por cada _skill_.
-  - Un fichero principal que defina la skill, llamado... `SKILL.md`.
-  - Cabecera **YAML** con metadatos para definir nombre y la activación.
-  - Definición clara de la habilidad o funcionalidad que se está enseñando.
-  - Carpetas con ficheros adicionales:
-    - `references/`, `references/` y `assets/`.
+    - Un fichero principal que defina la skill, llamado... `SKILL.md`.
+      - Cabecera YAML definir la activación.`level 1`
+      - Instrucciones detalladas de la habilidad. `level 2`
+    - Carpetas con ficheros adicionales: `level 3`
+      - `assets/`, `references/` y `scripts/`.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
 
 ## Conclusión
 
-- Enseñar a tu agente es tu mejor inversión.
-- Las _skills_ permiten ampliar sus capacidades de forma modular.
+- Enseñar a tu agente es tu mejor **inversión**.
+- Las _skills_ permiten ampliar sus capacidades de forma **modular**.
 - Están llamadas a ser la principal **primitiva** de la programación inteligente.
   
 #### [Programación Inteligente](programacion_inteligente.md).  

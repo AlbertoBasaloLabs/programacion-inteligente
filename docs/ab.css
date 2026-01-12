@@ -44,6 +44,15 @@ a {
   color: var(--ab-cyan-deep);
 }
 
+footer {
+  color: var(--ab-chrome);
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid var(--ab-chrome);
+}
+
 pre {
   background-color: var(--ab-slate);
   color: var(--ab-ice-white);

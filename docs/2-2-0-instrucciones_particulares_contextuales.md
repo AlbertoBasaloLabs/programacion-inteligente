@@ -2,7 +2,7 @@
 title: Instrucciones particulares contextuales
 description: El micro management de los agentes.
 url: 2-2-0-instrucciones_particulares_contextuales
-author: Alberto Basalo
+footer: 2.2. Instrucciones particulares contextuales. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -19,11 +19,9 @@ theme: ab
 
 ## Conexión
 
-- **¿Cómo entrar en detalle?**
+- **¿Cómo entrar en detalle sin sobrecargar el contexto?**
   - Escribiendo instrucciones adicionales para situaciones específicas.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Conceptos
@@ -35,10 +33,8 @@ theme: ab
 - **Alcance**: 
   - Aplica a ficheros, carpetas o situaciones específicas.
 - **Estándar**: 
-  - En Cursor son `rules`, en Copilot `instructions` y pronto `skills`.
+  - En Cursor son `rules`, en Copilot `instructions` y pronto serán `skills`.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Concreción
@@ -46,18 +42,16 @@ theme: ab
 - **¿Qué incluir?**
   - Cabecera **YAML** con metadatos para definir el alcance.
   - Instrucciones detalladas para casos específicos.
-    - Patrones de diseño: controllers, factories.
-    - Buenas prácticas: testing, manejo de errores.
-    - Reglas de estilo: nomenclatura, formato.
+    - Patrones de diseño: `controllers`, `factories`.
+    - Buenas prácticas: `testing`, `error handling`.
+    - Reglas de estilo: `naming`, `formatting`.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
 
 ## Conclusión
-- Debemos detallar las instrucciones para casos específicos.
-- En ficheros separados para no sobrecargar el contexto general.
-- La sintaxis depende del editor/agente, tendente a unificarse en SKILLS
+- Debemos **detallar** las instrucciones para casos específicos.
+- En ficheros separados para **no sobrecargar** el contexto general.
+- La sintaxis depende del editor/agente, tendente a unificarse en **SKILLS**
   
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  

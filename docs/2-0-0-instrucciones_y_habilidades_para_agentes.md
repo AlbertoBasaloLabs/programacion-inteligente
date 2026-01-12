@@ -2,7 +2,7 @@
 title: Instrucciones y habilidades para agentes
 description: Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
 url: 2-0-0-instrucciones_y_habilidades_para_agentes
-author: Alberto Basalo
+footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -21,8 +21,6 @@ theme: ab
 - Repetir instrucciones en cada petición es _ineficiente_.
 - Los agentes pueden recordar **reglas y habilidades**.
   
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Jerarquía y niveles de instrucciones
@@ -33,8 +31,6 @@ theme: ab
 - **Patrón**: para ficheros o carpetas seleccionados.
 - **Contextuales**: para situaciones elegidas inteligentemente.
   
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## En busca del estándar
@@ -48,9 +44,6 @@ theme: ab
 - En cualquier caso, los principios son similares.
 
   - Forman parte de las **primitivas** de programación con IA.
-
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
 

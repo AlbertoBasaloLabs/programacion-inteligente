@@ -1,9 +1,10 @@
 ---
-name: Release Skill
-description: To be used for automating release tasks.
+name: releasing-procedure
+description: >  
+  To be used for automating release tasks. Follow this instruction set for  documentation updates, changelogs, and versioning.
 ---
 
-# Release Skill
+# Releasing Procedure
 
 Automate the process of managing releases, including:
   - updating documentation, 
