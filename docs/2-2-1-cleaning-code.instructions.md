@@ -1,5 +1,5 @@
 ---
-description: Best practices for clean and maintainable code 
+description: Best practices for clean and maintainable code in TypeScript
 applyTo: '**/*.ts'
 ---
 

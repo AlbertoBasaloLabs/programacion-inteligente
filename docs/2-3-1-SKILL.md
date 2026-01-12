@@ -1,7 +1,8 @@
 ---
 name: releasing-procedure
 description: >  
-  To be used for automating release tasks. Follow this instruction set for  documentation updates, changelogs, and versioning.
+  To be used for automating release tasks. 
+  Follow this instruction set for updating documentation, generating changelogs, and versioning.
 ---
 
 # Releasing Procedure
@@ -20,10 +21,12 @@ Automate the process of managing releases, including:
 
 ## Generate Changelog
 
+- [ ] Commit all pending changes grouping them by type of change.
 - [ ] Use [Semantic Versioning (SemVer)](../references/sem-ver.md) principles.
 - [ ] Add entries to `CHANGELOG.md` based on commit history.
 
 ## Versioning
 
-- Merge brach into `main` or `master`.
-- Generate a git Tag for the new version.
+- [ ] Update `package.json` version number based on SemVer principles.
+- [ ] If in a `dev/*` or `fix/*` branch, merge it into `main` or `master` branch.
+- [ ] Generate a git tag for the new version.
