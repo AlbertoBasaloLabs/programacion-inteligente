@@ -2,7 +2,7 @@
 title: Modelos, agentes, editores y primitivas
 description: Programar en lenguaje natural con un ecosistema de herramientas basado en los LLMs.
 url: 1-1-0-modelos_agentes_editores_y_primitivas
-author: Alberto Basalo
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -23,8 +23,6 @@ theme: ab
 - **¿Qué entendemos por ecosistema IA?**
   - Las piezas de software que permiten programar usando Inteligencia Artificial Generativa.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Conceptos
@@ -38,8 +36,6 @@ theme: ab
 - **Primitivas**: Bloques básicos de construcción para programar con IA.
   - `Skills`, `prompts`, `context`, `specs`, `agents`, `MCPs`.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Concreción
@@ -49,8 +45,6 @@ theme: ab
 - [↓ Cursor](https://cursor.com/)
 - [↓ ClaudeCode](https://www.claude.com/product/claude-code)
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
 
 ## Conclusión

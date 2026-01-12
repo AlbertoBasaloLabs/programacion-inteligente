@@ -2,7 +2,7 @@
 title: Vibe Coding sin preocuparse por el código
 description: Desarrollar siguiendo el flujo de tus vibraciones sin preocuparse por el código.
 url: 1-2-0-vibe_coding_sin_preocuparse_por_el_codigo
-author: Alberto Basalo
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -22,8 +22,6 @@ theme: ab
 - **¿Qué relación tienes con el producto y con su código?**
   - Las piezas de software que permiten programar usando Inteligencia Artificial Generativa.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Conceptos
@@ -33,8 +31,6 @@ theme: ab
 - **Refinado**: 
 - **Validación**: 
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Concreción
@@ -45,8 +41,6 @@ theme: ab
 3. Commit with descriptive message. Update README with dev instructions.
 ```
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
 
 ## Conclusión

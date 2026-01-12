@@ -2,7 +2,7 @@
 title: Ecosistema y vibraciones
 description: La IA no te quitará el trabajo, pero lo cambiará para siempre.
 url: 1-0-0-ecosistema_y_vibraciones
-author: Alberto Basalo
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -35,8 +35,6 @@ theme: ab
 - **Fortalezas**: La productividad y creatividad aumentadas.
 - **Oportunidades**: Aprendizaje, innovación y nuevos roles.
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Programación Inteligente: 
@@ -48,8 +46,6 @@ theme: ab
 - Aplicar la metodología profesional: **AI-Driven Development**. 
   - `Human in the Loop`, `Rules over Tools`, `Spec-Driven Development`. 
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Disclaimers
@@ -60,8 +56,6 @@ theme: ab
 
 - 3. Ningún robot ha sido dañado durante la producción de este curso
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Lecciones

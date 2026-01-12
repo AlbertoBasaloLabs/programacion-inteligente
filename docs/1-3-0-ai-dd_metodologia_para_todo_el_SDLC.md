@@ -2,7 +2,7 @@
 title: AI-DD, metodología para todo el SDLC
 description: Metodología profesional para desarrollar software con IA durante todo el ciclo de vida del desarrollo
 url: 1-3-0-ai-dd_metodologia_para_todo_el_SDLC
-author: Alberto Basalo
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
 marp: true
 theme: ab
 ---
@@ -22,8 +22,6 @@ theme: ab
 - **¿Puedo mantener el control y la calidad, aumentando la productividad?**
   - Sí, siguiendo la metodología AI-Driven Development (AI-DD) durante todo el ciclo de vida del desarrollo de software (SDLC).
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Conceptos
@@ -35,8 +33,6 @@ theme: ab
   - **Rules over Tools**: Guiar con reglas, instrucciones y enseñar habilidades
   - **Spec-Driven Development**: Explicar en detalle el problema y su verificación
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 ---
 
 ## Concreción
@@ -48,8 +44,6 @@ theme: ab
 - **Human in the Loop**: How to verify it
   - `rockets_release.prompt.md` -> release
 
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 --- 
 
 ## Conclusión
