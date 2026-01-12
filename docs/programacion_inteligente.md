@@ -52,11 +52,9 @@ Este curso está orientado a **desarrolladores profesionales** que:
 
 ### 3. Bibliotecas y talleres
 
-```markdown	  
-- 3.1. Prompt as Code, ficheros en lenguaje formal
-- 3.2. Agentes aumentados con MCPs
-- 3.3. Roles y trabajo en paralelo y en la nube
-```
+- [`3.1.`](3-1-0-prompt_as_code_ficheros_en_lenguaje_formal.md) Prompt as Code, ficheros en lenguaje formal
+- [`3.2.`](3-2-0-agentes_aumentados_con_mcps.md) Agentes aumentados con MCPs
+- [`3.3.`](3-3-0-roles_y_trabajo_en_paralelo_y_en_la_nube.md) Roles y trabajo en paralelo y en la nube
 
 ### 4. Flujo de trabajo basado en especificaciones
 
