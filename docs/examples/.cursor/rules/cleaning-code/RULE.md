@@ -1,9 +1,9 @@
 ---
 description: Best practices for clean and maintainable code 
-applyTo: '**/*.ts'
+globs: '**/*.ts'
 ---
 
-# Code Instructions
+# Cleaning Code Instructions
 
 ## Clean code best practices 
 

@@ -3,7 +3,7 @@ description: Best practices for clean and maintainable code in TypeScript
 applyTo: '**/*.ts'
 ---
 
-# Code Instructions
+# Cleaning Code Instructions
 
 ## Clean code best practices 
 

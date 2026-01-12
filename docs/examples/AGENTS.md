@@ -18,13 +18,12 @@ This repository contains a REST API for managing these resources.
 
 ### Tech stack
 
-- **Language:** `Typescript` V5+
-- **Runtime:** `Node.js` 18+
-- **Framework:** `Express`  V4+
-- **Testing:** `Playwright`  V1.35+
-- **Tools:** 
-  - `Nodemon`, 
-  - `Dotenv`
+- Language: **TypeScript 5.3.3**
+- Framework: **Express 4.18.2**
+- Database: **In-memory Map store (no persistence)**
+- Security: **No security measures implemented**
+- Testing: **Playwright 1.57.0 (E2E API tests)**
+- Logging: **Console logging**
   
 ### Development Workflow 
 
