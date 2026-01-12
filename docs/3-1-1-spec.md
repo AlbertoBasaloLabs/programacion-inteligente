@@ -23,7 +23,7 @@ Follow this template for writing the specification file `id-short-name.spec.md`:
 # Short name Specification
 ## Problem Description
 ### User Stories
-- As ... , I want to **...** 
+- As {...} , I want to **{...}** so that {...}
 ## Solution Overview
 ### User/App interface
 ### Model and logic

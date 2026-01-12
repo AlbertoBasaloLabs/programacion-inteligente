@@ -41,10 +41,15 @@ theme: ab
 
 ## Concreción
 
-- ToDo: Instalar y usar uno de estos MCPS:
-  - Github
-  - Context7
-  - DbHub
+- Instalar el MCP de Github para acceder a repositorios, issues...
+- Prompt de especificación**: `3-2-1-improve.md`
+
+```markdown
+/improve #spec.prompt.md Add instructions so the prompt make use of GitHub MCP for creating an issue for the specification. We should use the id of the issue as the id of the spec file.
+```
+```markdown
+/spec Provide management of future rocket launches used for bookings. Each launch is defined by a scheduled date, assigned rocket, price per passenger, and a minimum seat threshold required for profitability. Launches progress through a defined lifecycle status: scheduled, confirmed, cancelled due to economic viability, suspended due to weather or technical issues, and successful.
+```
 
 ---
 

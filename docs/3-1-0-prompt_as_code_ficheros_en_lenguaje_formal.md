@@ -39,8 +39,10 @@ theme: ab
 
 ## Concreción
 
-```markdown
+- **Prompt de especificación**: `3-1-1-spec.md`
 
+```markdown
+/spec Provide management of future rocket launches used for bookings. Each launch is defined by a scheduled date, assigned rocket, price per passenger, and a minimum seat threshold required for profitability. Launches progress through a defined lifecycle status: scheduled, confirmed, cancelled due to economic viability, suspended due to weather or technical issues, and successful.
 ```
 
 ---
