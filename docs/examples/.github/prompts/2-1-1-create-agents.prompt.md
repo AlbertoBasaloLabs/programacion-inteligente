@@ -23,12 +23,12 @@ Follow this template for writing the instructions in the file `AGENTS.md`:
 ## Technical Implementation
 
 ### Tech Stack
-- Language: **{language and version}**
-- Framework: **{framework and version}**
-- Database: **{database}**
-- Security: **{security strategy}**
-- Testing: **{testing framework }**
-- Logging: **{logging tool }**
+- Language: {language and version}
+- Framework: {framework and version}
+- Database: {database}
+- Security: {security strategy}
+- Testing: {testing framework }
+- Logging: {logging tool }
 
 ### Development workflow
 

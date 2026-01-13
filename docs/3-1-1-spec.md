@@ -17,7 +17,7 @@ If not, ask for it before proceeding.
 
 ### Specification Template
 
-Follow this template for writing the specification file `id-short-name.spec.md`:
+Follow this template for writing the specification file:
 
 ````markdown
 # Short name Specification
@@ -32,26 +32,31 @@ Follow this template for writing the specification file `id-short-name.spec.md`:
 - [ ] EARS format
 ````
 
+Use short sentences and bullet points where possible.
+Keep the specification concise but complete.
+
 ## Steps to follow:
 
-1. **Define the Problem**: 
+1. **Capture inputs**:
+  - Confirm feat/bug/chore to specify; if missing, ask.
+  - Draft the issue title from the request; if unclear, ask.
+2. **Define the Problem**: 
   - Clearly outline the problem that we aim to solve.
-2. **List User Stories**: 
+3. **List User Stories**: 
   - Up to 3 US that describe the problem from the user's perspective.
-3. **Outline the Solution**: 
+4. **Outline the Solution**: 
   - Describe the simplest approach without technical details for:
     - User/App interface
     - Model and logic
     - Persistence
-4. **Set Acceptance Criteria**: 
-  - Up to 9 acceptance criteria in EARS format.
-5. **Write the Specification**: 
-  - Generate a new id for the short name specification.
-  - Write it in markdown format at `specs/id-short-name.spec.md`.
+5. **Set Acceptance Criteria**: 
+  - Up to 9 criteria in EARS format that define when the spec is complete.
+7. **Write the Specification**: 
+  - Write it in markdown format at `specs/short-name.spec.md`.
 
 ## Output
 
-- [ ] The output should be a markdown file named `specs/id-short-name.spec.md`.
+- [ ] The output should be a markdown file named `specs/short-name.spec.md`.
 - [ ] The specification with: 
   - Problem Description, 
   - Solution Overview, 

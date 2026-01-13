@@ -1,10 +1,10 @@
 ---
-description: This prompt is used to write a specification for implementing a feature, bug correction, or enhancement.
+description: Write the specification for implementing a feature, bug correction, or enhancement.
 name: spec
 argument-hint: "Provide the feature, bug correction, or enhancement to be specified."
 agent: agent
 model: GPT-5.2
-tools: ['execute/runInTerminal', 'read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'github/add_issue_comment', 'github/get_me', 'github/issue_write', 'todo']
+tools: ['read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'todo']
 ---
 # Spec
 
@@ -41,15 +41,13 @@ Follow this template for writing the specification file:
 ````
 
 Use short sentences and bullet points where possible.
-
 Keep the specification concise but complete.
 
 ## Steps to follow:
 
 1. **Capture inputs**:
-  - Confirm feature/bug/enhancement to specify; if missing, ask.
-  - Confirm GitHub repo owner/name for the issue; if missing, ask.
-  - Draft the issue title/description from the request; if unclear, ask.
+  - Confirm feat/bug/chore to specify; if missing, ask.
+  - Draft the issue title from the request; if unclear, ask.
 2. **Define the Problem**: 
   - Clearly outline the problem that we aim to solve.
 3. **List User Stories**: 
@@ -61,21 +59,13 @@ Keep the specification concise but complete.
     - Persistence
 5. **Set Acceptance Criteria**: 
   - Up to 9 criteria in EARS format that define when the spec is complete.
-6. **Open GitHub issue**:
-  - Use GitHub MCP `github/issue_write` to create an issue for the specification.
-  - Run a git command to get this repo url
-  - Give it a meaningful title and short description.
-  - Treat the issue id as the spec id for naming the file.
 7. **Write the Specification**: 
-  - Use the GitHub issue id as the spec id and the short name slug from the request.
-  - Write it in markdown format at `specs/<issue-id>-short-name.spec.md`.
-  - Make sure a link to the GitHub issue is included in the spec file.
+  - Write it in markdown format at `specs/short-name.spec.md`.
 
 ## Output
 
-- [ ] The output should be a markdown file named `specs/<issue-id>-short-name.spec.md`.
+- [ ] The output should be a markdown file named `specs/short-name.spec.md`.
 - [ ] The specification with: 
   - Problem Description, 
   - Solution Overview, 
   - Acceptance Criteria.
-  - A link to the GitHub issue created for the spec.

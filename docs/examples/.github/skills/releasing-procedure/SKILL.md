@@ -28,5 +28,6 @@ Automate the process of managing releases, including:
 ## Versioning
 
 - [ ] Update `package.json` version number based on SemVer principles.
+- [ ] Add a closing commit to the relevant issue/ticket with `Close #ID`.
 - [ ] If in a `dev/*` or `fix/*` branch, merge it into `main` or `master` branch.
 - [ ] Generate a git tag for the new version.
