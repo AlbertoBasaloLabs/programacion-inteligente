@@ -31,7 +31,8 @@ theme: ab
   - Capacidades y herramientas específicas para cada función.
 - **Orquestación**:
   - Coordinación de múltiples agentes en flujos de trabajo.
-    - **Cloud**: Infraestructura escalable.
+    - **HandOffs**: Transferencia de responsabilidades entre agentes.
+    - **Cloud**: Transferencia a la nube.
     - **WorkTree**: Ramas simultáneas locales.
 ---
 
