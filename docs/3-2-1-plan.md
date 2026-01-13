@@ -1,3 +1,11 @@
+---
+description: Create a plan to implement a follow-up specification for a feature, bug correction, or enhancement.
+name: plan
+argument-hint: Provide the specification to be planned.
+agent: agent
+model: GPT-5.2
+tools: ['execute/runInTerminal', 'read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'github/add_issue_comment', 'github/get_me', 'github/issue_write', 'todo']
+---
 # Plan
 
 ## Role

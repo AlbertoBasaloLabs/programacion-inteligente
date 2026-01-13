@@ -37,11 +37,28 @@ theme: ab
 
 ## Concreción
 
-- **Definición de roles**:
-  - Crear perfiles de sistema para cada rol.
-- **Flujos de trabajo**:
-  - Secuencial: Planificación -> Código -> Review.
-  - Paralelo: Implementación Frontend || Implementación Backend.
+- **Agente de codificación**: `3-3-1-coder.md`
+- Ejecutar en modo Coder
+
+```markdown
+Implement the plan at issue id {issue-id}.
+```
+
+- **Skill de Abstracción de Persistencia**: `3-3-2-SKILL.md`
+- Ejecutar en modo Coder
+
+```markdown
+@cli abstract the store implementation for rockets
+```
+
+```markdown
+@cloud abstract the store implementation for launches
+```
+
+```markdown
+@cli Refactor the store factories to be homogeneous. 
+Make a release of the final code state.
+```
 
 ---
 
