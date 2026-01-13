@@ -21,6 +21,7 @@ theme: ab
 
 - **¿Un solo programador para todo el proyecto?**
   - En equipos humanos especializamos roles (QA, Dev, Arch).
+  - El trabajo pasa de unos a otros.
   - Los miembros de equipo trabajan en paralelo.
 
 ---
@@ -46,7 +47,6 @@ Implement the plan at issue id {issue-id}.
 ```
 
 - **Skill de Abstracción de Persistencia**: `3-3-2-SKILL.md`
-- Ejecutar en modo Coder
 
 ```markdown
 @cli abstract the store implementation for rockets
@@ -57,8 +57,7 @@ Implement the plan at issue id {issue-id}.
 ```
 
 ```markdown
-@cli Refactor the store factories to be homogeneous. 
-Make a release of the final code state.
+@cli Refactor the store factories to be homogeneous and release a new version.
 ```
 
 ---

@@ -29,7 +29,7 @@ theme: ab
 ## Conceptos
 
 - **Prompt as Code**:
-  - Tratar a las instrucciones a la IA como activos de software.
+  - Tratar las instrucciones a la IA como activos de software.
 - **Estructura formal**:
   - Separar contexto, instrucciones, ejemplos variables y formato de salida.
 - **Prompt engineering**:
@@ -42,7 +42,14 @@ theme: ab
 - **Prompt de especificación**: `3-1-1-spec.md`
 
 ```markdown
-/spec Provide management of future rocket launches used for bookings. Each launch is defined by a scheduled date, assigned rocket, price per passenger, and a minimum seat threshold required for profitability. Launches progress through a defined lifecycle status: scheduled, confirmed, cancelled due to economic viability, suspended due to weather or technical issues, and successful.
+/spec Provide API management of future rocket launches used for bookings. 
+Each launch is defined by:
+ a scheduled date, assigned rocket, price per passenger, 
+ and a minimum seat threshold required for profitability. 
+Launches progress through a defined lifecycle status: 
+ scheduled, confirmed, successful, 
+ cancelled due to economic viability, 
+ suspended due to weather or technical issues.
 ```
 
 ---

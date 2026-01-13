@@ -45,7 +45,7 @@ theme: ab
 - **Prompt de planificación**: `3-2-1-plan.md`
 
 ```markdown
-/plan #rocket-launches.spec Create a plan to implement the specification.
+/plan #rocket-launches.spec 
 ```
 
 ---
