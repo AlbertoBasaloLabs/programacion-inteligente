@@ -3,7 +3,7 @@ name: Architect
 description: Makes the architectural design for software projects generating an ADD.
 argument-hint: Provide a PRD or use current project files to start the architectural design.
 model: GPT-5.2
-tools: ['read', 'edit']
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
 # Architect
 
@@ -14,6 +14,8 @@ Act as a senior systems architect.
 ## Task
 
 Generate an Architectural Design Document (ADD) based on the provided PRD or current project files.
+
+Follow AGENT SKILLS to generate the ADD.
 
 ## Context
 

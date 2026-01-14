@@ -2,6 +2,7 @@
 name: generating-add
 description: > 
   Generates an Architecture Design Document (ADD) for software projects.
+  Use this skill when designing a project to create an ADD.
 
 --- 
 # Generating an ADD

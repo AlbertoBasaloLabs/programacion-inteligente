@@ -66,4 +66,8 @@ npm test
 - Code and documentation must be in English.
 - Chat responses must be in the language of the user prompt.
 - Sacrifice grammar for conciseness when needed to fit response limits.
-- This is a windows environment using git bash terminal. 
+- This is a windows environment using git bash terminal.
+- Default port: 3000 (configurable via PORT env var).
+- Tests auto-start dev server before running.
+- Mind the available **agent skills** when performing tasks.
+- When using templates, ensure to replace {placeholders, things between braces} with actual values.
