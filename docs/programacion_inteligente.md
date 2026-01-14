@@ -56,13 +56,11 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - [`3.2.`](3-2-0-agentes_aumentados_con_mcps.md) Agentes aumentados con MCPs
 - [`3.3.`](3-3-0-roles_y_trabajo_en_paralelo_y_en_la_nube.md) Roles y trabajo en paralelo y en la nube
 
-### 4. Flujo de trabajo basado en especificaciones
+### [`4.`](4-0-0-flujo_de_trabajo_basado_en_especificaciones.md) Flujo de trabajo basado en especificaciones
 
-```markdown	  
-- 4.1. Análisis de requerimientos y arquitectura del sistema
-- 4.2. SDD, especificaciones funcionales detalladas
-- 4.3. Ramas, planes y tareas de codificación
-```
+- [`4.1.`](4-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema.md) Análisis de requerimientos y arquitectura del sistema
+- [`4.2.`](4-2-0-sdd_especificaciones_funcionales_detalladas.md) SDD, especificaciones funcionales detalladas
+- [`4.3.`](4-3-0-ramas_planes_y_tareas_de_codificacion.md) Ramas, planes y tareas de codificación
 
 ### 5. Programar, verificar, documentar
 
