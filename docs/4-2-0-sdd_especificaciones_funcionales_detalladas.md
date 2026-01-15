@@ -22,13 +22,13 @@ theme: ab
 - **¿Cómo comunicar exactamente qué debe hacer el sistema?**
   - Las especificaciones vagas generan código incorrecto o incompleto.
   - La IA necesita detalles precisos sobre funcionalidades y comportamientos.
-  - Las especificaciones son el contrato entre el negocio y el código.
+  - No se puede detallar todo a la vez en un solo prompt.
 
 ---
 
 ## Conceptos
 
-- **SDD (Software Design Document)**:
+- **Specs**:
   - Especificaciones funcionales detalladas en lenguaje natural.
   - Define qué construir y cómo verificarlo.
   - Estructura clara y completa para guiar el desarrollo.
