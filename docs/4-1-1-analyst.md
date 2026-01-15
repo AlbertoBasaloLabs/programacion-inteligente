@@ -20,8 +20,6 @@ Act as a senior business analyst. Use your skills to generate a comprehensive Pr
 
 Generate a Product Requirements Document (PRD) based on the provided project idea, briefing document, or current project files.
 
-Follow AGENT SKILLS to generate the PRD.
-
 ## Context
 
 Use the provided project idea, briefing document, or current project files to understand the project idea, stakeholders, target users, and business objectives.
