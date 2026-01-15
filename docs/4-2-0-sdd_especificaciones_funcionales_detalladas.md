@@ -31,14 +31,11 @@ theme: ab
 - **Specs**:
   - Especificaciones funcionales detalladas en lenguaje natural.
   - Define qué construir y cómo verificarlo.
-  - Estructura clara y completa para guiar el desarrollo.
 - **Spec-Driven Development**:
   - Las especificaciones son el punto de partida del desarrollo.
-  - El código se genera a partir de las especificaciones.
-  - Las especificaciones también definen los criterios de verificación.
+  - Y el hilo conductor durante la generación y verificación del código.
 - **Prompt de especificación**:
-  - Usar prompts estructurados para generar especificaciones.
-  - Aplicar Prompt as Code para mantener y versionar especificaciones.
+  - Aplicar _Prompt as Code_ y tratar `specs as code`.
   - Reutilizar plantillas y patrones de especificación.
 
 ---
@@ -47,14 +44,11 @@ theme: ab
 
 - **Estructura de una especificación**:
   - Descripción general del sistema o componente.
-  - Funcionalidades principales y casos de uso.
-  - Reglas de negocio y validaciones.
+  - Propuesta de solución técnica (sin detalles de implementación).
   - Criterios de aceptación y verificación.
-- **Ejemplo de prompt de especificación**:
-  - `rockets_spec.prompt.md` -> `rockets.spec.md`
-- **Herramientas**:
+- **Repositorios**:
   - Ficheros markdown versionados en el repositorio.
-  - Plantillas reutilizables para diferentes tipos de componentes.
+  - Issues, tickets o tareas vinculadas a specs específicas.
 
 ---
 
