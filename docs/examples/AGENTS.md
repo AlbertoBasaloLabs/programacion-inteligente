@@ -70,4 +70,4 @@ npm test
 - Default port: 3000 (configurable via PORT env var).
 - Tests auto-start dev server before running.
 - Mind the available **agent skills** when performing tasks.
-- When using templates, ensure to replace {placeholders, things between braces} with actual values.
+- When using templates, ensure to replace {placeholders} with actual values.

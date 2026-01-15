@@ -2,7 +2,7 @@
 name: Analyst
 description: Makes the functional and technical analysis for software projects generating a PRD.
 argument-hint: Provide the project idea, briefing document or the current project files to start the analysis.
-model: GPT-5.2 (copilot)
+model: GPT-5.2-Codex (copilot)
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
 handoffs: 
   - label: Start Architectural Design
