@@ -1,10 +1,12 @@
 # Short name Specification
 
+- **Reference**: [PRD](/PRD.md) {List of FR or TR numbers}.
+- **Issue**: {_to be created_[#ID](URL to the issue)}
+- **Status**: Draft{Could be Draft, Planned, In Progress, Completed, etc.}
+
 ## Problem Description
 
 {Short paragraph clearly outlining the problem that we aim to solve.}
-
-{Link or reference to PRD features or technical documentation if available.}
 
 ### User Stories
 

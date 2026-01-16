@@ -40,6 +40,9 @@ If not, ask for it before proceeding.
 5. **Set Acceptance Criteria**: 
   - Up to 9 criteria in EARS format that define when the spec is complete.
   - Follow the [EARS format guide](./EARS.md).
+6. **Generate an spec-slug-id**:
+  - Create a short-name identifier for the spec based on the title.
+  - Example: `booking-feature`.
 7. **Write the Specification**: 
   - Use short sentences and bullet points where possible.
   - Keep the specification concise but complete.

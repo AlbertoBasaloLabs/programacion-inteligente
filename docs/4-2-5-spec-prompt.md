@@ -1,14 +1,12 @@
 ---
-description: Write the specification for implementing a feature, bug correction, or enhancement.
 name: spec
-argument-hint: "Provide the feature, bug correction, or enhancement to be specified."
-agent: agent
-model: GPT-5.2-Codex (copilot)
-tools: ['read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'todo']
+description: Write the specification for implementing a feature, bug correction, or enhancement.
+argument-hint: Provide the feature, bug correction, or enhancement to be specified.
+agent: Product Owner
 ---
 # Spec
 
-## Role
+## Role 
 
 Act as a software analyst. 
 
@@ -29,3 +27,4 @@ Do not write any code or tests, just the specification.
 
 - [ ] The output should be a markdown file named `specs/short-name.spec.md`.
 - [ ] The PRD documentation should be updated if needed.
+

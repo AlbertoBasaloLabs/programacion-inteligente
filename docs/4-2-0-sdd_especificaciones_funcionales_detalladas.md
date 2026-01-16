@@ -46,9 +46,6 @@ theme: ab
   - Descripción general del sistema o componente.
   - Propuesta de solución técnica (sin detalles de implementación).
   - Criterios de aceptación y verificación.
-- **Repositorios**:
-  - Ficheros markdown versionados en el repositorio.
-  - Issues, tickets o tareas vinculadas a specs específicas.
 
 ---
 
