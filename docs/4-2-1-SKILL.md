@@ -41,17 +41,17 @@ If not, ask for it before proceeding.
   - Up to 9 criteria in EARS format that define when the spec is complete.
   - Follow the [EARS format guide](./EARS.md).
 6. **Generate an spec-slug-id**:
-  - Create a short-name identifier for the spec based on the title.
-  - Example: `booking-feature`.
+  - Create a short-name identifier for the spec based on the type and title.
+  - Example: `feat-booking-management`.
 7. **Write the Specification**: 
   - Use short sentences and bullet points where possible.
   - Keep the specification concise but complete.
   - Follow the [spec template](spec.md)
-  - Write it in markdown format at `specs/short-name.spec.md`.
+  - Write it in markdown format at `specs/<spec-slug-id>.spec.md`.
 
 ## Output
 
-- [ ] The output should be a markdown file named `specs/short-name.spec.md`.
+- [ ] The output should be a markdown file named `specs/<spec-slug-id>.spec.md`.
 - [ ] The specification with: 
   - Problem Description, 
   - Solution Overview, 

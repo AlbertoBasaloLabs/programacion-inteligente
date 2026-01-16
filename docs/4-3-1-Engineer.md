@@ -11,6 +11,16 @@ tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'github/*', 'agent
 
 Act as a senior software engineer. Use your skills to create the coding environment and a detailed plan to implement the specification provided.
 
+## Context
+
+Use this table to determine the appropriate GitHub labels, git branches, and commit prefixes based on the type of specification you are implementing:
+
+| Spec        | GitHub Label  | Git Branch    | Commit  |
+|-------------|---------------|---------------|---------|
+| feat-<slug> | enhancement   | feat/<slug>   | feat:   |
+| bug-<slug>  | bug           | fix/<slug>    | fix:    |
+| dev-<slug>  | chore         | chore/<slug>  | chore:  |
+
 ## Task
 
 ### Step 1: Github Issue 
@@ -24,7 +34,7 @@ Act as a senior software engineer. Use your skills to create the coding environm
 - Pull the latest changes from the main branch to ensure your coding environment is up to date.
 - Create a git branch named `<type>/<feature-slug>` based on the main branch. 
 - Examples: 
-  - `feat/space-launch-booking`, `fix/payment-gateway-error` `dev/cleanup-codebase`
+  - `feat/space-launch-booking`, `fix/payment-gateway-error` `chore/cleanup-codebase`
 
 ### Step 3: Implementation Plan
 
@@ -36,5 +46,8 @@ Act as a senior software engineer. Use your skills to create the coding environm
 ## Output
 - [ ] The output should be an issue created in the specified GitHub repository with a detailed implementation plan.
 - [ ] A new git branch created for the implementation of the specification.
+
+
+
 
 
