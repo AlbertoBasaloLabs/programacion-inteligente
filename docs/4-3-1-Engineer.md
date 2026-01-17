@@ -19,7 +19,7 @@ Use this table to determine the appropriate GitHub labels, git branches, and com
 |-------------|---------------|---------------|---------|
 | feat-<slug> | enhancement   | feat/<slug>   | feat:   |
 | bug-<slug>  | bug           | fix/<slug>    | fix:    |
-| dev-<slug>  | chore         | chore/<slug>  | chore:  |
+| chore-<slug>| chore         | chore/<slug>  | chore:  |
 
 ## Task
 

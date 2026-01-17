@@ -71,3 +71,15 @@ npm test
 - Tests auto-start dev server before running.
 - Mind the available **agent skills** when performing tasks.
 - When using templates, ensure to replace {placeholders} with actual values.
+
+### Naming Conventions
+
+Use slugs with hyphens for any identifiers or non code file names.
+
+Use this table to determine the prefixes :
+
+| Spec        | GitHub Label  | Git Branch    | Commit  |
+|-------------|---------------|---------------|---------|
+| feat-<slug> | enhancement   | feat/<slug>   | feat:   |
+| bug-<slug>  | bug           | fix/<slug>    | fix:    |
+| chore-<slug>| chore         | chore/<slug>  | chore:  |

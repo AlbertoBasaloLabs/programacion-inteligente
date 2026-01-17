@@ -6,11 +6,11 @@ description: >
 --- 
 # Generating a PRD
 
-To generate a Product Requirements Document (PRD), follow these steps:
+Understand the project idea, stakeholders, target users, and business objectives.
 
 ## Context
 
-Use the provided context, or current documentation files to understand the project idea, stakeholders, target users, and business objectives.
+Use the provided context, or current documentation files. 
 
 Read and follow any specific [PRD template](PRD.md) 
 
@@ -29,13 +29,20 @@ Ask only critical questions where the initial prompt is ambiguous. Focus on:
 
 Draft the PRD following the [PRD template](PRD.md)
 Do not write more than necessary, keep it concise and to the point.
-- specifically cover:
+
+- Specifically cover:
   - Between 3 and 9 Functional Requirements
   - Between 1 and 5 Technical Requirements
 
+> Less is better. Focus on essential.
 
-### Step 3: Review and Finalize
+### Step 3: OPTIONAL Update from legacy project
 
+Review relevant existing documentation (e.g., CHANGELOG.md, specs files).
+
+Update PRD feature status based on current source code, and changelog
+
+## Output Checklist
 - [ ] Review the PRD for completeness and clarity. 
 - [ ] Ensure all sections are filled out and make sense.
 - [ ] Write the final PRD to root folder with `PRD.md` name.
