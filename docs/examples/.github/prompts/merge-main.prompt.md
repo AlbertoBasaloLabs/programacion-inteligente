@@ -14,6 +14,7 @@ Act as a senior dev ops engineer.
 
 Merge (integrate) the current git branch into the main branch.
 The goal is keep the default branch up to date with the latest changes.
+Run the git commands at the terminal needed to perform this operation.
 
 ## Context
 

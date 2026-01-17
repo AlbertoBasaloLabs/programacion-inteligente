@@ -12,22 +12,24 @@ Automate the process of managing releases, including:
   - generating changelogs, 
   - and handling versioning.
 
-## Update Documentation
+Use terminal git commands as needed.
+
+## Step 1: Update Documentation
 
 - Ensure `AGENTS.md` files are updated to reflect the latest changes.
   - [ ] tech stack, 
   - [ ] setup/dev instructions, 
   - [ ] folder structure are accurate.
 
-## Generate Changelog
+## Step 2: Generate Changelog
 
 - [ ] Commit all pending changes grouping them by type of change.
 - [ ] Use [Semantic Versioning (SemVer)](../references/sem-ver.md) principles.
 - [ ] Add entries to `CHANGELOG.md` based on commit history.
 
-## Versioning
+## Step 3: Versioning
 
 - [ ] Update `package.json` version number based on SemVer principles.
-- [ ] Add a closing commit to the relevant issue/ticket with `Close #ID`.
+- [ ] If there is an issue/ticket id in the context, then `Close #ID`.
 - [ ] If in a `dev/*` or `fix/*` branch, merge it into `main` or `master` branch.
 - [ ] Generate a git tag for the new version.

@@ -3,8 +3,7 @@ name: generating-add
 description: > 
   Generates an Architecture Design Document (ADD) for software projects.
   Also generates or updates the AGENTS.md file to reflect any architectural rules.
-  Use this skill when designing a project to create an ADD.
-
+  Use this skill when designing a product architecture.
 --- 
 # Generating an ADD
 
@@ -12,7 +11,11 @@ To generate an Architecture Design Document (ADD), follow these steps:
 
 ## Context
 
-Use the provided context, or current documentation files to understand the project architecture, and technical requirements.
+Use the provided context [PRD](/PRD.md), or current documentation files. 
+
+Read and follow specific templates like [ADD](ADD.md) and [Agents](AGENTS.md).
+
+Read and respect the current [AGENTS.md](/AGENTS.md) file if it exists.
 
 ## Steps to follow:
 
@@ -22,7 +25,7 @@ Ask only critical questions where the initial prompt is ambiguous. Focus on:
 
 - System Requirements: What are the key technical requirements?
 - Constraints: Are there any technology or architecture constraints?
-- Non-Functional Requirements: What performance, security, or scalability needs exist?
+- Non-Functional Requirements: Are there any security, or scalability needs?
 
 ### Step 2: Drafting the ADD
 
@@ -33,10 +36,11 @@ Ask only critical questions where the initial prompt is ambiguous. Focus on:
 ### Step 3: Drafting the AGENTS.md
 
 - Review existing `AGENTS.md` file if it exists.
-- Update or create the file WITH
-  - any architectural rules, guidelines, or agent relevant behaviors
+- Update or create the file with
+  - Respect any previous agent instructions.
+  - Add any architectural rules, guidelines, or agent relevant behaviors
   - Follow the [Agents template](./AGENTS.md) provided in the context.
-  - The file with less than 100 sentences and less than 100 characters per sentence.
+  - The file must be less than 100 sentences, than 100 characters each.
   
 ### Step 4: Review and Finalize
 
