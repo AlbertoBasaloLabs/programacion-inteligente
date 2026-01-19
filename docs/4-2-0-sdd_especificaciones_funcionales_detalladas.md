@@ -42,10 +42,14 @@ theme: ab
 
 ## Concreción
 
-- **Estructura de una especificación**:
-  - Descripción general del sistema o componente.
-  - Propuesta de solución técnica (sin detalles de implementación).
-  - Criterios de aceptación y verificación.
+- **Product Owner Agent**: `Write the specification for a feature, bug or chore`
+```md
+# Specification for [feature/bug/chore name]
+## Problem Description
+## Solution Overview
+## Acceptance Criteria
+```
+
 
 ---
 

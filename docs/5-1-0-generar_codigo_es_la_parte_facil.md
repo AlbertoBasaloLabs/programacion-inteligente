@@ -39,9 +39,9 @@ theme: ab
 
 ## Concreción
 
-- **Coder Role**:
-  - El encargado de la generación de código.
-  - Nuestro objetivo es que su trabajo sea determinista.
+- **Coder Agent**: `Generate code based on implementation plan`
+  - Lee la especificación y el plan de implementación.
+  - Tu decides si usas TDD, unit testing o... aún no.
 
 ---
 

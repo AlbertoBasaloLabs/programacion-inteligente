@@ -41,9 +41,11 @@ theme: ab
 
 ## Concreción
 
-- **Verifier Role**:
-  - El encargado de la verificación rigurosa.
-  - Usa tests automatizados y revisiones manuales.
+- **Tester Agent**: `Generate and run tests for implemented code`
+ - Follow skills and rules to create tests
+ - Write and execute tests
+ - Start and stop services if needed
+ - Have a stop strategy if testing fails
 
 ---
 

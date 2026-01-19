@@ -45,17 +45,15 @@ theme: ab
 
 ## Concreción
 
-- **Generación de planes**:
-  - Usar prompts para generar planes a partir de especificaciones.
-  - `rockets_code.prompt.md` -> plan de tareas estructurado.
-- **Gestión de tareas**:
-  - Issues en GitHub/GitLab vinculados a especificaciones.
-  - Cada issue representa una tarea verificable.
-- **Flujo de trabajo**:
-  - Crear rama para cada tarea.
-  - Implementar, verificar y documentar.
-  - Merge tras verificación humana.
-
+- **Engineer Agent**: `Prepare repo and create implementation plan`
+```md
+# Implementation Plan for [feature/bug/chore name]
+### Step 1: {Step Title}
+{short description of the step}
+- [ ] {One line Task 1 description}
+```
+- Use GitHub MCP to create issue;
+- Use Terminal tool to create branch ;
 ---
 
 ## Conclusión
