@@ -62,13 +62,11 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - [`4.2.`](4-2-0-sdd_especificaciones_funcionales_detalladas.md) SDD, especificaciones funcionales detalladas
 - [`4.3.`](4-3-0-ramas_planes_y_tareas_de_codificacion.md) Ramas, planes y tareas de codificación
 
-### 5. Programar, verificar, documentar
+### [`5.`](5-0-0-programar_verificar_documentar.md) Programar, verificar, documentar
 
-```markdown	  
-- 5.1. Generar código es la parte fácil
-- 5.2. Verificar que funciona es la parte difícil
-- 5.3. Documentar los cambios es la parte crítica	
-```
+- [`5.1.`](5-1-0-generar_codigo_es_la_parte_facil.md) Generar código es la parte fácil
+- [`5.2.`](5-2-0-verificar_que_funciona_es_la_parte_dificil.md) Verificar que funciona es la parte difícil
+- [`5.3.`](5-3-0-documentar_los_cambios_es_la_parte_critica.md) Documentar los cambios es la parte crítica
 
 ### 6. Calidad, productividad y mantenimiento
 
