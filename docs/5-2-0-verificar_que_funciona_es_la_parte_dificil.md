@@ -20,7 +20,7 @@ theme: ab
 ## Conexión
 
 - **Trust but Verify**
-  - El código generado puede parecer correcto y compilar, pero tener fallos lógicos sutiles.
+  - El código puede parecer correcto, pero tener fallos lógicos sutiles.
   - La "fatiga de revisión" es el nuevo enemigo.
 - **¿Quién prueba al probador?**
   - Si la IA escribe los tests y el código, ¿quién asegura la validez?
@@ -31,29 +31,19 @@ theme: ab
 
 - **Testing Automatizado**:
   - Unitarios, integración y E2E.
-  - Imprescindibles para detectar regresiones en refactors masivos de IA.
-- **Manual Verification / Walkthrough**:
-  - Seguir pasos explícitos para validar la funcionalidad desde la UI.
-  - Documentar la prueba con evidencias (screenshots, logs).
-- **Code Review Asistido**:
-  - Usar la propia IA para explicar y analizar el código generado.
-  - "Explícame qué hace este bloque y busca posibles edge cases".
+  - Imprescindibles para detectar defectos.
+- **Qué, cuándo y quién**:
+  - Implementación o criterios de aceptación.
+  - Antes, durante o después de la codificación.
+  - Humano, el agente, otro agente.
 
 ---
 
 ## Concreción
 
-- **QA Agent**: `Running verification plan`
-```bash
-npm test -- run-related login.spec.ts
-```
-- **Verification Plan**:
-```md
-## Verification
-- [x] Unit tests passed (100% coverage on new service).
-- [x] Manual login with valid credentials -> Redirects to Dashboard.
-- [x] Manual login with invalid credentials -> Shows error message.
-```
+- **Verifier Role**:
+  - El encargado de la verificación rigurosa.
+  - Usa tests automatizados y revisiones manuales.
 
 ---
 
@@ -61,7 +51,7 @@ npm test -- run-related login.spec.ts
 
 - La **verificación** consume más tiempo que la codificación.
 - Es la **red de seguridad** necesaria para aprovechar la velocidad de la IA.
-- Un bug en producción cuesta mucho más que una hora de verificación rigurosa.
+- Las pruebas del código son el punto de partida de un producto mantenible.
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  

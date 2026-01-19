@@ -23,19 +23,18 @@ theme: ab
 
 ---
 
+## ¿YA no importa el cómo?
+
+- Claro que importa, y mucho. Pero ahora se expresa en otros artefactos.
+- Las directrices de arquitectura y los estilos de codificación en markdowns.
+- Se infiltran en el proyecto proyecto, y emergen como código fuente.
+---
+
 ## Ejecución Inteligente
 
 - **Programar**: Generación de código asistida por IA basada en contextos y specs.
 - **Verificar**: Validación rigurosa automática y manual contra los requerimientos.
-- **Documentar**: Actualización continua de artefactos para reflejar la realidad del código.
-
----
-
-## Fases de la ejecución
-
-- **Generación**: De specs a código funcional.
-- **Verificación**: Tests y revisiones de seguridad/calidad.
-- **Documentación**: Cierre del ciclo y preparación para futuras iteraciones.
+- **Documentar**: Actualización continua de artefactos para reflejar la realidad.
 
 ---
 
