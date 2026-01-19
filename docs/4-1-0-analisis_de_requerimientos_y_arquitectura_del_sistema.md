@@ -40,14 +40,15 @@ theme: ab
 ---
 
 ## Concreción
-- **Analyst Agent**: `Generating PRD using a skill`
+
+- `1` **Analyst Agent**: `Generating PRD from idea or existing project`
 ```md
 # Product Requirements Document.
 ## Vision and Scope
 ## Functional Requirements
 ## Technical Requirements
 ```
-- **Architect Agent**: `Generating ADD using a skill`
+- `2` **Architect Agent**: `Generating ADD from PRD and current architecture`
 ```md
 # Architecture Design Document.
 ## Stack and tooling

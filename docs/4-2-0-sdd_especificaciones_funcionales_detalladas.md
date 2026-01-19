@@ -42,7 +42,7 @@ theme: ab
 
 ## Concreción
 
-- **Product Owner Agent**: `Write the specification for a feature, bug or chore`
+- `3` **Product Owner Agent**: `Write specifications for features, bugs, chores...`
 ```md
 # Specification for [feature/bug/chore name]
 ## Problem Description

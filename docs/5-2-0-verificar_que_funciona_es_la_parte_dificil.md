@@ -41,12 +41,11 @@ theme: ab
 
 ## Concreción
 
-- **Tester Agent**: `Generate and run tests for implemented code`
- - Follow skills and rules to create tests
- - Write and execute tests
- - Start and stop services if needed
- - Have a stop strategy if testing fails
-
+- `6` **Tester Agent**: `Write and run tests for implemented code`
+  - Sigue las reglas y habilidades definidas.
+  - Escribe y ejecuta pruebas.
+  - Inicia y detiene servicios si es necesario.
+  - Tiene una estrategia de parada si las pruebas fallan.
 ---
 
 ## Conclusión

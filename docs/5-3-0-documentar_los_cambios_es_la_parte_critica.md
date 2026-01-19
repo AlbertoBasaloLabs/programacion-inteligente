@@ -39,15 +39,16 @@ theme: ab
 
 ## Concreción
 
-- **DevOps Agent**: `Update documentation and release code changes`
+- `7` **DevOps Agent**: `Update documentation and release code changes`
 ```md
 # Changelog
 ## [Version] - YYYY-MM-DD
 ### Added
 ### Changed
 ### Fixed
+---
+- Also: ADD.md, AGENTS.md, PRD.md, spec.md, etc.
 ```
-- Also: ADD.md, AGENTS.md, PRD.md, *spec.md, etc.
 
 ---
 

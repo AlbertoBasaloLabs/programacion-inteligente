@@ -39,8 +39,9 @@ theme: ab
 
 ## Concreción
 
-- **Coder Agent**: `Generate code based on implementation plan`
+- `5` **Coder Agent**: `Generate code based on implementation plan`
   - Lee la especificación y el plan de implementación.
+  - Sigue las reglas y habilidades definidas.
   - Tu decides si usas TDD, unit testing o... aún no.
 
 ---
