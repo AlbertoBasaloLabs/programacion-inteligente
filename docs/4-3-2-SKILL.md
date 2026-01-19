@@ -20,10 +20,15 @@ When asked for creating a GitHub issue, follow these steps:
   - Assign appropriate labels, assignees, and milestones if specified.
   - Add a label `bug` or `enhancement` based on the type of specification.
   - Save the created issue URL for reference and the ID for tracking.
+  - Do not add any additional content beyond what is specified in the spec file.
 
 3. **Double-link**:
   - Add the created issue URL back to the specification task output for traceability.
   - Add the github spec file url to the created issue body for context. 
 
-4 **Plan**:
-  - If asked to add a plan to the issue, break down the implementation into 3 to 9 steps with 2 to 5 tasks each, following the format in the [Implementation Plan template](./PLAN.md).
+4. **Plan**:
+  - Think about a detailed implementation plan for the specification.
+  - Break down the implementation into 3 to 9 steps with 2 to 5 tasks each.
+  - Follow the format in the [Implementation Plan template](./PLAN.md).
+  - Add the plan to the issue body after the specification content.
+  - Ensure the plan is clear and actionable with checkboxes for each task.

@@ -10,7 +10,7 @@
 
 ### User Stories
 
-- As {...} , I want to **{...}** so that {...}
+- As {...}, I want to **{...}** so that {...}
 
 ## Solution Overview
 

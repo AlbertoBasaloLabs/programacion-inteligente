@@ -2,9 +2,9 @@
 name: Product Owner
 description: Writes the specification for implementing a feature, bug correction, or enhancement.
 model: Auto (copilot)
-tools: ['read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'todo']
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
 handoffs: 
-  - label: Create coding environment and plan
+  - label: Plan to Implementation
     agent: Engineer
     prompt: Create the coding environment and detailed plan for the specification
     send: true
@@ -15,11 +15,15 @@ handoffs:
 
 Act as a software analyst. 
 
+## Task
+
+Prepare and plan for implementing a specification.
+
 ## Context 
 
 - [Product Requirements Document](/PRD.md) 
 
-## Task
+## Steps
 
 ### Step 1: PRD Review
 
