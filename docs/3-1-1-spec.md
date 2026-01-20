@@ -1,10 +1,10 @@
 ---
-description: Write the specification for implementing a feature, bug correction, or enhancement.
 name: spec
-argument-hint: "Provide the feature, bug correction, or enhancement to be specified."
+description: Write the specification for implementing a feature, bug correction, or enhancement.
+argument-hint: Provide the feature, bug correction, or enhancement to be specified.
 agent: agent
-model: GPT-5.2
-tools: ['read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'todo']
+model: Auto (copilot)
+tools: ['read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
 # Spec
 

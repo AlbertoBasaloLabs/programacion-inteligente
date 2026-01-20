@@ -68,3 +68,4 @@ npm test
 - Chat responses must be in the language of the user prompt.
 - Sacrifice grammar for conciseness when needed to fit response limits.
 - This is a windows environment using git bash terminal. 
+- My default branch is `main`.

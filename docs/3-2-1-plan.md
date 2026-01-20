@@ -1,10 +1,10 @@
 ---
-description: Create a plan to implement a follow-up specification for a feature, bug correction, or enhancement.
 name: plan
+description: Create a plan to implement a follow-up specification for a feature, bug correction, or enhancement.
 argument-hint: Provide the specification to be planned.
 agent: agent
-model: GPT-5.2
-tools: ['execute/runInTerminal', 'read/readFile', 'read/getTaskOutput', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'github/add_issue_comment', 'github/get_me', 'github/issue_write', 'todo']
+model: Auto (copilot)
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'github/*', 'agent', 'todo']
 ---
 # Plan
 

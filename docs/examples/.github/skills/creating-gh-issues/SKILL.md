@@ -30,6 +30,6 @@ When asked for creating a GitHub issue, follow these steps:
 4. **Prepare a repository branch**:
   - Commit any pending changes in the current branch.
   - Pull the latest changes from remote to keep local up to date.
-  - Create a git branch named `<type>/<feature-slug>` based on the main branch. 
-  - Examples: `feat-booking-management`, `bug-payment-error`, `chore/cleanup-api`
+  - Create a git branch named `<type>-<feature-slug>` based on the main branch. 
+  - Examples: `feat-booking-management`, `bug-payment-error`, `chore-cleanup-api`
 

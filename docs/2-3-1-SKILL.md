@@ -1,8 +1,8 @@
 ---
 name: releasing-procedure
 description: >  
+  Updates documentation, generates changelogs, and handles versioning.
   To be used for automating release tasks. 
-  Follow this instruction set for updating documentation, generating changelogs, and versioning.
 ---
 
 # Releasing Procedure
@@ -12,22 +12,27 @@ Automate the process of managing releases, including:
   - generating changelogs, 
   - and handling versioning.
 
-## Update Documentation
+Use terminal git commands as needed.
 
-- Ensure `AGENTS.md` files are updated to reflect the latest changes.
+## Step 1: Update Documentation
+
+- [AGENTS.md](/AGENTS.md) : update to reflect changes.
   - [ ] tech stack, 
   - [ ] setup/dev instructions, 
   - [ ] folder structure are accurate.
+- [ ] [PRD.md](/PRD.md) and/or [specs](/specs) to reflect the current status of features.
+- [ ] [ADD.md](/ADD.md) : update if any architectural decisions have changed.
+- [ ] Other relevant documentation files.
 
-## Generate Changelog
+## Step 2: Generate Changelog
 
 - [ ] Commit all pending changes grouping them by type of change.
-- [ ] Use [Semantic Versioning (SemVer)](../references/sem-ver.md) principles.
-- [ ] Add entries to `CHANGELOG.md` based on commit history.
+- [ ] Use [Semantic Versioning (SemVer)](../sem-ver.md) principles.
+- [ ] [CHANGELOG.md](/CHANGELOG.md) : Add entries to based on commit history.
 
-## Versioning
+## Step 3: Versioning
 
 - [ ] Update `package.json` version number based on SemVer principles.
-- [ ] Add a closing commit to the relevant issue/ticket with `Close #ID`.
-- [ ] If in a `dev/*` or `fix/*` branch, merge it into `main` or `master` branch.
+- [ ] If there is an issue/ticket id in the context, then `Close #ID`.
+- [ ] Merge it into default branch.
 - [ ] Generate a git tag for the new version.

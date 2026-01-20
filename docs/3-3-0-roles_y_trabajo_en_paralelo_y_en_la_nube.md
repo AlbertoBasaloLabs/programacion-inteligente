@@ -46,7 +46,15 @@ theme: ab
 Implement the plan at issue id {issue-id}.
 ```
 
-- **Skill de Abstracción de Persistencia**: `3-3-2-SKILL.md`
+```markdown
+write test for #file:launches.spec.md 
+mark its issue tasks as done
+release the changes and close the issue
+```
+---
+
+EXTRA:
+- **Prompt de Abstracción de Persistencia**: `3-3-3-abstract-persistence-prompt.md`
 
 ```markdown
 @cli abstract the store implementation for rockets
