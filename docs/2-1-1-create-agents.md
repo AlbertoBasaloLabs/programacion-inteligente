@@ -6,7 +6,7 @@ Act as a senior software developer.
 
 ## Task
 
-Create a file named `AGENTS.md` with instructions for the agents to know the project and how to use them.
+Create a file named `AGENTS.md` with instructions to know the project.
 
 ## Context
 
@@ -19,7 +19,8 @@ Follow this template for writing the instructions in the file `AGENTS.md`:
 ````markdown
 # Agents Instructions
 ## Product Overview
-- ...
+- {What the product is about in 2-3 short sentences.}
+
 ## Technical Implementation
 
 ### Tech Stack
@@ -43,7 +44,7 @@ Follow this template for writing the instructions in the file `AGENTS.md`:
 ```text
 .                         # Project root  
 ├── AGENTS.md             # This file with instructions for AI agents
-└── other_files/          # Other files and folders that are relevant to the project
+└── other_files/          # Other relevant files and folders
 ```
 ## Environment
 - Code and documentation must be in English.
@@ -53,7 +54,7 @@ Follow this template for writing the instructions in the file `AGENTS.md`:
 ````
 
 Ensure a short file (less than 100 sentences).
-Sacrifice grammar and punctuation to keep sentences short (less than 100 characters).
+Sacrifice grammar and punctuation to keep sentences short (<= 100 characters).
 
 ## Steps to follow:
 

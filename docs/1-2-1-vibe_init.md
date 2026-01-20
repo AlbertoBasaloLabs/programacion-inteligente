@@ -1,3 +1,3 @@
-1. Create at root a modern Node/Express Typescript bare-bone setup. Run it.
-2. Add an API endpoint for health status. Smoke test with Playwright.
-3. Commit with descriptive message. Update README with dev instructions.
+1. Create at root an Express app with Typescript bare-bone setup.
+2. Add an API endpoint for health status. 
+3. Smoke test with Playwright and commit with descriptive message. 

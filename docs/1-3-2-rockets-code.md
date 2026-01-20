@@ -38,9 +38,7 @@ Ask for the spec file if not provided.
 5. **Write the Code**: 
   - Write the minimum code necessary to fulfill the plan.
 
-
-## Output
+## Output checklist
 
 - [ ] A new branch named `feat/rockets` with the implementation.
 - [ ] Modified or newly created code files as specified in the plan.
-- [ ] All acceptance criteria verified.
