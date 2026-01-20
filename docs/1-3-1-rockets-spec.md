@@ -21,7 +21,7 @@ Ask for any additional context if needed.
 
 ### Specification Template
 
-Follow this template for writing the specification file `rockets.spec.md`:
+Follow this template for writing the specification file `specs/rockets.spec.md`:
 
 ````markdown
 # Rocket Management API Specification
@@ -39,17 +39,15 @@ Follow this template for writing the specification file `rockets.spec.md`:
 ## Steps to follow:
 
 1. **Define the Problem**: 
-  - Clearly outline the problem that the API endpoint aims to solve.
-2. **List User Stories**: 
-  - Up to 3 US that describe the feature from the user's perspective.
-3. **Outline the Solution**: 
+  - Clearly outline the problem with up to 3 user stories.
+2. **Outline the Solution**: 
   - Describe the simplest approach for endpoints, model, error handling.
-4. **Set Acceptance Criteria**: 
+3. **Set Acceptance Criteria**: 
   - Up to 9 acceptance criteria in EARS format.
 
-## Output
+## Output Checklist
 
-- [ ] The output should be a markdown file named `rockets.spec.md`.
+- [ ] The output should be a markdown file named `specs/rockets.spec.md`.
 - [ ] The specification with: 
   - Problem Description, 
   - Solution Overview, 

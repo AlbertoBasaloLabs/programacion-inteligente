@@ -7,15 +7,16 @@ Act as a software release manager.
 ## Task
 
 Prepare and execute the release of the current version of AstroBookings.
+
 Ensure all changes are properly documented, tested, and versioned.
 
 ## Context
 
-The current branch `dev/rockets` has implementation of `rockets.spec.md` 
-
+The current branch `feat/rockets` has implementation of `specs/rockets.spec.md` 
 ## Steps to follow:
 
 1. **Verify Implementation**: 
+  - Write e2e tests to ensure acceptance criteria are met.
   - Run tests to ensure they pass.
 
 2. **Update Documentation**:

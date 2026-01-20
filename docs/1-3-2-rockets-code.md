@@ -8,9 +8,11 @@ Act as a senior software developer.
 
 Implement the functionality described in the spec file provided.
 
+Do not write tests or documentation, just the implementation code.
+
 ## Context
 
-A file named `rockets.spec.md` with the specification to be implemented.
+A file named `specs/rockets.spec.md` with the specification to be implemented.
 
 Ask for the spec file if not provided.
 
@@ -32,14 +34,13 @@ Ask for the spec file if not provided.
   - Generate the steps to implement (without coding details).
 4. **Prepare Git**: 
   - Commit existing changes 
-  - Create a branch `dev/rockets`.
+  - Create a branch `feat/rockets`.
 5. **Write the Code**: 
   - Write the minimum code necessary to fulfill the plan.
-6. **Verify Features**: 
-  - Write e2e tests to ensure acceptance criteria are met.
+
 
 ## Output
 
-- [ ] A new branch named `dev/rockets` with the implementation.
+- [ ] A new branch named `feat/rockets` with the implementation.
 - [ ] Modified or newly created code files as specified in the plan.
 - [ ] All acceptance criteria verified.
