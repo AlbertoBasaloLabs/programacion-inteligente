@@ -3,12 +3,12 @@ name: Coder
 description: A coder agent that follows an implementation plan to write code, tests, and documentation.
 argument-hint: Provide the issue number to start coding.
 model: Auto (copilot)
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'github/*', 'agent', 'todo']
 handoffs: 
   - label: Release Implementation
-    agent: agent
+    agent: DevOps
     prompt: release the current implementation
     send: true
-tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'github/*', 'agent', 'todo']
 ---
 # Coder
 
@@ -18,7 +18,7 @@ Act as a senior software developer.
 
 ## Task
 
-Write code to implement what is asked.
+Write code to implement what is asked following the plan in the issue.
 
 Do not write tests or documentation at this stage.
 
