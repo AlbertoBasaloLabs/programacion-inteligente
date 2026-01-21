@@ -26,12 +26,9 @@ Follow this template for writing the specification file `specs/rockets.spec.md`:
 ````markdown
 # Rocket Management API Specification
 ## Problem Description
-### User Stories
-- As ... , I want to **...** 
+- As {role} , I want to **{goal}**  so that {reason}.
 ## Solution Overview
-### Endpoints
-### Model
-### Error Handling
+- {Simple approach to solve the problem, no technical details.}
 ## Acceptance Criteria
 - [ ] EARS format
 ````
@@ -41,7 +38,7 @@ Follow this template for writing the specification file `specs/rockets.spec.md`:
 1. **Define the Problem**: 
   - Clearly outline the problem with up to 3 user stories.
 2. **Outline the Solution**: 
-  - Describe the simplest approach for endpoints, model, error handling.
+  - Simplest approach for application, logic and infrastructure.
 3. **Set Acceptance Criteria**: 
   - Up to 9 acceptance criteria in EARS format.
 

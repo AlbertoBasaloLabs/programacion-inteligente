@@ -6,7 +6,10 @@ agent: agent
 model: Auto (copilot)
 tools: ['read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
-# Spec
+
+♻️ Refactored from /2-2-2-clean-ts-code.md
+
+# Clean TypeScript Code
 
 ## Role
 
@@ -15,13 +18,13 @@ Act as a software developer.
 ## Task
 
 Clean the code at the specified file or folder.
-Do not write any code or tests, just the specification.
+Do not write any new feature or tests, just the refactor.
 
 ## Context
 
 The file or folder path to clean must be provided in the input.
 
-If not, ask for it before proceeding.
+If not, do it for the last modified file in the git history.
 
 ## Steps to follow:
 

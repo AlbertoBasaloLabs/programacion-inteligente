@@ -23,4 +23,3 @@ When asked for creating a GitHub issue, follow these steps:
   - If the issue is created based on a specification file:
     - Add the created issue URL back to the file for traceability.
     - Add the github spec file url to the created issue body for context. 
-

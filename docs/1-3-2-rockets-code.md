@@ -8,7 +8,7 @@ Act as a senior software developer.
 
 Implement the functionality described in the spec file provided.
 
-Do not write tests or documentation, just the implementation code.
+Do not write tests or documentation, just the functional code.
 
 ## Context
 
