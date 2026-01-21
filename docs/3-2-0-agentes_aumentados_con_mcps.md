@@ -42,10 +42,10 @@ theme: ab
 ## Concreción
 
 - Instalar el **MCP de Github** para acceder a repositorios, issues...
-- **Prompt de planificación**: `3-2-1-plan.md`
+- **Skill GitHub-Issues**: `3-2-1-creating-gh-issues.SKILL.md`
 
 ```markdown
-/plan #rocket-launches.spec 
+Create a GitHub issue to add a shared service for tracing app in console logs.
 ```
 
 ---
