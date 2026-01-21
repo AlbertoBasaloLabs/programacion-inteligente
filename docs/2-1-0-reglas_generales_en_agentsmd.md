@@ -47,7 +47,9 @@ theme: ab
   - Flujo de trabajo.
   - Estructura de carpetas.
   - Entorno de desarrollo.
-
+````markdown
+Copy paste of the template from 2-1-1-create-agents.md
+````
 --- 
 
 ## Conclusión

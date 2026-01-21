@@ -1,71 +1,62 @@
-# Astro Bookings Rest API
+# Agents Instructions
 
 ## Product Overview
-
-This is a demo project to be used in workshops and labs.
-Not intended for production use.
-
-AstroBookings is a fictitious space tourism company offering travel bookings.
-Requires management of rockets, launches and passenger bookings.
-This repository contains a REST API for managing these resources.
+Astro Bookings is a fictional space travel booking system API. Built with Express and TypeScript, it offers backend endpoints for managing rocket launches with passenger bookings, pricing, and payment processing.
 
 ## Technical Implementation
 
-- A REST API built with Node/Express written in TypeScript.
-- Storage will be implemented using in-memory data structures for simplicity.
-- No need for authentication or authorization in this demo.
-- Monitoring and logging with simple console outputs.
+### Tech Stack
+- Language: **TypeScript 5.9**
+- Framework: **Express 5.2**
+- Database: **None (mock data only, demo stage)**
+- Security: **Not implemented (training/demo only)**
+- Testing: **Playwright 1.57**
+- Logging: **Console (built-in)**
 
-### Tech stack
-
-- **Language:** `Typescript` V5+
-- **Runtime:** `Node.js` 18+
-- **Framework:** `Express`  V4+
-- **Testing:** `Playwright`  V1.35+
-- **Tools:** 
-  - `Nodemon`, 
-  - `Dotenv`
-  
-### Development Workflow 
+### Development workflow
 
 ```bash
-# Install dependencies
+# Set up the project
 npm install
-# Copy environment defaults
-cp .env.example .env
-# Run in development mode (with auto-reload)
-npm run dev
-# Run in production mode
+# Build the project
 npm run build
-npm start
-# Run end-to-end tests with Playwright
+# Run the project (dev with hot reload)
+npm run dev
+# Run the project (compiled)
+npm run start
+# Test the project
 npm test
+# Test with UI
+npm run test:ui
+# Type check
+npm run typecheck
 ```
 
-### Folder Structure
+### Folder structure
 
-```txt
-.                         # Project root  
-├── AGENTS.md             # This file with rules for AI agents
-├── README.md             # Project documentation
-├── CHANGELOG.md          # Release notes and changelog
-├── package.json          # NPM package configuration
-├── tsconfig.json         # TypeScript configuration
-├── .gitignore            # Git ignore file
-├── .env.example          # Environment variables example
-├── docs/                 # Documentation for humans
-├── specs/                # Spec-driven development files
-├── src/                  # Source code
-├── tests/                # Test files
-├── .cursor/              # Cursor commands, rules and skills
-├── .github/              # GitHub copilot prompts, instructions and skills
-└── .vscode/              # Visual Studio Code configuration files
+```text
+.                          # Project root
+├── AGENTS.md              # This file with instructions
+├── README.md              # Project overview and quick start
+├── package.json           # Dependencies and scripts
+├── tsconfig.json          # TypeScript config
+├── playwright.config.ts   # Test framework config
+├── src/                   # Source code  
+│   └── index.ts           # Main Express server
+├── tests/                 # Test files
+└── dist/                  # Compiled output (generated)
 ```
 
 ## Environment
+- Code and documentation in English.
+- Sacrifice grammar for conciseness in responses.
+- Windows environment using Git Bash.
+- Default branch: `main`.
+- Server port: `3000` (configurable via `PORT` env var).
+- Base URL for tests: `http://localhost:3000`.
 
-- Code and documentation must be in English.
-- Chat responses must be in the language of the user prompt.
-- Sacrifice grammar for conciseness when needed to fit response limits.
-- This is a windows environment using git bash terminal. 
-- My default branch is `main`.
+## Important Notes
+- Demo/training project only.
+- No database or authentication yet.
+- Playwright runs smoke tests on dev server.
+- TypeScript compilation targets modern Node.js (>=18.18).

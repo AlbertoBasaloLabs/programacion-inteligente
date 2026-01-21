@@ -16,13 +16,13 @@ Use terminal git commands as needed.
 
 ## Step 1: Update Documentation
 
-- [AGENTS.md](/AGENTS.md) : update to reflect changes.
-  - [ ] tech stack, 
-  - [ ] setup/dev instructions, 
-  - [ ] folder structure are accurate.
-- [ ] [PRD.md](/PRD.md) and/or [specs](/specs) to reflect the current status of features.
-- [ ] [ADD.md](/ADD.md) : update if any architectural decisions have changed.
-- [ ] Other relevant documentation files.
+- [ ] [AGENTS.md](/AGENTS.md) : update to reflect changes.
+  - tech stack, 
+  - setup/dev instructions, 
+  - folder structure are accurate.
+- [ ] [PRD.md](/PRD.md) and/or [specs](/specs) current features status (If any).
+- [ ] [ADD.md](/ADD.md) update/add architectural decisions (If any).
+- [ ] Other relevant project files (`package.json`, `pom.xml`, `.csproj`...).
 
 ## Step 2: Generate Changelog
 
@@ -32,7 +32,6 @@ Use terminal git commands as needed.
 
 ## Step 3: Versioning
 
-- [ ] Update `package.json` version number based on SemVer principles.
-- [ ] If there is an issue/ticket id in the context, then `Close #ID`.
+- [ ] If there is an issue/ticket id in the context, commit with `Close #ID`.
 - [ ] Merge it into default branch.
 - [ ] Generate a git tag for the new version.

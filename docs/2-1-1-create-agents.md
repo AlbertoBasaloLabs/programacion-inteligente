@@ -1,23 +1,12 @@
-# Create AGENTS.md file
+Create a set of instructions for AI agents to understand the project.
 
-## Role
-
-Act as a senior software developer.
-
-## Task
-
-Create a file named `AGENTS.md` with instructions to know the project.
-
-## Context
-
-- The current project configuration, source code and documentation.
-
-### Agents template
-
-Follow this template for writing the instructions in the file `AGENTS.md`:
+Browse and read the project files to gather context.
+Ensure a short file (<= 100 sentences) and short sentences (<= 100 characters).
+Follow this template and save in a markdown file `AGENTS.md`:
 
 ````markdown
 # Agents Instructions
+
 ## Product Overview
 - {What the product is about in 2-3 short sentences.}
 
@@ -32,7 +21,6 @@ Follow this template for writing the instructions in the file `AGENTS.md`:
 - Logging: **{logging tool }**
 
 ### Development workflow
-
 ```bash
 # Set up the project
 # Build/Compile the project
@@ -40,36 +28,22 @@ Follow this template for writing the instructions in the file `AGENTS.md`:
 # Test the project
 # Deploy the project
 ```
+
 ### Folder structure
 ```text
 .                         # Project root  
 ├── AGENTS.md             # This file with instructions for AI agents
-└── other_files/          # Other relevant files and folders
+├── README.md             # The main human documentation file
+├── {other_files}         # Other relevant files
+└── {other_folders}/      # Other relevant folders
 ```
+
 ## Environment
 - Code and documentation must be in English.
 - Chat responses must be in the language of the user prompt.
-- Sacrifice grammar for conciseness when needed to fit response limits.
+- Sacrifice grammar for conciseness in responses.
 - This is a windows environment using git bash terminal. 
+- My default branch is `main`.
 ````
 
-Ensure a short file (less than 100 sentences).
-Sacrifice grammar and punctuation to keep sentences short (<= 100 characters).
 
-## Steps to follow:
-
-1. **Understand the Project**:
-  - Read the code base and documentation to know the project basics.
-2. **Write the Instructions**:
-  - Write the instructions for the agents to know the project and how to use them.
-3. **Review the Instructions**:
-  - Review the instructions to ensure they are clear and concise.
-4. **Save the Instructions**:
-  - Save the instructions to the file `AGENTS.md`.
-5. **Commit the Instructions**:
-  - Commit the instructions to the repository.
-
-## Output
-
-- [ ] The output should be a markdown file named `AGENTS.md`.
-- [ ] The file with less than 100 sentences and less than 100 characters per sentence.
