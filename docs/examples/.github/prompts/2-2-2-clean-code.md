@@ -27,7 +27,7 @@ Clean the existing codebase for maintainability and readability.
 4. **Document Changes**:
   - Summarize the changes made and update any relevant documentation.
 
-## Output
+## Output checklist:
 
 - [ ] Refactored code adhering to clean code principles.
 - [ ] All tests pass successfully.
