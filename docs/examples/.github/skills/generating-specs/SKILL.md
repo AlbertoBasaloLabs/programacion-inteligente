@@ -32,7 +32,7 @@ Types of specifications to generate include:
 1. **Capture inputs**:
   - Confirm feat/bug/chore to specify; if missing, ask.
   - Draft the issue title from the request; if unclear, ask.
-2. **Review PRD**:
+2. **Review PRD (if applicable)**:
   - Check if the feature, bug correction, or enhancement is already in PRD.
   - If it is, use that information to help you write the specification.
   - If not, update the PRD documentation with it.

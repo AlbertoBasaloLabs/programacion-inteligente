@@ -13,7 +13,6 @@ When asked for creating a GitHub issue, follow these steps:
    - Confirm the specification for the issue to create; if missing, ask.
    - Draft the issue title from the specification; if unclear, ask.
    
-
 2. **Create the GitHub issue**:
   - Use the GitHub MCP tool to create the issue in the appropriate repository.
   - Identify the repo by using local git commands to get the remote URL and parse it.
@@ -30,6 +29,6 @@ When asked for creating a GitHub issue, follow these steps:
 4. **Prepare a repository branch**:
   - Commit any pending changes in the current branch.
   - Pull the latest changes from remote to keep local up to date.
-  - Create a git branch named `<type>-<feature-slug>` based on the main branch. 
-  - Examples: `feat-booking-management`, `bug-payment-error`, `chore-cleanup-api`
+  - Create a git branch named `<type>/<feature-slug>` based on the main branch. 
+  - Examples: `feat/booking-management`, `bug/payment-error`, `chore/cleanup-api`
 

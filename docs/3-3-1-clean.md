@@ -1,0 +1,44 @@
+---
+name: clean
+description: Cleans the code at a specified file or folder.
+argument-hint: Provide the file or folder path to clean.
+agent: agent
+model: Auto (copilot)
+tools: ['read', 'edit', 'search', 'web', 'agent', 'todo']
+---
+# Spec
+
+## Role
+
+Act as a software developer. 
+
+## Task
+
+Clean the code at the specified file or folder.
+Do not write any code or tests, just the specification.
+
+## Context
+
+The file or folder path to clean must be provided in the input.
+
+If not, ask for it before proceeding.
+
+## Steps to follow:
+
+1. **Commit existing changes**:
+  - Commit any existing changes in the codebase before starting new work.
+2. **Analyze the code**:
+  - Read the code at the specified file or folder.
+3. **Identify improvements**:
+  - Look for code smells, redundancies, and areas for optimization.
+4. **Plan the cleaning**:
+  - Outline the steps to clean the code effectively.
+5. **Execute the cleaning**:
+  - Apply the planned changes to clean the code.
+6. **Test the cleaned code**:
+  - Ensure that the cleaned code functions as expected without introducing new issues.
+
+## Output checklist:
+
+- [ ] The code at the specified file or folder is cleaned.
+- [ ] All tests pass successfully.

@@ -31,7 +31,7 @@ theme: ab
 - **Prompt as Code**:
   - Tratar las instrucciones a la IA como activos de software.
 - **Estructura formal**:
-  - Separar contexto, instrucciones, ejemplos variables y formato de salida.
+  - Separar contexto, instrucciones, ejemplos, variables y formato de salida.
 - **Prompt engineering**:
   - Aplicaremos los principios de ingeniería al desarrollo de prompts.
 

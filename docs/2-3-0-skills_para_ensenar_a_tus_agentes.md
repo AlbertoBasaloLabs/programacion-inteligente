@@ -44,7 +44,10 @@ theme: ab
       - Instrucciones detalladas de la habilidad. `level 2`
     - Carpetas con ficheros adicionales: `level 3`
       - `assets/`, `references/` y `scripts/`.
-
+````markdown
+./skills/releasing-procedure/SKILL.md
+Release pending changes as a new version.
+````
 --- 
 
 ## Conclusión

@@ -1,11 +1,11 @@
 ---
-name: releasing-procedure
+name: releasing-version
 description: >  
   Updates documentation, generates changelogs, and handles versioning.
   To be used for automating release tasks. 
 ---
 
-# Releasing Procedure
+# Releasing Version Skill
 
 Automate the process of managing releases, including:
   - updating documentation, 
