@@ -2,7 +2,7 @@
 name: generating-prd
 description: > 
   Generates a Product Requirements Document (PRD) for software projects.
-  Use this skill when analyzing a project to create a PRD.
+  To be used when analyzing a project to create a PRD.
 --- 
 # Generating a PRD
 
@@ -38,11 +38,7 @@ Do not write more than necessary, keep it concise and to the point.
 
 ### Step 3: OPTIONAL Update from legacy project
 
-Review relevant existing documentation (e.g., CHANGELOG.md, specs files).
+Review relevant existing documentation:
+ - CHANGELOG.md, specs files, README.md, AGENTS.md, ADD.md, etc.
 
 Update PRD feature status based on current source code, and changelog
-
-## Output Checklist
-- [ ] Review the PRD for completeness and clarity. 
-- [ ] Ensure all sections are filled out and make sense.
-- [ ] Write the final PRD to root folder with `PRD.md` name.

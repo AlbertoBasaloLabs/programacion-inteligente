@@ -1,9 +1,8 @@
 ---
 name: generating-add
 description: > 
-  Generates an Architecture Design Document (ADD) for software projects.
-  Also generates or updates the AGENTS.md file to reflect any architectural rules.
-  Use this skill when designing a product architecture.
+  Generates an Architecture Design Document (ADD) and an AGENTS.md for software projects.
+  To be used when designing a product architecture and agents instructions.
 --- 
 # Generating an ADD
 

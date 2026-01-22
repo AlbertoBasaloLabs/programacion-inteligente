@@ -11,3 +11,4 @@ Make an analysis based on the product briefing
 ## Context
 
 The [README.md](README.md) file contains the inception of the project.
+

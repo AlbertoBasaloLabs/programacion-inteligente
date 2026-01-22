@@ -1,6 +1,9 @@
 # Agents Instructions
+
 ## Product Overview
-- ...
+- {Product name} is a {short description of product}.
+- {Additional key features or characteristics of the product.}
+  
 ## Technical Implementation
 
 ### Tech Stack

@@ -42,7 +42,7 @@ theme: ab
 
 - **Análisis**: Requerimientos y arquitectura del sistema.
 - **Especificación**:especificaciones funcionales y técnicas detalladas.
-- **Planificación**: Ramas, planes y tareas.
+- **Planificación**: Ramas, pasos y tareas.
 - **Ejecución**: Codificación, verificación y documentación.
 
 ---
