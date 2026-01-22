@@ -26,9 +26,16 @@ Work with the changes and history of the current git branch.
 
 - [The Issue #id on GitHub]()
 
+- **Before**: Get the github issue or specification file to be released.
+- **During**: 
+  - Update or create documentation files as needed. 
+  - Generate changelogs and tags for the release. 
+  - Mark 
+- **After**: Ensure all changes are documented and merged into the default branch.
+
 ### Skills to use
 
-- `releasing-procedure` : Updating documentation, generating changelogs, and versioning.
+- `releasing-version` : Updating documentation, generating changelogs, and versioning.
 
 - `merging-default` : Merging the current branch into the default branch.
 
