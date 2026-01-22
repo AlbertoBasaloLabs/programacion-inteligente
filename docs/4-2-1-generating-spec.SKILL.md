@@ -1,8 +1,8 @@
 ---
 name: generating-spec
 description: > 
-  Write the specification for implementing a feature, bug correction, or enhancement.
-  Used to specify a current or new feature, bug correction, or enhancement.
+  Writes the specification with problem definition, solution outline, and acceptance criteria.
+  To be used to specify a feature, bug correction, or enhancement.
 ---
 
 # Generating Specs Skill
@@ -22,12 +22,20 @@ The feature, bug correction, or enhancement must be provided in the input.
 
 If not, ask for it before proceeding.
 
+Types of specifications to generate include:
+- New or current feature : `feat`
+- Bug correction : `bug`
+- Enhancement or refactor : `chore`
 
 ## Steps to follow:
 
 1. **Capture inputs**:
   - Confirm feat/bug/chore to specify; if missing, ask.
   - Draft the issue title from the request; if unclear, ask.
+2. **Review PRD (if applicable)**:
+  - Check if the feature, bug correction, or enhancement is already in PRD.
+  - If it is, use that information to help you write the specification.
+  - If not, update the PRD documentation with it.
 2. **Define the Problem**: 
   - Clearly outline the problem that we aim to solve.
 3. **List User Stories**: 
@@ -48,11 +56,3 @@ If not, ask for it before proceeding.
   - Keep the specification concise but complete.
   - Follow the [spec template](spec.md)
   - Write it in markdown format at `specs/<spec-slug-id>.spec.md`.
-
-## Output
-
-- [ ] The output should be a markdown file named `specs/<spec-slug-id>.spec.md`.
-- [ ] The specification with: 
-  - Problem Description, 
-  - Solution Overview, 
-  - Acceptance Criteria.

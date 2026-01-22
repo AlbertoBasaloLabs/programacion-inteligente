@@ -24,7 +24,7 @@
 
 ### Persistence
 
-{Database, file storage, in-memory, etc.}
+{Database, file storage, remote service, etc.}
 
 ## Acceptance Criteria
 

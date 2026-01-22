@@ -50,6 +50,9 @@ theme: ab
 ## Acceptance Criteria
 ```
 
+```md
+@Product Owner write the specs for FR2
+```
 
 ---
 
