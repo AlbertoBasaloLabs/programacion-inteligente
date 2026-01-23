@@ -68,13 +68,11 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - [`5.2.`](5-2-0-verificar_que_funciona_es_la_parte_dificil.md) Verificar que funciona es la parte difícil
 - [`5.3.`](5-3-0-documentar_los_cambios_es_la_parte_critica.md) Documentar los cambios es la parte crítica
 
-### 6. Calidad, productividad y mantenimiento
+### [`6.`](6-0-0-calidad_productividad_y_mantenimiento.md) Calidad, productividad y mantenimiento
 
-```markdown	  
-- 6.1. Aceptación e integración de las especificaciones
-- 6.2. Orquestación en paralelo y en la nube
-- 6.3. Mejora continua: producto, herramientas y primitivas
-```
+- [`6.1.`](6-1-0-refactoring_inteligente_y_deuda_tecnica.md) Refactoring inteligente y deuda técnica
+- [`6.2.`](6-2-0-orquestacion_en_paralelo_y_en_la_nube.md) Orquestación en paralelo y en la nube
+- [`6.3.`](6-3-0-mejora_continua_del_producto_y_de_las_primitivas.md) Mejora continua del producto y de las primitivas
 
 ---
 
