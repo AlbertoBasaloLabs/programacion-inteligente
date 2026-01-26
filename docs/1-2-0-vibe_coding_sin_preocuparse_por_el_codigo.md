@@ -2,7 +2,7 @@
 title: Vibe Coding sin preocuparse por el código
 description: Desarrollar siguiendo el flujo de tus vibraciones sin preocuparse por el código.
 url: 1-2-0-vibe_coding_sin_preocuparse_por_el_codigo
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Desarrollar siguiendo el flujo de tus vibraciones sin preocuparse por el código.
 
 #### [Programación Inteligente](programacion_inteligente.md)
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 

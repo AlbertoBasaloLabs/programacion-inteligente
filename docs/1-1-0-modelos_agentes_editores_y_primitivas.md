@@ -2,7 +2,7 @@
 title: Modelos, agentes, editores y primitivas
 description: Programar en lenguaje natural con un ecosistema de herramientas inteligentes.
 url: 1-1-0-modelos_agentes_editores_y_primitivas
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 marp: true
 theme: ab
 ---
@@ -14,7 +14,7 @@ theme: ab
 
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
 

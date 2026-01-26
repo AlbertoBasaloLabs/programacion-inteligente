@@ -2,7 +2,7 @@
 title: Ecosistema y vibraciones
 description: La IA no te quitará el trabajo, pero lo cambiará para siempre.
 url: 1-0-0-ecosistema_y_vibraciones
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -12,7 +12,7 @@ theme: ab
 - La IA no te quitará el trabajo, pero lo cambiará para siempre.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
