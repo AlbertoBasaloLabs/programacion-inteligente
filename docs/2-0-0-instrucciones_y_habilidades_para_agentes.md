@@ -2,7 +2,7 @@
 title: Instrucciones y habilidades para agentes
 description: Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
 url: 2-0-0-instrucciones_y_habilidades_para_agentes
-footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -12,7 +12,7 @@ theme: ab
 - Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 ---
 
 ## Los LLM necesitan guías claras
