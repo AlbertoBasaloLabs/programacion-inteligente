@@ -2,7 +2,7 @@
 title: Reglas generales en AGENTS.md
 description: Un README para agentes; reglas generales que siempre deben seguir.
 url: 2-1-0-reglas_generales_en_agentsmd
-footer: 2.1. Reglas generales en AGENTS.md. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Un README para agentes; reglas generales que siempre deben seguir.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
@@ -48,7 +48,7 @@ theme: ab
   - Estructura de carpetas.
   - Entorno de desarrollo.
 ````markdown
-Copy paste of the template from 2-1-1-create-agents.md
+Run the create-agents prompt
 ````
 --- 
 

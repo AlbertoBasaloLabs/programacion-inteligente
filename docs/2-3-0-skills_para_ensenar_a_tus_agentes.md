@@ -2,7 +2,7 @@
 title: Skills para enseñar a tus agentes
 description: Educar a tu agente con nuevas habilidades.
 url: 2-3-0-skills_para_ensenar_a_tus_agentes
-footer: 2.3. Skills para enseñar a tus agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -14,7 +14,7 @@ theme: ab
 
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
@@ -45,8 +45,8 @@ theme: ab
     - Carpetas con ficheros adicionales: `level 3`
       - `assets/`, `references/` y `scripts/`.
 ````markdown
-./skills/releasing-procedure/SKILL.md
-Release pending changes as a new version.
+./skills/committing-changes/SKILL.md
+Commit pending changes.
 ````
 --- 
 
