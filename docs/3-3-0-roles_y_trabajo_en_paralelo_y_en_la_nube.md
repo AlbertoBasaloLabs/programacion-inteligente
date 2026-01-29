@@ -39,33 +39,16 @@ theme: ab
 
 ## Concreción
 
-- **Agente de codificación**: `3-3-1-coder.md`
-- Ejecutar en modo Coder
-
 ```markdown
-Implement the plan at issue id {issue-id}.
+/resolve-issue 2
 ```
 
 ```markdown
-write test for #file:launches.spec.md 
-mark its issue tasks as done
-release the changes and close the issue
-```
----
-
-EXTRA:
-- **Prompt de Abstracción de Persistencia**: `3-3-3-abstract-persistence-prompt.md`
-
-```markdown
-@cli abstract the store implementation for rockets
+@cli Extract the repository from the business logic.
 ```
 
 ```markdown
-@cloud abstract the store implementation for launches
-```
-
-```markdown
-@cli Refactor the store factories to be homogeneous and release a new version.
+@cloud review latest changes and update agents.md documentation
 ```
 
 ---
