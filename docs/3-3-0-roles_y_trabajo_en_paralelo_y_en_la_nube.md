@@ -2,7 +2,7 @@
 title: Roles y trabajo en paralelo y en la nube
 description: Orquestando equipos de agentes.
 url: 3-3-0-roles_y_trabajo_en_paralelo_y_en_la_nube
-footer: 3.3. Roles y trabajo en paralelo y en la nube. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 3.3. Roles y trabajo en paralelo y en la nube. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Orquestando equipos de agentes en trabajos largos y complejos.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
