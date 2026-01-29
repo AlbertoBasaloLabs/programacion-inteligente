@@ -22,7 +22,7 @@ theme: ab
 - **¿Puede tu agente acceder a tu base de datos? ¿Y al gestor de tareas?**
   - Los LLM están aislados, necesitan herramientas para interactuar.
   - Los agentes de los IDEs les dan acceso al sistema de ficheros y a la terminal.
-  - Pero, pueden ir mucho más allá.
+  - Pero, pueden ir mucho **más allá**.
 
 ---
 
