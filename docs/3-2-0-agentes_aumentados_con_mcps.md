@@ -2,7 +2,7 @@
 title: Agentes aumentados con MCPs
 description: Extender las capacidades de los agentes con herramientas.
 url: 3-2-0-agentes_aumentados_con_mcps
-footer: 3.2. Agentes aumentados con MCPs. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 3.2. Agentes aumentados con MCPs. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Extender las capacidades de los agentes con herramientas.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 

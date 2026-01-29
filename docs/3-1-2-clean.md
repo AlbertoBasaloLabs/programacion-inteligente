@@ -7,8 +7,6 @@ model: Auto (copilot)
 tools: ['read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
 
-♻️ Refactored from /2-2-2-clean-ts-code.md
-
 # Clean TypeScript Code
 
 ## Role

@@ -2,7 +2,7 @@
 title: Bibliotecas y talleres
 description: Conocimiento intelectual y trabajo manual.
 url: 3-0-0-bibliotecas_y_talleres
-footer: 3. Bibliotecas y talleres. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 3. Bibliotecas y talleres. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -12,33 +12,33 @@ theme: ab
 - Conocimiento intelectual y trabajo manual.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
 ## Prompt as Code
 
-- Las peticiones son cada vez más complejas 
+- Las **peticiones** son cada vez más detalladas 
   - Y deben serlo para aportar contexto.
-- Ese esfuerzo debe ser reutilizable y mantenible.
+- Ese **esfuerzo** debe ser reutilizable y mantenible.
   - Como el código tradicional.
 
 ---
 
 ## Agentes aumentados con MCPs
 
-- No basta con trabajo intelectual.
+- No basta con **trabajo** intelectual.
   - Necesitamos interacción con el mundo.
-- Extender las capacidades en el uso de herramientas.
+- Extender las capacidades en el uso de **herramientas**.
   - Siempre en lenguaje natural.
 
 ---
 
 ## Roles y trabajo en paralelo
 
-- Las tareas que encomendamos son complejas.
+- Las **tareas** que encomendamos son complejas.
   - Y cada vez lo serán más.
-- Esperar a que terminen es ineficiente (y aburrido).
+- Esperar a que terminen es **ineficiente** (y aburrido).
   - Trabajar en paralelo y en la nube es la solución.
 
 ---

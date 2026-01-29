@@ -2,7 +2,7 @@
 title: Prompt as Code, ficheros en lenguaje formal
 description: Tratar los prompts como código fuente.
 url: 3-1-0-prompt_as_code_ficheros_en_lenguaje_formal
-footer: 3.1. Prompt as Code. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 3.1. Prompt as Code. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Tratar los prompts como código fuente.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
@@ -21,7 +21,7 @@ theme: ab
 
 - **¿Cómo gestionas la evolución de tus prompts?**
   - Copiar y pegar en chats es efímero y difícil de mejorar.
-  - El prompt es la principal primitiva del código.
+  - El prompt es la principal `primitiva` del código.
   - El código se comparte y versiona, los prompts deberían también.
 
 ---
@@ -42,14 +42,8 @@ theme: ab
 - **Prompt de especificación**: `3-1-1-spec.md`
 
 ```markdown
-/spec Provide API management of future rocket launches used for bookings. 
-Each launch is defined by:
- a scheduled date, assigned rocket, price per passenger, 
- and a minimum seat threshold required for profitability. 
-Launches progress through a defined lifecycle status: 
- scheduled, confirmed, successful, 
- cancelled due to economic viability, 
- suspended due to weather or technical issues.
+/clean
+/commit 
 ```
 
 ---
