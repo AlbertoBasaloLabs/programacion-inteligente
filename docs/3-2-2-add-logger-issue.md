@@ -1,3 +1,8 @@
+---
+name: add-logger
+description: Create a GitHub issue to add a logging functionality to the codebase.
+tools: ['execute', 'read', 'edit', 'todo', 'github/*']
+---
 # Add logger
 
 ## Role 
