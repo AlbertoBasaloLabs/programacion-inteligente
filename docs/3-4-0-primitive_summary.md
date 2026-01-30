@@ -7,9 +7,9 @@ marp: true
 theme: ab
 ---
 
-# Primitivas de programación
+# Primitivas de programación con IA
 
-- La programación con IA se compone de nuevas primitivas.
+- La programación con IA se compone de AGENTS, SKILLS y SPECS.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
@@ -85,3 +85,11 @@ theme: ab
 - La **especialización** aumenta la calidad.
 - La **orquestación** permite abordar proyectos complejos.
 - La **nube** escala la capacidad de producción de software.
+
+--- 
+
+# Conclusión
+
+- La programación con IA introduce nuevas primitivas `AGENTS`, `SKILLS` y `SPECS`.
+- Estas primitivas permiten un desarrollo más **eficiente** y **eficaz**.
+- El objetivo es aumentar la **productividad** sin perder control ni **calidad**.
