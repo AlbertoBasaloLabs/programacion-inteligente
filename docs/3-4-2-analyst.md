@@ -41,13 +41,10 @@ The task will be a bug or feature description from the user.
 3. **Create a GitHub Issue**:
    - Use the `creating-gh-issues` skill to create a GitHub issue with:
      - Title: Short, descriptive title of the task.
-     - Body: 
-       - Brief summary of the task.
-       - Link to the specification created in step 1.
-       - The implementation plan from step 2.
-   - Double link the issue to the specification file created.
+     - Body: The implementation plan from step 2.
   
 ## Output
 
 - [ ] The output should be a markdown file named `specs/short-name.spec.md`.
 - [ ] A GitHub issue created with the implementation plan.
+- [ ] Double-link the issue and specification for traceability.

@@ -25,7 +25,7 @@ If not, ask for it before proceeding.
 ### Spec Template
 
 ````markdown
-# Rocket Management API Specification
+# {Short name} Specification
 ## Problem Description
 - As {role} , I want to **{goal}**  so that {reason}.
 ## Solution Overview
@@ -33,7 +33,6 @@ If not, ask for it before proceeding.
 ## Acceptance Criteria
 - [ ] EARS format
 ````
-
 
 ## Steps to follow:
 
@@ -45,5 +44,5 @@ If not, ask for it before proceeding.
   - Simplest approach for application, logic and infrastructure.
 4. **Set Acceptance Criteria**: 
   - Up to acceptance criteria in EARS format (<= 9).
-5. **Create the Specification File**: 
-  - Write the specification in a markdown file named `specs/short-name.spec.md` using the template provided.
+5. **Write the Specification File**: 
+  - Write the specification in a file named `specs/short-name.spec.md`.
