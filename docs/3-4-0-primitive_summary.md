@@ -19,7 +19,7 @@ theme: ab
 # 1.1. Modelos, agentes, editores y primitivas
 
 - La industria del software está en plena transformación.
-- Los modelos, agentes, editores y primitivas son las bases del nuevo ecosistema.
+- Los **modelos, agentes, editores y primitivas** son las bases del nuevo ecosistema.
 
 ---
 
