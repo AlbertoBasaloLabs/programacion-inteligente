@@ -1,6 +1,6 @@
 ---
 title: Ecosistema y vibraciones
-description: La IA no te quitará el trabajo, pero lo cambiará para siempre.
+description: No es magia, es tecnología.
 url: 1-0-0-ecosistema_y_vibraciones
 footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
@@ -9,52 +9,19 @@ theme: ab
 
 # 1. Ecosistema y vibraciones
 
-- La IA no te quitará el trabajo, pero lo cambiará para siempre.
+- No es magia, es tecnología.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
-## La inteligencia artificial en desarrollo de software
-
-- La I.A. afecta a todo trabajo **intelectual**.
-
-- Los modelos de lenguaje son excepcionales tratando... **texto**.
-
-- Usar IA para desarrollar no es opcional, es **inevitable**.
-  
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
---- 
-
-## D.A.F.O. de la I.A. en desarrollo de software
-
-- **Debilidades**: La calidad no está garantizada, requiere supervisión.
-- **Amenazas**: El impacto en empleos y dependencia tecnológica.
-- **Fortalezas**: La productividad y creatividad aumentadas.
-- **Oportunidades**: Aprendizaje, innovación y nuevos roles.
-
----
-
 ## Programación Inteligente: 
-
-> **Herramientas y metodología:** _Más allá del auto-completado inteligente_
 
 - Conocer las nuevas **primitivas** de programación con IA.
   - `Skills`, `prompts`, `context`, `specs`, `agents`, `MCPs`.
 - Aplicar la metodología profesional: **AI-Driven Development**. 
   - `Human in the Loop`, `Rules over Tools`, `Spec-Driven Development`. 
-
----
-
-## Disclaimers
-
-- 1. La IA cuesta
-
-- 2. La IA no es determinista
-
-- 3. Ningún robot ha sido dañado durante la producción de este curso
 
 ---
 
