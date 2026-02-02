@@ -2,9 +2,9 @@
 
 ## Review and refactor
 
-- AGENTS.md : Manual update to reflect the changes in the workflow.
-- Product Briefing : Pending and new features to be assigned to Analyst.
-- DevOps : Add responsibility to verify the specifications with an E2E test.
+- **AGENTS.md** : Manual update to reflect the changes in the workflow.
+- **Product Briefing** : Pending and new features to be assigned to Analyst.
+- **DevOps** : Add responsibility to verify the specifications with an E2E test.
 
 ## Workflow
 

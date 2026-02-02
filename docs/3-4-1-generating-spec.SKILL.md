@@ -14,6 +14,7 @@ Act as a software analyst.
 ## Task
 
 Write the specification to implement a feature.
+
 Do not write any code or tests, just the specification.
 
 ## Context

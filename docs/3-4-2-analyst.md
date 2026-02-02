@@ -20,6 +20,10 @@ Act as a senior software developer.
 
 Write specifications and implementation plans for the coding tasks described.
 
+Specifications will be local files in `specs/short-name.spec.md`.
+
+Plan implementations will be GitHub issues linked to the specifications.
+
 Do not write code at this stage.
 
 ## Context
