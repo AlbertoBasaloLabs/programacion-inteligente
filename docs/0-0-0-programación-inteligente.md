@@ -7,12 +7,11 @@ marp: true
 theme: ab
 ---
 
-# 1. Ecosistema y vibraciones
+# 0. Programación Inteligente
 
-- La IA no te quitará el trabajo, pero lo cambiará para siempre.
+**La IA no te quitará el trabajo, pero lo cambiará para siempre.**
 
-#### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+> _No es magIA, es tecnología._
 
 ---
 
@@ -24,16 +23,15 @@ theme: ab
 
 - Usar IA para desarrollar no es opcional, es **inevitable**.
   
-#### Programación Inteligente
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
---- 
+---
 
-## D.A.F.O. de la I.A. en desarrollo de software
+## Tecnología y metodología
 
-- **Debilidades**: La calidad no está garantizada, requiere supervisión.
-- **Amenazas**: El impacto en empleos y dependencia tecnológica.
-- **Fortalezas**: La productividad y creatividad aumentadas.
-- **Oportunidades**: Aprendizaje, innovación y nuevos roles.
+- **Human in the Loop**: La supervisión humana es esencial.
+- **Rules over Tools**: La metodología es más importante que la herramienta.
+- **Spec-Driven Development**: Especificaciones claras guían el desarrollo.
+  ### Metodología > tecnología
+> Aplica todo lo que aprendas con cualquier herramienta IA y stack tecnológico.
 
 ---
 
@@ -44,15 +42,6 @@ theme: ab
 - 2. La IA no es determinista
 
 - 3. Ningún robot ha sido dañado durante la producción de este curso
-
----
-## Herramientas y metodología
-
-- **Human in the Loop**: La supervisión humana es esencial.
-- **Rules over Tools**: La metodología es más importante que la herramienta.
-- **Spec-Driven Development**: Especificaciones claras guían el desarrollo.
-  
-> Todo lo que aprendas es aplicable a cualquier herramienta de IA.
 
 --- 
 
