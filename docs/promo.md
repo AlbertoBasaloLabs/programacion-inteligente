@@ -28,8 +28,8 @@ En este curso te enseño cómo usar la IA para programar:
 Al finalizar este curso podrás usar la IA para:
 
 - **Crear y mantener**  
+- **Proyectos profesionales**
 - **En todo el ciclo de desarrollo**  
-- **Productos profesionales en producción**
 
 ---
 
@@ -37,9 +37,9 @@ Al finalizar este curso podrás usar la IA para:
 
 En el curso de Programación Inteligente aprenderás a:
 
-- Pasar del *vibe coding* al **spec-driven development** 
+- Pasar del *vibe coding* al **spec-driven development**. 
 - Definir reglas, instrucciones y skills para **configurar tus agentes**.
-- Tratar los _prompts_ como **código versionable y mantenible**
+- Tratar los _prompts_ como **código versionable y mantenible**.
 
 
 ---
@@ -48,9 +48,9 @@ En el curso de Programación Inteligente aprenderás a:
 
 Este curso es para ti si:
 
-- Eres **desarrollador profesional**
-- Ya **usas IA**, pero sin un sistema consolidado
-- **Te preocupas** por la calidad, la mantenibilidad y el control
+- Eres **desarrollador profesional**.
+- Ya **usas IA**, pero sin una metodología clara.
+- **Te preocupas** por la calidad, la mantenibilidad y el control.
 
 ---
 
