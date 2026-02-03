@@ -2,7 +2,7 @@
 title: Generar código es la parte fácil
 description: Con especificaciones y reglas claras, la IA se encarga de la implementación.
 url: 5-1-0-generar_codigo_es_la_parte_facil
-footer: 5.1. Generar código es la parte fácil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 5.1. Generar código es la parte fácil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Con especificaciones y reglas claras, la IA se encarga de la implementación.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
@@ -31,7 +31,7 @@ theme: ab
 - **Plan & tasks**:
   - Seguir el plan de forma ordenada y estructurada.
   - Ejecutar y marcar las tareas completadas.
-- **Rules & Instructions**:
+- **Rules & Skills**:
   - Guiar el estilo, convenciones y restricciones técnicas.
   - Evitar alucinaciones o soluciones fuera de arquitectura.
 

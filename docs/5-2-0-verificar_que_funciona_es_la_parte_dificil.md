@@ -2,7 +2,7 @@
 title: Verificar que funciona es la parte difícil
 description: El rol del desarrollador evoluciona hacia auditor y tester.
 url: 5-2-0-verificar_que_funciona_es_la_parte_dificil
-footer: 5.2. Verificar que funciona es la parte difícil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 5.2. Verificar que funciona es la parte difícil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - El rol del desarrollador evoluciona hacia auditor y tester.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 
 ---
 
@@ -21,7 +21,7 @@ theme: ab
 
 - **Trust but Verify**
   - El código puede parecer correcto, pero tener fallos lógicos sutiles.
-  - La "fatiga de revisión" es el nuevo enemigo.
+  - La _fatiga de revisión_ es el nuevo enemigo.
 - **¿Quién prueba al probador?**
   - Si la IA escribe los tests y el código, ¿quién asegura la validez?
 

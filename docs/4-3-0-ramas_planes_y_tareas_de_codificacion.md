@@ -2,7 +2,7 @@
 title: Ramas, planes y tareas de codificación
 description: Organizar el trabajo de codificación en tareas manejables y controlables.
 url: 4-3-0-ramas_planes_y_tareas_de_codificacion
-footer: 4.3. Ramas, planes y tareas de codificación. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 4.3. Ramas, planes y tareas de codificación. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Organizar el trabajo de codificación en tareas manejables y controlables.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
@@ -52,7 +52,7 @@ theme: ab
 {short description of the step}
 - [ ] {One line Task 1 description}
 ---
-- Use GitHub MCP to create issue
+- Use GitHub MCP to create issue or file system task list
 - Use Terminal tool to create branch
 ```
 ---

@@ -2,7 +2,7 @@
 title: Flujo de trabajo basado en especificaciones
 description: Organizar primitivas de programación con IA en un flujo de trabajo profesional.
 url: 4-0-0-flujo_de_trabajo_basado_en_especificaciones
-footer: 4. Flujo de trabajo basado en especificaciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 4. Flujo de trabajo basado en especificaciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 marp: true
 theme: ab
 ---
@@ -12,7 +12,8 @@ theme: ab
 - Organizar primitivas de programación con IA en un flujo de trabajo profesional.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
+
 ---
 
 ## De las primitivas al flujo de trabajo
@@ -38,12 +39,11 @@ theme: ab
 
 ---
 
-## Fases del flujo de trabajo
+## Fases del flujo de trabajo de SDD
 
 - **Análisis**: Requerimientos y arquitectura del sistema.
 - **Especificación**:especificaciones funcionales y técnicas detalladas.
 - **Planificación**: Ramas, pasos y tareas.
-- **Ejecución**: Codificación, verificación y documentación.
 
 ---
 

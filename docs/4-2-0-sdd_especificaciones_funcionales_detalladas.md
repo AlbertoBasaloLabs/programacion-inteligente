@@ -2,7 +2,7 @@
 title: SDD, especificaciones funcionales detalladas
 description: Spec-Driven Development implica detallar qué construir y cómo verificarlo.
 url: 4-2-0-sdd_especificaciones_funcionales_detalladas
-footer: 4.2. SDD, especificaciones funcionales detalladas. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+footer: 4.2. SDD, especificaciones funcionales detalladas. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Spec-Driven Development implica detallar qué construir y cómo verificarlo.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 2026
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 
 ---
 
@@ -30,13 +30,10 @@ theme: ab
 
 - **Specs**:
   - Especificaciones funcionales detalladas en lenguaje natural.
-  - Define qué construir y cómo verificarlo.
+  - Define qué construir y cómo verificarlo, sin detalles de implementación.
 - **Spec-Driven Development**:
   - Las especificaciones son el punto de partida del desarrollo.
   - Y el hilo conductor durante la generación y verificación del código.
-- **Prompt de especificación**:
-  - Aplicar _Prompt as Code_ y tratar `specs as code`.
-  - Reutilizar plantillas y patrones de especificación.
 
 ---
 
