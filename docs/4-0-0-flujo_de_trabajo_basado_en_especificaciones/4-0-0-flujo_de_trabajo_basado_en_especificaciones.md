@@ -19,8 +19,8 @@ theme: ab
 ## De las primitivas al flujo de trabajo
 
 - Ya conocemos las **primitivas** de programación con IA.
-  - `prompts`, `instructions`, `IDEtools`, `agents`, `skills`, `MCPtools`.
-  - Las `specs` como hilo conductor de lo que queremos construir y validar.
+  - `agents`, `prompts`, `rules`, `skills`, `tools`.
+  - Las `specs` como base de lo que queremos construir y validar.
 - Ahora las organizamos en un **flujo de trabajo estructurado**.
   - Siguiendo la metodología **AI-Driven Development**.
 
@@ -31,16 +31,21 @@ theme: ab
 - Las especificaciones son el **punto de partida** del desarrollo.
   - Definen qué construir y cómo verificarlo.
 - El grosor de las especificaciones varía según la fase del proyecto.
-  - Desde esbozos iniciales (`briefing`, `PRD`) 
-  - Hasta documentos detallados (`SDD`, `User stories`, `Acceptance criteria`).
+  - Desde esbozos iniciales:
+    - `briefing`, `PRD`  
+  - Hasta documentos detallados: 
+    - `SDD`, `User stories`, `Acceptance criteria`.
 
 ---
 
 ## Fases del flujo de trabajo de SDD
 
-- **Análisis**: Requerimientos y arquitectura del sistema.
-- **Especificación**:especificaciones funcionales y técnicas detalladas.
-- **Planificación**: Pasos, tareas y ramas.
+- **Análisis**: 
+  - Requerimientos y arquitectura del sistema.
+- **Especificación**: 
+  - Detalles de una funcionalidad, corrección o mejora.
+- **Planificación**: 
+  - Pasos ordenados y listas de tareas para implementar una solución.
 
 ---
 
