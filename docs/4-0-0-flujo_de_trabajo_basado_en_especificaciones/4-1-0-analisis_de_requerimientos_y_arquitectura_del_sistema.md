@@ -2,7 +2,7 @@
 title: Análisis de requerimientos y arquitectura del sistema
 description: La primera fase del workflow es entender el problema y diseñar la solución.
 url: 4-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema
-footer: 4.1. Análisis de requerimientos y arquitectura del sistema. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 4.1. Análisis de requerimientos y arquitectura del sistema. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - La primera fase del workflow es entender el problema y diseñar la solución.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
@@ -28,33 +28,46 @@ theme: ab
 
 ## Conceptos
 
-- **Análisis de requerimientos**:
+- **Análisis de requerimientos** - > `PRD.md`:
   - Identificar y documentar las necesidades del sistema.
-  - Separar funcionalidades esenciales de las deseables.
-  - Definir casos de uso y escenarios principales.
-- **Arquitectura del sistema**:
+  - Definir funcionalidades y restricciones técnicas.
+- **Arquitectura del sistema** -> `ADD.md` 
   - Diseñar la estructura y stack tecnológico del software.
-  - Definir componentes, capas y responsabilidades.
   - Establecer patrones y principios arquitectónicos.
+- **Reglas de agentes** -> `AGENTS.md`
+  - Guiar en el proceso de desarrollo con agentes IA.
+  - Asegurar que los agentes sigan la arquitectura definida.
 
 ---
 
 ## Concreción
 
-- `1` **Analyst Agent**: `Generating PRD from idea or existing project`
+- `1` **Analyst Agent**: `Generate PRD from idea or existing project`
 ```md
 # Product Requirements Document.
 ## Vision and Scope
 ## Functional Requirements
 ## Technical Requirements
 ```
-- `2` **Architect Agent**: `Generating ADD from PRD and current architecture`
+
+---
+
+- `2` **Architect Agent**: `Generate ADD and AGENTS from PRD and current project`
 ```md
 # Architecture Design Document.
 ## Stack and tooling
 ## Systems architecture
 ## Software architecture
 ```
+```md
+# Agents Rules Document.
+## Tech stack
+## Dev workflow
+## Folder structure
+## Environment
+## Behaviors
+```
+
 ---
 
 ## Conclusión

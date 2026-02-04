@@ -11,7 +11,7 @@ handoffs:
     send: true
   - label: Architectural Design
     agent: Architect
-    prompt: Write the Architectural Design Document (ADD) and the AGENTS.md rules
+    prompt: Write the Architectural Design Document and the AGENTS.md rules
     send: true
 ---
 # Analyst
