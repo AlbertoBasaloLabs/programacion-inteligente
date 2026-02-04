@@ -5,25 +5,37 @@ description: >
   To be used for planning the implementation of feature specifications.
 ---
 
-# Plan Specifications
+# Generate Plan Skill
+
+Write a detailed implementation plan for a given feature specification.
+
+The plan will be a set of ordered steps, each with specific tasks to complete.
 
 ## Context
 
-- Read any architecture documentation or coding guides to understand the project structure and conventions.
-- Analyze the specification provided to understand the requirements and scope.
+- [The Specification file](.agents/specs/?short-name.spec.md)
+- [Architectural Design Document](.agents/ADD.md)
 
-## Steps
+## Steps to follow:
 
-1. Think about a detailed implementation plan for the specification.
-2. Break down the implementation into 3 to 9 steps with 2 to 5 tasks each.
-3. Follow the format in the [Implementation Plan template](./PLAN.md).
-4. Add the plan to the issue body after the specification content.
-5. Ensure the plan is clear and actionable with checkboxes for each task.
-6. Add/Update references for the implementation at the start of the plan.
+### Step 1: Think about the overall implementation.
+ - [ ] Understand the specification requirements.
+ - [ ] Consider the architecture and design constraints from the ADD.
+ - [ ] Choose the simplest viable approach to implement the spec.
+### Step 2: Decompose the implementation in steps.
+ - [ ] Break down the implementation into 3 to 9 steps 
+ - [ ] Ensure each step is an ordered logical unit of work.
+### Step 3: Define tasks for each step.
+ - [ ] For each step, list specific tasks (<= 5) needed to complete it.
+ - [ ] Ensure tasks are clear and actionable.
+### Step 4: Write the implementation plan.
+ - [ ] Follow the format in the [Implementation Plan template](./PLAN.md).
+ - [ ] Write the plan to a markdown file at `.agents/tasks/short-name.plan.md`.
+### Step 5: Review and finalize the plan.
+ - [ ] Ensure the plan is comprehensive and feasible.
+ - [ ] Mark the specification status as "Planned" at the top of the spec file.
 
-### Example reference
-````markdown
-- **Specification**: [feat-launch-scheduling.spec.md](https://github.com/AlbertoBasalo/astro-bookings-express/blob/main/specs/feat-launch-scheduling.spec.md)
-- **PRD**: [FR2 Launch Scheduling](https://github.com/AlbertoBasalo/astro-bookings-express/blob/main/PRD.md#fr2-launch-scheduling)
-- **Branch**: [feat/launch-scheduling](https://github.com/AlbertoBasalo/astro-bookings-express/tree/feat/launch-scheduling)
-````
+## Output Checklist
+
+- [ ] A detailed implementation plan at `.agents/tasks/short-name.plan.md`.
+- [ ] The specification status updated to "Planned" in the spec file.
