@@ -3,7 +3,7 @@ name: Analyst
 description: Makes the functional and technical analysis for a product
 argument-hint: Provide an idea, briefing document or the current project to start the analysis
 model: Auto (copilot)
-tools: ['read', 'edit', 'search', 'web', 'agent', 'todo']
+tools: ['read', 'edit', 'search', 'web', 'agent', 'todo','execute']
 handoffs: 
   - label: Commit documentation
     agent: Analyst
