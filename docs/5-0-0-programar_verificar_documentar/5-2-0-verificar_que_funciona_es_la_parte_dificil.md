@@ -2,7 +2,7 @@
 title: Verificar que funciona es la parte difícil
 description: El rol del desarrollador evoluciona hacia auditor y tester.
 url: 5-2-0-verificar_que_funciona_es_la_parte_dificil
-footer: 5.2. Verificar que funciona es la parte difícil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
+footer: 5.2. Verificar que funciona es la parte difícil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - El rol del desarrollador evoluciona hacia auditor y tester.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 
 ---
 
@@ -30,12 +30,13 @@ theme: ab
 ## Conceptos
 
 - **Testing Automatizado**:
-  - Unitarios, integración y E2E.
+  - Pruebas en un agente independiente.
   - Imprescindibles para detectar defectos.
 - **Qué, cuándo y quién**:
-  - Implementación o criterios de aceptación.
-  - Antes, durante o después de la codificación.
-  - Humano, el agente, otro agente.
+  - Probamos que la implementación cumple con los criterios de aceptación.
+  - Después de cada iteración de codificación.
+  - Agente tester y humano.
+
 
 ---
 

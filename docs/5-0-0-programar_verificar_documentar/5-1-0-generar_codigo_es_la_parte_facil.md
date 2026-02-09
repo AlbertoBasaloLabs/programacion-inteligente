@@ -2,7 +2,7 @@
 title: Generar código es la parte fácil
 description: Con especificaciones y reglas claras, la IA se encarga de la implementación.
 url: 5-1-0-generar_codigo_es_la_parte_facil
-footer: 5.1. Generar código es la parte fácil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 5.1. Generar código es la parte fácil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,16 +13,16 @@ theme: ab
 - Con especificaciones y reglas claras, la IA se encarga de la implementación.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
 ## Conexión
 
-- **¿Cuánto tiempo pasas tecleando código boilerplate?**
+- **¿Cuánto tiempo pasas tecleando _boilerplate_?**
   - La IA puede generar en segundos lo que a ti te lleva horas.
-- **¿El miedo al código generado por IA?**
-  - Surge cuando no hay control ni contexto. 
+- **¿Tienes miedo al código generado por IA?**
+  - Tranquilidad, eso surge cuando no hay control ni contexto. 
 
 ---
 
@@ -30,11 +30,10 @@ theme: ab
 
 - **Plan & tasks**:
   - Seguir el plan de forma ordenada y estructurada.
-  - Ejecutar y marcar las tareas completadas.
 - **Rules & Skills**:
-  - Guiar el estilo, convenciones y restricciones técnicas.
-  - Evitar alucinaciones o soluciones fuera de arquitectura.
-
+  - Guiar el estilo, convenciones y restricciones para evitar alucinaciones.
+- **¿Pruebas?**
+  - Sí, unitarias para mejorar la calidad, pero no como verificación principal.
 ---
 
 ## Concreción

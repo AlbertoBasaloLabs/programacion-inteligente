@@ -2,7 +2,7 @@
 title: Documentar los cambios es la parte crítica
 description: Mantener la documentación viva para mantener el producto.
 url: 5-3-0-documentar_los_cambios_es_la_parte_critica
-footer: 5.3. Documentar los cambios es la parte crítica. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 5.3. Documentar los cambios es la parte crítica. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Mantener la documentación viva para mantener el producto.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
