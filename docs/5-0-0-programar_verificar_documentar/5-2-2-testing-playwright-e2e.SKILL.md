@@ -1,8 +1,6 @@
 ---
-name : testing-playwright-e2e
-description : >
-  Writes end-to-end tests with Playwright.
-  To be used for verifying acceptance criteria through automated tests.
+name : testing-e2e-playwright
+description : "Writes end-to-end tests with Playwright. To be used for verifying acceptance criteria through automated tests."
 ---
 # Playwright Testing Skill
 
@@ -31,6 +29,29 @@ Organize your tests in a clear and maintainable structure. A common structure in
   - **Act**: Perform the actions to be tested.
   - **Assert**: Verify the expected outcomes.
 
+## Steps to follow when writing tests
+
+### 1. Before Testing:
+- Commit any pending changes from the implementation phase
+- Verify the implementation builds without errors: `npm run build`
+- Ensure the development server can start: `npm run dev`
+- Read the specification file to understand acceptance criteria
+
+### 2. During Testing:
+- Read the implementation plan 
+- Follow the plan for testing tasks at the issue body step by step
+- Start the development server: `npm run dev` (separate terminal)
+- Create test files in `tests/` directory following naming pattern: `*.spec.ts`
+- Test each acceptance criterion from the specification
+
+### 3. After Testing:
+- Ensure all tests pass successfully
+- If tests fail, investigate and try to fix it if possible, otherwise:
+  - report the issues
+- Stop the development server to free resources
+- Commit the test files with a message summarizing completed test coverage
+
+
 ## Running Tests
 
 - Use the Playwright Test Runner to execute tests.
@@ -43,3 +64,9 @@ Organize your tests in a clear and maintainable structure. A common structure in
 - After all tests have been executed and passed successfully.
 - If tests keep failing after multiple attempts and need debugging.
   
+## Output Checklist
+
+- [ ] All test changes made on the same git branch created for implementation
+- [ ] Modified or newly created test code files in `tests/` directory
+- [ ] All testing tasks in the plan are completed or reported if not possible
+- [ ] A commit with a message summarizing the completed test coverage and any issues found
