@@ -1,8 +1,6 @@
 ---
 name: releasing-version
-description: >  
-  Updates documentation, generates changelogs, and handles versioning.
-  To be used for automating release tasks. 
+description: "Updates documentation, generates changelogs, and handles versioning. To be used for automating release tasks."
 ---
 
 # Releasing Version Skill
@@ -12,16 +10,16 @@ Automate the process of managing releases, including:
   - generating changelogs, 
   - and handling versioning.
 
-Use terminal git commands as needed.
+Use terminal `git` commands as needed.
 
 ## Step 1: Update Documentation
 
+- [ ] [ADD.md](/ADD.md) update/add architectural decisions (If any).
+- [ ] [PRD.md](/PRD.md) and/or [specs](/specs) current features status (If any).
 - [ ] [AGENTS.md](/AGENTS.md) : update to reflect changes.
   - tech stack, 
   - setup/dev instructions, 
   - folder structure are accurate.
-- [ ] [PRD.md](/PRD.md) and/or [specs](/specs) current features status (If any).
-- [ ] [ADD.md](/ADD.md) update/add architectural decisions (If any).
 
 ## Step 2: Generate Changelog
 

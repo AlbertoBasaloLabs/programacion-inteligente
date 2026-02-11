@@ -5,9 +5,9 @@ argument-hint: Provide the issue number or specification file to start testing
 model: Auto (copilot)
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'github/*', 'agent', 'todo']
 handoffs: 
-  - label: Document and Release
-    agent: DevOps
-    prompt: write documentation and release the implementation
+  - label: Clean
+    agent: Cleaner
+    prompt: clean up the implementation
     send: true
 ---
 # Tester
@@ -40,6 +40,6 @@ If not provided explicitly, ask for them before proceeding.
 
 ### Skills to use
 
-- `testing-playwright-e2e` — Writes end-to-end tests with Playwright following the layered architecture patterns
+- `testing-e2e-playwright` — Writes end-to-end tests with Playwright following the layered architecture patterns
 
 

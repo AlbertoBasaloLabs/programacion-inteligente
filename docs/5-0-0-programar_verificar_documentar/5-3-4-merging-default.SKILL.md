@@ -1,6 +1,8 @@
 ---
 name: merging-default
-description: "Integrates git branches into default to keep it up to date.To be used when merging current branch into main or master branch"
+description: >  
+  Integrates git branches into default to keep it up to date. 
+  To be used when merging current branch into main or master branch
 ---
 
 # Merging Current Branch into Main
