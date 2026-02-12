@@ -1,13 +1,17 @@
 # Programación Inteligente
-Laboratorio para el curso de programación inteligente
+Documentación para el curso de programación inteligente
 
-Domina las nuevas primitivas de programación con IA para desarrollos más productivos y de calidad; pasando del Vibe Coding a la Spec-Driven Development.
+Domina las nuevas primitivas de programación con IA para desarrollos más productivos y de calidad; 
+Pasa del Vibe Coding a la Spec-Driven Development.
+
 - **Documentación**: [Programación Inteligente](./docs/programacion_inteligente.md)
 - **Repository**: [GitHub/AlbertoBasaloLabs/programacion-inteligente](https://github.com/AlbertoBasaloLabs/programacion-inteligente)
-
 ---
+
 ## Sample project : Astro-Bookings
 API mínima en TypeScript y Express .
+
+- **Ejemplo de proyecto**: [Astro-Bookings-Demo](https://github.com/AlbertoBasaloAcademy/astro-bookings-demo)
 
 ---
 

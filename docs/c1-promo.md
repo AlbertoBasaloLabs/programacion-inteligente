@@ -41,7 +41,6 @@ En el curso de Programación Inteligente aprenderás a:
 - Definir reglas, instrucciones y skills para **configurar tus agentes**.
 - Tratar los _prompts_ como **código versionable y mantenible**.
 
-
 ---
 
 ## ¿Eres el estudiante ideal?
@@ -53,7 +52,6 @@ Este curso es para ti si:
 - **Te preocupas** por la calidad, la mantenibilidad y el control.
 
 ---
-
 
 ## Learn to code smarter!
 
