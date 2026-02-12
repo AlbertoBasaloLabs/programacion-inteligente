@@ -2,7 +2,7 @@
 title: Primitivas de programación con IA
 description: La programación con IA tiene nuevas primitivas que aplican a todo el ciclo de vida del desarrollo de software
 url: 3-4-0-primitive_summary
-footer: Introducción a la programación con IA [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: Introducción a la programación con IA [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
