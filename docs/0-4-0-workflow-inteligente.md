@@ -6,8 +6,8 @@ footer: Programación Inteligente. [AlbertoBasalo](https://albertobasalo.dev)@[A
 marp: true
 theme: ab
 ---
-
-# 0. Programación Inteligente
+LOVE_AI_CODEACADEMY
+# 0. Workflow Inteligente
 
 **La IA no te quitará el trabajo, pero lo cambiará para siempre.**
 
