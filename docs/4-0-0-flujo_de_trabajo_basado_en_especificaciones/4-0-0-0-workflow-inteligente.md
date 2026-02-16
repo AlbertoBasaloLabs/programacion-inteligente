@@ -6,7 +6,7 @@ footer: Programación Inteligente. [AlbertoBasalo](https://albertobasalo.dev)@[A
 marp: true
 theme: ab
 ---
-LOVE_AI_CODEACADEMY
+
 # 0. Workflow Inteligente
 
 **La IA no te quitará el trabajo, pero lo cambiará para siempre.**
@@ -15,27 +15,27 @@ LOVE_AI_CODEACADEMY
 
 ---
 
-## La inteligencia artificial en desarrollo de software
+## Los workflows de desarrollo con I.A.
 
-- La I.A. afecta a todo trabajo **intelectual**.
+- Un `prompt` aislado no es suficiente
+  
+- Un `chat` interminable no es eficiente
 
-- Los modelos de _lenguaje_ son excepcionales tratando... **texto**.
-
-- Programar es escribir texto que una máquina puede **entender y ejecutar**.
-
-- Usar IA para desarrollar no es opcional, es **inevitable**.
+- Necesitamos un **proceso** inteligente
   
 ---
 
-## Tecnología y metodología
+## Especificaciones y habilidades
 
-> Aplica todo lo que aprendas con cualquier herramienta IA y stack tecnológico.
+> Decirle a tu agente qué hacer y enseñarle cómo hacerlo.
 
-  ### Metodología > tecnología
-- **Human in the Loop**: La supervisión humana es esencial.
-- **Rules over Tools**: La metodología es más importante que la herramienta.
-- **Spec-Driven Development**: Especificaciones claras guían el desarrollo.
-
+### Spec-Driven Development
+- Detalle del problema
+- Boceto de la solución
+- Criterios de aceptación
+### Agent skills
+- Conocimientos reutilizables 
+- Estandarizados y automáticos
 ---
 
 ## Disclaimers

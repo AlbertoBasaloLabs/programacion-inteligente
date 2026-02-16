@@ -2,6 +2,8 @@
 title: Programación Inteligente
 description: Introducción al desarrollo profesional con IA
 footer: Programación Inteligente [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+slug: https://www.udemy.com/course/programacion-inteligente-desarrollo-profesional-con-ia
+subitle: Domina Copilot, Cursor o ClaudeCode y crea software mantenible superando el vibe-coding con specs, skills y agents.
 marp: true
 theme: ab
 ---
