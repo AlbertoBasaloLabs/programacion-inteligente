@@ -68,11 +68,12 @@ Este curso está orientado a **desarrolladores profesionales** que:
 - [`5.2.`](5-2-0-verificar_que_funciona_es_la_parte_dificil.md) Verificar que funciona es la parte difícil
 - [`5.3.`](5-3-0-documentar_los_cambios_es_la_parte_critica.md) Documentar los cambios es la parte crítica
 
-### [`6.`](6-0-0-calidad_productividad_y_mantenimiento.md) Calidad, productividad y mantenimiento
+### [`6.`](6-0-0-calidad_y_evolucion_continua_mediante_roles_con_agentes/6-0-0-calidad_y_evolucion_continua_mediante_roles_con_agentes.md) Calidad y evolución continua mediante roles con agentes
 
-- [`6.1.`](6-1-0-refactoring_inteligente_y_deuda_tecnica.md) Refactoring inteligente y deuda técnica
-- [`6.2.`](6-2-0-orquestacion_en_paralelo_y_en_la_nube.md) Orquestación en paralelo y en la nube
-- [`6.3.`](6-3-0-mejora_continua_del_producto_y_de_las_primitivas.md) Mejora continua del producto y de las primitivas
+- [`6.1.`](6-0-0-calidad_y_evolucion_continua_mediante_roles_con_agentes/6-1-0-rol_architect_orquestacion_de_agentes_en_paralelo_para_soluciones_complejas.md) Rol Architect: orquestación de agentes en paralelo para soluciones complejas
+- [`6.2.`](6-0-0-calidad_y_evolucion_continua_mediante_roles_con_agentes/6-2-0-rol_builder_bucles_iterativos_orientados_a_objetivos_guiados_por_specs.md) Rol Builder: bucles iterativos orientados a objetivos guiados por specs
+- [`6.3.`](6-0-0-calidad_y_evolucion_continua_mediante_roles_con_agentes/6-3-0-rol_craftsman_refactoring_y_mejora_continua_del_producto_y_de_las_primitivas_ia.md) Rol Craftsman: refactoring y mejora continua del producto y de las primitivas IA
+
 
 ---
 
