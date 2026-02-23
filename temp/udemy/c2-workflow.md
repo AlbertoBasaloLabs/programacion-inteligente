@@ -1,15 +1,15 @@
-# Programación Inteligente: Workflow profesional con Specs y Agents
+# Workflow Inteligente, con Specs y Agentes IA
 
-Escala tu desarrollo con AI-Driven Development. Del caos del chat a la ingeniería de software asistida.
+Domina las Agent Skills y el Spec-Driven Development para crear proyectos mantenibles y de calidad.
 
 ## Lo que aprenderás
 
-- Dominar el flujo de trabajo Spec-Driven Development
-- Crear especificaciones funcionales (PRD, SDD) que guíen a la IA
-- Planificar la implementación con tareas pequeñas y verificables
-- Verificar código generado automáticamente con tests rigurosos
-- Mantener la documentación viva y sincronizada con el código
-- Orquestar agentes para análisis, codificación, testing y documentación
+- Implementar la metodología Spec-Driven Development (SDD) para generar código correcto desde el inicio.
+- Realizar un análisis de requerimientos y arquitectura que sirva de contexto sólido para la IA.
+- Dividir especificaciones en tareas pequeñas, controlables y verificables.
+- Gestionar el ciclo de vida: Programar (fácil), Verificar (difícil) y Documentar (crítico).
+- Utilizar la verificación como una red de seguridad para aprovechar la velocidad de la IA sin riesgos.
+- Mantener la sostenibilidad del proyecto mediante la actualización continua de artefactos y documentación.
 
 ## Contenido del curso
 
@@ -36,7 +36,7 @@ Aprenderás a implementar la metodología **AI-Driven Development**:
 3.  **Verificar para confiar**: La IA alucina y comete errores sutiles; aprenderás a usar esquemas de validación y testing para cazarlos antes de que lleguen a producción.
 4.  **Documentar para escalar**: Convertir la documentación en un activo vivo, actualizado por la propia IA como parte del proceso de desarrollo.
 
-Si quieres dejar de corregir código generado a ciegas y volver a ser el **Ingeniero** que diseña el sistema, este es tu siguiente paso.
+Si quieres dejar de corregir código generado a ciegas y volver a ser el **Ingeniero** que diseña el sistema, este es tu siguiente paso. Aprende a componer flujos de trabajo usando las nuevas primitivas de programación con IA: _agents, skills y specs._
 
 **La IA no note quitará el trabajo, pero lo cambiará para siempre.**
 
