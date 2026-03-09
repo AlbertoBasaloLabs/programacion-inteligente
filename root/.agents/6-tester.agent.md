@@ -45,4 +45,4 @@ If not provided explicitly, ask for them before proceeding.
 
 ### Skills to use
 
-- `testing-e2e-playwright` — Writes end-to-end tests with Playwright following the layered architecture patterns
+Apply relevant coding skills based on the technology stack specified in the requirements.
