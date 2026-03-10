@@ -22,8 +22,8 @@
   },
   "material-icon-theme.folders.associations": {
     ".agents": "robot",
-    "agents": "robot",
-    "prompts": "robot",
-    "skills": "robot",
+    "agents": "prompts",
+    "prompts": "prompts",
+    "skills": "prompts",
   }
 }
