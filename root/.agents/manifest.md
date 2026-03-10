@@ -4,7 +4,11 @@ Paths and descriptions for agent-related files and directories in the project.
 
 # PROJECT MAP 
 
-Agents Folders Values: `.agents` | `.github` | `.cursor` | `.claude` | `.codex` 
+## Agent based folders
+
+Available Values: `.agents` | `.claude` | `.codex` | `.cursor` | `.github` 
+
+## {Variables}
 
 {Root_Folder} : `/`
 {Agents_Folder} : `.agents` 
