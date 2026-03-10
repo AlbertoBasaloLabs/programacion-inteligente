@@ -1,8 +1,8 @@
 ---
-title: Rol Architect: orquestación de agentes en paralelo para soluciones complejas
+title: Rol Architect, orquestación de agentes en paralelo para soluciones complejas
 description: De programar funciones a diseñar sistemas de agentes colaboradores.
 url: 6-1-0-rol_architect_orquestacion_de_agentes_en_paralelo_para_soluciones_complejas
-footer: 6.1. Architect: orquestación de agentes en paralelo. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 6.1. Architect orquestación de agentes en paralelo. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -28,27 +28,32 @@ theme: ab
 
 ## Conceptos
 
-- **Orquestación vs Coreografía**:
-  - Control centralizado vs interacción autónoma. 
-  - En IA, la orquestación suele ser más efectiva y segura.
 - **Roles y Especialización**:
-  - Definir agentes con _context_, _skills_ y _tools_ reducidos y específicos.
+  - Orquestador.
+  - Workers especializados (analista, arquitecto, product owner).
 - **Topologías**:
-  - Secuencial (Pipeline), Jerárquica (Orchestrator/Worker), Red (Mesh).
+  - Secuencial (Pipeline), Jerárquica (Orchestrator/Worker)
 
 ---
 
 ## Concreción
 
+- Rol orquestador del arquitecto:
+  - Coordina agentes especializados para análisis, diseño y especificación.
+  - Secuencialmente o en paralelo según la independencia de las tareas.
+- Agentes trabajadores:
+  - `analyst`: Análisis de PRD, investigación y refinamiento.
+  - `architect`: Diseño de arquitectura, ADD y AGENTS.md.
+  - `product-owner`: Redacción de especificaciones para backlog items.
+---
 
+> Refactor de _templates_ en `skills` para mayor claridad.
 
 ---
 
 ## Conclusión
 
-- La IA nos permite ser **Arquitectos de Sistemas Cognitivos**.
-- El valor se desplaza de la implementación del detalle a la **orquestación del proceso**.
-- La complejidad se gestiona mediante la **composición de agentes especializados**.
+- La complejidad se gestiona mediante la **orquestación de agentes especializados**.
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  

@@ -9,7 +9,7 @@ theme: ab
 
 # 6. Calidad y evolución continua mediante roles con agentes
 
-- Roles especializados de IA para arquitectura, construcción y artesanía del software.
+- Roles especializados para arquitectura, construcción y artesanía del software.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
@@ -23,7 +23,11 @@ theme: ab
   - **Architect**: Visión global y orquestación.
   - **Builder**: Ejecución iterativa guiada por specs.
   - **Craftsman**: Mejora continua y refactoring.
+---
 
+> Los `promts` son código.
+> Manténlos actualizados.
+> _Alberto Basalo_
 ---
 
 ## Lecciones

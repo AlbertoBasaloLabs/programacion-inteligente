@@ -1,8 +1,8 @@
 ---
-title: Rol Builder: bucles iterativos orientados a objetivos guiados por specs
+title: Rol Builder, bucles iterativos orientados a objetivos guiados por specs
 description: Ejecución precisa y autónoma basada en especificaciones claras.
 url: 6-2-0-rol_builder_bucles_iterativos_orientados_a_objetivos_guiados_por_specs
-footer: 6.2. Builder: bucles iterativos guiados por specs. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 6.2. Builder, bucles iterativos guiados por specs. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -19,40 +19,41 @@ theme: ab
 
 ## Conexión
 
-- **¿Confías en que la IA entienda tu "intención"?**
-  - La ambigüedad es el enemigo. "Haz que funcione" no es una spec.
-- **Iteración vs Adivinación**:
-  - Un _Builder_ no adivina, ejecuta instrucciones precisas y verifica el resultado.
+- **¿Confías en tus agentes?**
+  - La tentación de la automatización total. 
+- **¿Cuándo compruebas?**:
+  - Recuerda que tú eres el responsable final .
 
 ---
 
 ## Conceptos
 
 - **Spec-Driven Development (SDD)**:
-  - Escribir la especificación _antes_ que el código. 
-  - La spec es el contrato que el agente debe cumplir.
-- **Bucle de Ejecución**:
-  - `Leer Spec` -> `Generar Plan` -> `Escribir Código` -> `Verificar (Test/Lint)`.
-- **Drift (Desviación)**:
-  - Detectar cuándo el código se aleja de la spec y corregirlo automáticamente.
+  - La especificación guia todo el proceso de construcción. 
+- **Proceso secuencial**:
+  - Leer Spec -> Generar Plan -> Programar -> Verificar -> Cleanup -> Release
 
 ---
 
 ## Concreción
 
-- **Creando un Agente Builder**:
-  - **Input**: Archivo de especificación (Markdown/Gherkin) y codebase actual.
-  - **Instrucción**: "Implementa la funcionalidad descrita en `feature.spec.md` asegurando que pasen los tests definidos."
-  - **Tooling**: Acceso a terminal para correr tests, linter y compilador.
+- Rol orquestador del arquitecto:
+  - **Input**: Archivo de especificación y codebase actual.
   - **Output**: Código implementado y reporte de verificación.
+- Worker agents:
+  - `engineer` : Lee la spec, genera un plan de implementación  
+  - `coder`: Implementa el código según el plan.
+  - `tester`: Verifica que el código cumple la spec. 
+  - `cleaner`: Elimina olores y fomenta el mantenimiento. 
+  - `dev-ops`: Gestiona la integración y documentación.
+---
 
+> Generación/Instalación de `skills` adecuadas al _tech stack_.
 ---
 
 ## Conclusión
 
 - El rol de Builder transforma el desarrollo en un proceso **industrial y predecible**.
-- La calidad depende de la **calidad de la especificación**, no de la "creatividad" del modelo.
-- Reduce la carga cognitiva del desarrollador en la implementación de detalles.
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
