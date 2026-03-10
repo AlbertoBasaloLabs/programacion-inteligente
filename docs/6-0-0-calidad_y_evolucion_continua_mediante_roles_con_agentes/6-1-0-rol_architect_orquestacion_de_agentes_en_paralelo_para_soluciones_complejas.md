@@ -34,20 +34,13 @@ theme: ab
 - **Roles y Especialización**:
   - Definir agentes con _context_, _skills_ y _tools_ reducidos y específicos.
 - **Topologías**:
-  - Secuencial (Pipeline), Jerárquica (Boss/Worker), Red (Mesh).
+  - Secuencial (Pipeline), Jerárquica (Orchestrator/Worker), Red (Mesh).
 
 ---
 
 ## Concreción
 
-- **Diseño de un sistema multi-agente**:
-  1. Identificar sub-dominios o tareas desacopladas.
-  2. Definir la interfaz de entrada/salida de cada agente.
-  3. Crear el agente orquestador que planifica y delega.
-- **Ejemplo práctico**:
-  - Agente _Researcher_: Busca y resume información.
-  - Agente _Coder_: Genera código basado en el resumen.
-  - Agente _Reviewer_: Verifica el código contra estándares.
+
 
 ---
 
