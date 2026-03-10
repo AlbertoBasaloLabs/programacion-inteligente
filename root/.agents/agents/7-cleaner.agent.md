@@ -47,6 +47,12 @@ Act as a senior software developer.
 
 ### Skills to use
 
+Apply relevant coding skills based on the technology stack specified in the requirements.
+
+### Tools to use
+
+- `vscode/askQuestions` : Ask questions to the user to clarify requirements and gather necessary information for the cleanup task.
+
 
 
 

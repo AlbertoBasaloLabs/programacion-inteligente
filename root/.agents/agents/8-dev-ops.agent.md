@@ -35,7 +35,7 @@ When finished set status changes if applicable:
 
 Work with the changes and history of the current git branch.
 
- - The specification file in `specs/` for the implementation being released.
+ - The specification file for the feature being released.
 
 ### Skills to use
 

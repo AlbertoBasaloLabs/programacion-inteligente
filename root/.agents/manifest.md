@@ -4,13 +4,14 @@ Paths and descriptions for agent-related files and directories in the project.
 
 # PROJECT MAP 
 
-Root: `/` - The root directory of the project, containing all main files and subdirectories.
-Manifest: `.agents/manifest.md` - This file, serving as a path dictionary for agents.
+Agents Folders Values: `.agents` | `.github` | `.cursor` | `.claude` | `.codex` 
 
-## Core Directories
-- **Agents Logic:** `.agents/` (Definitions, Prompts, Skills)
-- **Human Documentation:** `docs/` (User manuals, guides, etc.)
-- **Project Context:** `project/` (PRD, ERM, ADD, Roadmap)
+{Root_Folder} : `/`
+{Agents_Folder} : `.agents` 
+{Manifest_File}: `{Agents_Folder}/manifest.md` 
+{Project_Folder}: `project` 
+{Specs_Folder}: `{Project_Folder}/specs`
+{Plans_Folder}: `{Project_Folder}/specs` 
 
 ## Folder Structure
 
@@ -19,7 +20,7 @@ Manifest: `.agents/manifest.md` - This file, serving as a path dictionary for ag
 ├── AGENTS.md                # General documentation about agents in the project
 ├── CHANGELOG.md             # Main project changelog (released features and changes)
 ├── README.md                # Main project README
-├── .agents/                 # Agent configuration folder
+├── {Agents_Folder}/         # Agent configuration folder
 │   ├── manifest.md          # Path dictionary (this file)
 │   ├── agents/              # Specific agent definitions
 │   ├── prompts/             # Reusable prompts directory
