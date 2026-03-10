@@ -2,25 +2,17 @@
 
 Paths and descriptions for agent-related files and directories in the project.
 
-# 🗺️ PROJECT MAP 
-Root: `/` | Config: `.agents/` | Context: `project/`
+# PROJECT MAP 
 
-## 📂 Core Directories
+Root: `/` - The root directory of the project, containing all main files and subdirectories.
+Manifest: `.agents/manifest.md` - This file, serving as a path dictionary for agents.
+
+## Core Directories
 - **Agents Logic:** `.agents/` (Definitions, Prompts, Skills)
+- **Human Documentation:** `docs/` (User manuals, guides, etc.)
 - **Project Context:** `project/` (PRD, ERM, ADD, Roadmap)
-- **Execution Tracking:** `project/specs/` (Specs & Plans)
 
-## 📍 Key References
-- **Agents Rules:** `AGENTS.md`
-- **Requirements:** `project/PRD.md`
-- **Architecture:** `project/ADD.md` & `ERM.md`
-- **Current Task:** `project/specs/*.plan.md`
-- **Progress:** `project/ROADMAP.md` & `CHANGELOG.md`
-
-## ⚡ Workflow Rules
-1. Check `ROADMAP.md` before starting.
-2. Follow `*.spec.md` & update `*.plan.md` in real-time.
-3. Log major changes in `CHANGELOG.md`.
+## Folder Structure
 
 ```txt
 /                            # Root directory of the project
@@ -29,9 +21,10 @@ Root: `/` | Config: `.agents/` | Context: `project/`
 ├── README.md                # Main project README
 ├── .agents/                 # Agent configuration folder
 │   ├── manifest.md          # Path dictionary (this file)
-│   ├── *.agent.md           # Specific agent definitions
+│   ├── agents/              # Specific agent definitions
 │   ├── prompts/             # Reusable prompts directory
 │   └── skills/              # Skill definitions directory
+└── docs/                    # Human documentation (User manuals, guides, etc.)
 └── project/                 # Project documentation (Product and architecture)
     ├── ADD.md               # Architecture Design Document
     ├── briefing.md          # Project briefing
