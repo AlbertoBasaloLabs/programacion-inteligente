@@ -4,16 +4,25 @@ Paths and descriptions for agent-related files and directories in the project.
 
 # PROJECT MAP 
 
+## Root folder
+
+Available Values: `/`
+{Root_Folder} : `/`
+
 ## Agent based folders
 
 Available Values: `.agents` | `.claude` | `.codex` | `.cursor` | `.github` 
+{Agents_Folder} : `.agents` 
+
+
+## Project context folders
+
+Available Values: `context` | `project` | `docs`
+{Project_Folder}: `project` 
 
 ## {Variables}
 
-{Root_Folder} : `/`
-{Agents_Folder} : `.agents` 
 {Manifest_File}: `{Agents_Folder}/manifest.md` 
-{Project_Folder}: `project` 
 {Specs_Folder}: `{Project_Folder}/specs`
 {Plans_Folder}: `{Project_Folder}/specs` 
 
@@ -30,7 +39,7 @@ Available Values: `.agents` | `.claude` | `.codex` | `.cursor` | `.github`
 │   ├── prompts/             # Reusable prompts directory
 │   └── skills/              # Skill definitions directory
 └── docs/                    # Human documentation (User manuals, guides, etc.)
-└── project/                 # Project documentation (Product and architecture)
+└── {Project_Folder}/        # Project documentation (Product and architecture)
     ├── ADD.md               # Architecture Design Document
     ├── briefing.md          # Project briefing
     ├── ERM.md               # Entity-Relationship Model
