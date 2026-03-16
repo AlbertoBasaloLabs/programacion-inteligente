@@ -12,7 +12,7 @@ theme: ab
 - Roles especializados para arquitectura, construcción y artesanía del software.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+> Por [AlbertoBasalo](https://albertobasalo.dev)
 
 ---
 
@@ -25,9 +25,8 @@ theme: ab
   - **Craftsman**: Mejora continua y refactoring.
 ---
 
-> Los `promts` son código.
-> Manténlos actualizados.
-> _Alberto Basalo_
+> Los `promts`, las `skills` y los `agents` son código.
+> _Manténlos actualizados._
 ---
 
 ## Lecciones
@@ -38,4 +37,4 @@ theme: ab
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
-> [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
+> [**Alberto Basalo**](https://albertobasalo.dev)
