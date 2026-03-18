@@ -31,16 +31,16 @@ theme: ab
 - **Refinado**: Proceso iterativo de mejora.
 - **Validación**: El humano es el responsable.
 
+> Anatomía de un prompt.
+
 ---
 
 ## Concreción
 
-```markdown
-1. Create at root folder a Node app with Typescript modern bare-bone setup.
-2. Add a recent version Express to write an API with a health status endpoint. 
-3. Smoke test with Playwright and commit changes with conventional message. 
-```
 
+- [ ] Crear un proyecto nuevo sin preocuparte por el código.
+  - Un API rest para gestionar reservas de vuelos espaciales.
+  
 --- 
 
 ## Conclusión

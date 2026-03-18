@@ -16,10 +16,10 @@ theme: ab
 
 ---
 
-## Programación Inteligente: 
+## Objetivos: 
 
 - Conocer las nuevas **primitivas** de programación con IA.
-  - `Skills`, `prompts`, `context`, `specs`, `agents`, `MCPs`.
+  - `agents`, `context`, `prompts`, `rules`, `skills`, `specs`, `tools(MCPs)`
 - Aplicar la metodología profesional: **AI-Driven Development**. 
   - `Human in the Loop`, `Rules over Tools`, `Spec-Driven Development`. 
 
