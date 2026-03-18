@@ -10,7 +10,8 @@ theme: ab
 [1. Ecosistema y vibraciones](./1-0-0-ecosistema_y_vibraciones.md)   
 # 1.3. AI-DD, metodología para todo el SDLC
 
-- Metodología profesional para desarrollar software con IA durante todo el ciclo de vida del desarrollo (SDLC).
+- Metodología profesional para desarrollar software con IA...
+  - ...durante todo el ciclo de vida del desarrollo (SDLC).
 
 #### [Programación Inteligente](programacion_inteligente.md)
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
@@ -20,14 +21,19 @@ theme: ab
 ## Conexión
 
 - **¿Puedo mantener el control y la calidad, aumentando la productividad?**
-  - Sí, siguiendo la metodología AI-Driven Development (AI-DD) durante todo el ciclo de vida del desarrollo de software (SDLC).
+  - Sí, con la metodología `AI-DD`: AI-Driven Development.
 
 ---
 
 ## Conceptos
 
-- **Slops**: La IA derrapa por falta de contexto tecnológico o de negocio
-- **Context**: Demasiado o inadecuado contexto confunde a la IA
+- **Slops**: 
+  - La IA derrapa por falta de contexto tecnológico o de negocio
+- **Context**: 
+  - Demasiado o inadecuado contexto confunde a la IA
+
+---
+
 - **Principios AI-DD**: Metodología para todo el SDLC
   - **Human in the Loop**: Verificación en pasos cortos, repetibles y controlables
   - **Rules over Tools**: Guiar con reglas, instrucciones y enseñar habilidades
@@ -36,6 +42,8 @@ theme: ab
 ---
 
 ## Concreción
+
+### AI-Driven Development
 
 - **Spec-Driven Development**: What to build & How to verify it
   - `rockets_spec.prompt.md` -> `rockets.spec.md`
