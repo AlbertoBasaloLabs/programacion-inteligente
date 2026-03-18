@@ -60,7 +60,7 @@ El equivalente moderno a las estructuras de datos y control tradicionales.
 - **CLI**: GitHub Copilot CLI, OpenCode CLI
 - **Plataformas**: GitHub Codespaces
 
-- [↓ GitHub Copilot Feature Matrix](https://docs.github.com/en/copilot/reference/copilot-feature-matrix?tool=ides#features-by-ide)
+- [GitHub Copilot Feature Matrix](https://docs.github.com/en/copilot/reference/copilot-feature-matrix)
 
 ---
 
