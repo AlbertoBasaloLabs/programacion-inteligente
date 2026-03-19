@@ -46,8 +46,9 @@ theme: ab
     - Buenas prácticas: `testing`, `error handling`.
     - Reglas de estilo: `naming`, `formatting`.
 ````markdown
-./github/instructions/ts.instructions.md
-extract health endpoint to its own route controller
+./github/instructions/*.instructions.md
+## Language
+## Clean code
 ````
 --- 
 

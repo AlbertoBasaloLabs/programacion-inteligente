@@ -28,14 +28,14 @@ theme: ab
 
 ## Conceptos
 
-- **AGENTS.md**: 
+- **AGENTS.md** o **.github/copilot-instructions.md** o **CLAUDE.md** : 
   - Fichero donde se definen las reglas generales para los agentes.
 - **Contexto**: 
   - El agente lo agrega SIEMPRE al contexto de sus peticiones.
 - **Alcance**:
   - Aplica al proyecto completo, al usuario o a carpetas específicas.
 - **Contenido**: 
-  - Muy pocas instrucciones muy generales. (_Puede auto generarse_).
+  - Muy pocas instrucciones muy generales. (_Se envía siempre_).
 
 ---
 
@@ -54,7 +54,7 @@ Run the create-agents prompt
 
 ## Conclusión
 
-- Guarda tus reglas generales en uno o más ficheros `AGENTS.md`.
+- Guarda tus reglas generales en un fichero `AGENTS.md` (_o equivalente_).
 - Cuida el contenido para que sea **útil** y relevante.
 - Revisa y **actualiza** periódicamente.
   
