@@ -16,17 +16,17 @@ Do not write code at this stage. Just the plan to implement it.
 
 ## Context  
 
-The app needs a simple logging mechanism using console.log statements.
+The app needs a simple logging mechanism using console statements.
 
 ## Steps to follow:
 
 1. **Define the Problem**: 
   - The application currently lacks logging functionality.
 2. **Plan the Implementation**:
-  - Think about a logging strategy using console.log statements.
+  - Think about a logging strategy using console statements.
   - Divide the implementation into clear, manageable tasks.
 3. **Create the GitHub Issue**:
-  - Create a gitHub issue with the defined problem, and implementation plan.
+  - Create a GitHub issue with the defined problem, and implementation plan.
 
 ## Output Checklist
 
