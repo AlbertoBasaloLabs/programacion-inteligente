@@ -29,7 +29,7 @@ theme: ab
 ## Conceptos
 
 - **Spec-Driven Development (SDD)**:
-  - La especificación guia todo el proceso de construcción. 
+  - La especificación guía todo el proceso de construcción. 
 - **Proceso secuencial**:
   - Leer Spec -> Generar Plan -> Programar -> Verificar -> Cleanup -> Release
 
@@ -37,7 +37,7 @@ theme: ab
 
 ## Concreción
 
-- Rol orquestador del arquitecto:
+- Rol orquestador del builder:
   - **Input**: Archivo de especificación y codebase actual.
   - **Output**: Código implementado y reporte de verificación.
 - Worker agents:
@@ -48,7 +48,8 @@ theme: ab
   - `dev-ops`: Gestiona la integración y documentación.
 ---
 
-> Generación/Instalación de `skills` adecuadas al _tech stack_.
+> Ejecución en piloto automático, con iteraciones de feedback hasta cumplir los criterios de la spec.
+`/autopilot iterate on a spec until its criteria are met, then release`
 ---
 
 ## Conclusión
