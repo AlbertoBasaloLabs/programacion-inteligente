@@ -50,6 +50,8 @@ theme: ab
 
 > Refactor de _templates_ en `skills` para mayor claridad.
 
+`@Architect update current documentation based on your new skills`
+
 ---
 
 ## Conclusión
