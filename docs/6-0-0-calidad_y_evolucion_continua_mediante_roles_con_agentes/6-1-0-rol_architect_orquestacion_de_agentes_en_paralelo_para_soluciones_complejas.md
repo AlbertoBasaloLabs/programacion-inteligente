@@ -20,8 +20,8 @@ theme: ab
 ## Conexión
 
 - **¿Cómo manejas la complejidad creciente?**
-  - Un solo agente (o humano) no escala bien para problemas sistémicos.
-- **Divide y vencerás... con orquestación.**
+  - Un solo agente (o humano) no escala bien para problemas reales.
+- **Divide y vencerás... con organización.**
   - Descomponer problemas grandes y asignar partes a agentes especializados.
 
 ---
@@ -30,9 +30,10 @@ theme: ab
 
 - **Roles y Especialización**:
   - Orquestador.
-  - Workers especializados (analista, arquitecto, product owner).
+  - Workers especializados.
 - **Topologías**:
-  - Secuencial (Pipeline), Jerárquica (Orchestrator/Worker)
+  - Secuencial.  
+  - Paralela.
 
 ---
 
@@ -43,7 +44,7 @@ theme: ab
   - Secuencialmente o en paralelo según la independencia de las tareas.
 - Agentes trabajadores:
   - `analyst`: Análisis de PRD, investigación y refinamiento.
-  - `architect`: Diseño de arquitectura, ADD y AGENTS.md.
+  - `architect`: Diseño de arquitectura en ADD.
   - `product-owner`: Redacción de especificaciones para backlog items.
 ---
 
