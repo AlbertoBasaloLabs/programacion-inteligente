@@ -29,9 +29,8 @@ theme: ab
 ## Conceptos
 
 - **Prompts específicos para situaciones específicas**:
-  - Nuevas funcionalidades.
-  - Mejoras y refactorizaciones.
-  - Corrección de errores.
+  - Nuevas herramientas o metodologías
+  - Mantenimiento y re-factorizaciones legacy
 - **Meta-Maintenance**:
   - El prompt es código, y un buen artesano mantiene sus herramientas.
 
@@ -39,14 +38,11 @@ theme: ab
 
 ## Concreción
 
-- **Workflows basados en escenarios**:
-  1. Nuevas funcionalidades
-  2. Mejoras y refactorizaciones
-  3. Corrección de errores
 - **Mantenimiento de Primitivas**:
-  - Skills
-  - Prompts
   - Agents
+  - Instructions
+  - Prompts
+  - Skills
 
 ---
 
