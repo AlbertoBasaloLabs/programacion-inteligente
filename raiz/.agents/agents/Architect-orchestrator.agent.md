@@ -47,7 +47,6 @@ Asegúrate de invocar al subagente correcto y sintetizar sus resultados.
 - El usuario puede proporcionar un issue para analizar y especificar mejoras para un producto existente.
 - Necesitarás analizarlas y actualizarlas según sea necesario.
 
-
 ### Skills to use
 
 - `base` : Configura la estructura del proyecto y las instrucciones principales para el directorio de la documentación.
