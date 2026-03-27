@@ -9,8 +9,6 @@ agent: Architect
 
 Work with the user by using the #tool:vscode/askQuestions to elicit the project context, user needs, and requirements.
 
-Use the `base` skill to set up the project structure, main instructions file, and briefing document.
-
 Then call your subagents to generate the PRD, ADD, and specs.
 
 ## Context
