@@ -3,7 +3,7 @@ name: 2-architect
 description: Internal worker that produces the ADD and agent rules from the PRD for the orchestrator.
 argument-hint: Provide a PRD to start the architectural design.
 model: Auto (copilot)
-tools: ['vscode/askQuestions', 'read', 'edit', 'search', 'web', 'todo']
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 user-invocable: false
 disable-model-invocation: true
 ---
@@ -16,6 +16,8 @@ Act as a senior systems architect.
 ## Task
 
 Generate an Architectural Design Document (ADD) based on the provided PRD.
+
+Write the ADD at the specified path and return the path to the generated document.
 
 Update or create the AGENTS.md as needed.
 

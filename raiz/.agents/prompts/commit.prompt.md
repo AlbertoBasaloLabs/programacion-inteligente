@@ -1,75 +1,75 @@
 ---
 name: commit
-description: Realiza commit de los cambios pendientes.
+description: Commits pending changes.
 agent: agent
 model: GPT-5 mini (copilot)
 tools: ['execute/getTerminalOutput', 'execute/runInTerminal', 'read', 'edit/editFiles', 'search']
 ---
-# Confirmar cambios
+# Commit Changes
 
-## Rol
+## Role
 
-Actúa como desarrollador de software.
+Act as a software developer.
 
-## Tarea
+## Task
 
-Confirma todos los cambios pendientes en el repositorio local.
+Commit all pending changes to the local repository.
 
-## Reglas de flujo de trabajo
+## Workflow Rules
 
-**CRÍTICO**: Trabaja SOLO con comandos git locales. NUNCA uses herramientas de API de GitHub (mcp_github_*) para confirmar cambios. Todos los commits deben ser locales hasta que se haga push explícitamente.
+**CRITICAL**: Work ONLY with local git commands. NEVER use GitHub API tools (mcp_github_*) for committing. All commits must be local until explicitly pushed.
 
-### Proceso paso a paso
+### Step-by-Step Process
 
-1. **Revisar qué se va a confirmar**:
+1. **Check what will be committed**:
    ```bash
    git status
    git diff
    ```
 
-2. **Preparar todos los cambios**:
+2. **Stage all changes**:
    ```bash
    git add .
    ```
 
-3. **Verificar cambios preparados**:
+3. **Verify staged changes**:
    ```bash
    git status
    ```
 
-4. **Crear commit con mensaje convencional**:
+4. **Create commit with conventional message**:
    ```bash
    git commit -m "<type>: <description>"
    ```
-   Donde `<type>` es uno de: `feat`, `fix`, `chore`, `docs`, `test`, `refactor`
+   Where `<type>` is one of: `feat`, `fix`, `chore`, `docs`, `test`, `refactor`
 
-5. **Verificar que el commit se creó**:
+5. **Verify commit was created**:
    ```bash
    git log -1 --oneline
    ```
 
-6. **Mostrar estado final**:
+6. **Show final status**:
    ```bash
    git status
    ```
 
-## Contexto
+## Context
 
-El formato de mensaje de commit sigue conventional commits:
-- `feat:` para nuevas funcionalidades
-- `fix:` para correcciones de errores
-- `chore:` para mantenimiento
-- `docs:` para documentación
-- `test:` para pruebas
-- `refactor:` para reestructuración de código
+Commit message format follows conventional commits:
+- `feat:` for new features
+- `fix:` for bug fixes
+- `chore:` for maintenance
+- `docs:` for documentation
+- `test:` for tests
+- `refactor:` for code restructuring
 
-Usa la skill `committing-changes` como referencia. Usa la herramienta de terminal para ejecutar comandos git.
+Use the `committing-changes` skill as reference. Use the terminal tool to run git commands.
 
-## Checklist de salida
+## Output checklist
 
-- [ ] Se revisó `git status` y `git diff` antes de confirmar
-- [ ] Todos los archivos previstos están preparados
-- [ ] El mensaje de commit sigue el formato `<type>: <description>`
-- [ ] Commit creado correctamente (verificado con `git log -1`)
-- [ ] No quedan cambios sin confirmar (verificado con `git status`)
-- [ ] Los cambios son SOLO LOCALES (sin push remoto salvo petición explícita)
+- [ ] Checked `git status` and `git diff` before committing
+- [ ] All intended files are staged
+- [ ] Commit message follows `<type>: <description>` format
+- [ ] Commit created successfully (verified with `git log -1`)
+- [ ] No uncommitted changes remain (verified with `git status`)
+- [ ] Changes are LOCAL only (not pushed to remote unless explicitly requested)
