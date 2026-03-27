@@ -1,23 +1,23 @@
 ---
 name: start-greenfield
-description: Initial prompt to start a new project in a greenfield context with the Architect orchestrator
-argument-hint: Provide a briefing or project context to start a new greenfield project.
+description: Prompt inicial para comenzar un nuevo proyecto en un contexto greenfield con el orquestador Architect
+argument-hint: Proporciona un briefing o contexto del proyecto para comenzar un nuevo proyecto greenfield.
 agent: Architect
 ---
 
 # Starting a new greenfield project
 
-Work with the user by using the #tool:vscode/askQuestions to elicit the project context, user needs, and requirements.
+Trabaja con el usuario empleando la herramienta #tool:vscode/askQuestions para obtener el contexto del proyecto, las necesidades del usuario y los requisitos.
 
-Then call your subagents to generate the PRD, ADD, and specs.
+Luego llama a tus subagentes para generar el PRD, ADD y las especificaciones.
 
 ## Context
 
-- Read the current project briefing or any context provided by the user.
-- Ask questions to clarify the project goals, user needs, and requirements.
+- Lee el briefing actual del proyecto o cualquier contexto proporcionado por el usuario.
+- Haz preguntas para aclarar los objetivos del proyecto, las necesidades del usuario y los requisitos.
 
 ## Output
 
-- PRD file with the product requirements and user needs.
-- ADD file with the architectural design decisions.
-- specs folder with all specs needed to start implementation
+- Archivo PRD con los requisitos del producto y las necesidades del usuario.
+- Archivo ADD con las decisiones de diseño arquitectónico.
+- Carpeta specs con todas las especificaciones necesarias para iniciar la implementación.
