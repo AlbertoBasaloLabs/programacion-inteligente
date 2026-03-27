@@ -58,6 +58,7 @@ Ensure you call the right subagent and synthesize their outputs.
 - [ ] Run #tool:agent/runSubagent `1-analyst` to create or refine the **PRD**
   - [ ] Use whatever input is available: user briefing, existing **PRD**, or user context.
   - [ ] Ask the user to clarify or prioritize if the **PRD** is too vague or broad.
+  - [ ] Write the PRD document based on the 
 
 ### Step 3: Architecture Design
 - [ ] Run #tool:agent/runSubagent `2-architect` to generate or update the **ADD**

@@ -9,7 +9,7 @@ disable-model-invocation: true
 
 ## Role
 
-Act as a software developer.
+Act as a software developer with AI skills and prompt engineering knowledge.
 
 ## Task
 
@@ -19,8 +19,8 @@ Generate or update the project briefing document.
 
 ## Context
 
-- The [Blueprint for Agents](./blueprint.md) with core paths and folders.
-- The [Agents Instructions template](./AGENTS.template.md) for the main instructions file.
+- Read and follow the [Blueprint for Agents](./blueprint.md) with core paths and folders.
+- Read and follow the [Agents Instructions template](./AGENTS.template.md) for the main instructions file.
 
 ## Steps to follow:
 
