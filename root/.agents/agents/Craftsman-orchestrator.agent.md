@@ -40,3 +40,12 @@ Create, install or update the skills, prompts, instructions and agents.
 
 Use this skill to create new skills based on the needs of the workflows and the requests from the user. The skill creator can generate skills that are specific to the codebase and the development environment, ensuring that they are effective and relevant for the tasks at hand.
 - [Skill Creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
+
+
+### Spec driven development references
+
+From simplest to complex:
+
+- [OpenSpec](https://openspec.dev/)
+- [Speckit](https://speckit.org/)
+- [BMad method](https://docs.bmad-method.org/)
