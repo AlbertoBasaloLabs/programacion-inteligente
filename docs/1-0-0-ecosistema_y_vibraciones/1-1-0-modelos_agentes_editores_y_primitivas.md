@@ -2,7 +2,7 @@
 title: Modelos, agentes, editores y primitivas
 description: Programar en lenguaje natural con un ecosistema de herramientas inteligentes.
 url: 1-1-0-modelos_agentes_editores_y_primitivas
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
+footer: 1. Ecosistema y vibraciones. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 marp: true
 theme: ab
 ---
@@ -36,7 +36,7 @@ theme: ab
 - **Agentes**: Programas que usan modelos para cumplir tareas específicas.
   - `ClaudeCode`, `GitHub Copilot`, `OpenCode`, `Jules` 
 - **Editores**: Herramientas que interactúan con el código y los agentes.
-  - `Antigravity`, `Bolt`, `Cursor`, `IntelliJ`,`VSCode`,  `Visual Studio` 
+  - `Antigravity`, `Bolt`, `Cursor`, `IntelliJ`,`Visual Studio`,`VSCode`
 
 ---
 
@@ -48,7 +48,7 @@ El equivalente moderno a las estructuras de datos y control tradicionales.
 - `context`: información relevante para la tarea,
 - `prompts`: peticiones en lenguaje natural para los modelos, 
 - `rules` : directrices para guiar el comportamiento de los agentes, 
-- `skills` : capacidades específicas que los agentes pueden ejecutar, 
+- `skills` : capacidades específicas que los agentes pueden utilizar, 
 - `specs` : especificaciones detalladas y criterios de aceptación de las tareas, 
 - `tools(MCPs)` : herramientas para interactuar con el entorno de desarrollo.
 
@@ -56,7 +56,7 @@ El equivalente moderno a las estructuras de datos y control tradicionales.
 
 ### GitHub Copilot
 
-- **Editores**: VSCode, Visual Studio 202*, IntelliJ, Neovim
+- **Editores**: VSCode, Visual Studio 202*, IntelliJ
 - **CLI**: GitHub Copilot CLI, OpenCode CLI
 - **Plataformas**: GitHub Codespaces
 
@@ -66,11 +66,11 @@ El equivalente moderno a las estructuras de datos y control tradicionales.
 
 ### Nivel de automatización
 
-- 0. Código manual
-- 1. Auto-completado
-- 2. Vibe-coding
-- 3. Spec-driven development
-- 4. Orquestación de agentes
+- **0** Código manual
+- **1** Auto-completado
+- **2** Vibe-coding
+- **3** Spec-driven development
+- **4** Orquestación de agentes
 
 ---
 

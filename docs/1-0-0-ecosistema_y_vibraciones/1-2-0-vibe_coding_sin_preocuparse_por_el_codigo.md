@@ -2,7 +2,7 @@
 title: Vibe Coding sin preocuparse por el código
 description: Desarrollar siguiendo el flujo de tus vibraciones sin preocuparse por el código.
 url: 1-2-0-vibe_coding_sin_preocuparse_por_el_codigo
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 1. Ecosistema y vibraciones. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -26,12 +26,21 @@ theme: ab
 
 ## Conceptos
 
-- **Prompt**: Petición en lenguaje natural.
-- **Chat**: Conversación con el modelo.
-- **Refinado**: Proceso iterativo de mejora.
-- **Validación**: El humano es el responsable.
+- **Prompt**: Petición en lenguaje natural. modelada por el contexto.
+- **Chat**: Conversación con el modelo, mediante historial de chat.
+- **Refinado**: Proceso iterativo de mejora, prueba/error.
+- **Validación**: El humano es el responsable de aceptación manual.
 
-> Anatomía de un prompt.
+--- 
+
+### Anatomía de un prompt.
+
+- **Rol**: Condiciona el comportamiento del modelo, asumiendo un rol específico.
+- **Tarea**: Define la tarea a realizar, como un objetivo.
+- **Contexto**: Proporciona información relevante para la tarea.
+- **Pasos**: Guía de pasos a seguir para realizar la tarea.
+- **Salida**: Formato de salida esperado.
+- **Verificación**: Checklist de verificación de la tarea.
 
 ---
 

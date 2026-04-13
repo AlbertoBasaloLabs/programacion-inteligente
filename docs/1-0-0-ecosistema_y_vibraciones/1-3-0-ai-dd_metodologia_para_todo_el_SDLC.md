@@ -2,7 +2,7 @@
 title: AI-DD, metodología para todo el SDLC
 description: Metodología profesional para desarrollar software con IA durante todo el ciclo de vida del desarrollo
 url: 1-3-0-ai-dd_metodologia_para_todo_el_SDLC
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
+footer: 1. Ecosistema y vibraciones. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
 theme: ab
 ---
@@ -10,11 +10,11 @@ theme: ab
 [1. Ecosistema y vibraciones](./1-0-0-ecosistema_y_vibraciones.md)   
 # 1.3. AI-DD, metodología para todo el SDLC
 
-- Metodología profesional para desarrollar software con IA...
-  - ...durante todo el ciclo de vida del desarrollo (SDLC).
+Metodología profesional para desarrollar software con IA...
+...durante todo el ciclo de vida del desarrollo (SDLC).
 
 #### [Programación Inteligente](programacion_inteligente.md)
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
 
@@ -34,7 +34,7 @@ theme: ab
 
 ---
 
-- **Principios AI-DD**: Metodología para todo el SDLC
+### Principios AI-DD
   - **Human in the Loop**: Verificación en pasos cortos, repetibles y controlables
   - **Rules over Tools**: Guiar con reglas, instrucciones y enseñar habilidades
   - **Spec-Driven Development**: Explicar en detalle el problema y su verificación
@@ -45,20 +45,20 @@ theme: ab
 
 ### AI-Driven Development
 
-- **Spec-Driven Development**: What to build & How to verify it
-  - `rockets_spec.prompt.md` -> `rockets.spec.md`
-- **Rules over Tools**: How to build it
-  - `rockets_code.prompt.md` -> working code
-- **Human in the Loop**: How to verify it
-  - `rockets_release.prompt.md` -> release
+- **Spec-Driven Development**: Qué construir y cómo verificarlo
+  - `rockets.spec.md`
+- **Rules over Tools**: Cómo construirlo ⚒️¿instrucciones/skills?
+  - `to-do` -> working code
+- **Human in the Loop**: Cómo mantenerlo ⚒️¿documentación/verificación?
+  - `to-do` -> release
 
 --- 
 
 ## Conclusión
-- El **AI-Driven Development** consiste en 
-  - Seguir workflows de pequeñas tareas controlables y repetibles
-  - Aportar el contexto técnico mediante reglas, instrucciones y habilidades
-  - Aportar el contexto de negocio mediante especificaciones detalladas 
+### AI-Driven Development
+- Seguir workflows de pequeñas tareas controlables y repetibles
+- Aportar el contexto técnico mediante reglas, instrucciones y habilidades
+- Aportar el contexto de negocio mediante especificaciones detalladas 
 
 #### [Programación Inteligente](programacion_inteligente.md)
 > _No es magia, es tecnología._  
