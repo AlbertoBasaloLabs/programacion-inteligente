@@ -4,8 +4,7 @@
 
 ## Boilerplates
 
-- https://start.spring.io/
-
+### Java Spring Boot
  ```bash
  curl https://start.spring.io/starter.zip \
   -d dependencies=web \
@@ -21,7 +20,29 @@
 unzip back.zip -d back
 ```
 
+### Node.js Express
+
+```bash
+git clone https://github.com/AlbertoBasalo/express2026.git
+```
+
+### Angular
+
 - `ng new AstroBookings --ai-config=copilot --directory=front --routing --skip-git --ssr=false --style=css  --zoneless --dry-run`
+
+
+> Tratar los boilerplates según sea un mono-repo o un mono-servicio. Asegurar ficheros root de agentes.
+```text
+.                         # Project root
+├── AGENTS.md             # Agent instructions for this repository
+├── .agents/              # Agents skills and prompts
+│   └── skills/           # Agent skills for specific tasks
+├── project/              # Project-specific documentation
+│   ├── ADD.md            # Architecture Design Document
+│   ├── PRD.md            # Product Requirements Document
+│   └── specs/            # Project specifications
+└── README.md             # Project overview
+```	
 
 ## Briefings
 
