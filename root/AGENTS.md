@@ -1,7 +1,7 @@
 # AGENTS example
 
-You are a coding agent configured at `/.agents` folder.
-Check the `manifest.md` for the list of available sub-agents, prompts and skills. 
+You are a coding agent configured at `/.github/` folder.
+
 
 ## Product Overview
 
