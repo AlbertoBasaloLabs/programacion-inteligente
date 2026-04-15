@@ -26,6 +26,7 @@ theme: ab
 ---
 
 ## Conceptos
+
 - **Skills**:
   - Módulos o paquetes que enseñan nuevas capacidades a los agentes.
 - **Contextual inteligente**:
@@ -44,8 +45,9 @@ theme: ab
       - Instrucciones detalladas de la habilidad. `level 2`
     - Carpetas con ficheros adicionales: `level 3`
       - `assets/`, `references/` y `scripts/`.
+
 ````markdown
-./skills/committing-changes/SKILL.md
+./github/skills/committing-changes/SKILL.md
 Commit pending changes.
 ````
 --- 

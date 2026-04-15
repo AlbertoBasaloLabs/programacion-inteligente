@@ -45,6 +45,7 @@ theme: ab
     - Patrones de diseño: `controllers`, `factories`.
     - Buenas prácticas: `testing`, `error handling`.
     - Reglas de estilo: `naming`, `formatting`.
+
 ````markdown
 ./github/instructions/*.instructions.md
 ## Language
@@ -53,6 +54,7 @@ theme: ab
 --- 
 
 ## Conclusión
+
 - Debemos **detallar** las instrucciones para casos específicos.
 - En ficheros separados para **no sobrecargar** el contexto general.
 - La sintaxis depende del editor/agente, tendente a unificarse en **SKILLS**
