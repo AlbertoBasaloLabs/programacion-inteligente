@@ -12,3 +12,25 @@ https://code.visualstudio.com/docs/copilot/customization/agent-skills
 
 - https://github.com/github/awesome-copilot/
 - https://skills.sh/
+
+## Java
+
+- https://github.com/github/awesome-copilot/blob/main/instructions/springboot.instructions.md
+- https://github.com/github/awesome-copilot/blob/main/instructions/java-21-to-java-25-upgrade.instructions.md
+- https://github.com/github/awesome-copilot/blob/main/skills/java-junit/SKILL.md
+
+## Angular
+
+- https://github.com/angular/skills/blob/main/angular-developer/SKILL.md
+
+## Node.js
+
+- https://github.com/github/awesome-copilot/blob/main/instructions/nodejs.instructions.md
+
+## Best practices
+
+- https://github.com/addyosmani/agent-skills
+
+- https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md
+- https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md
+- https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
