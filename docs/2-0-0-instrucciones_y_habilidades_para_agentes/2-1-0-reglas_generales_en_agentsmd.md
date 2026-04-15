@@ -2,7 +2,7 @@
 title: Reglas generales en AGENTS.md
 description: Un README para agentes; reglas generales que siempre deben seguir.
 url: 2-1-0-reglas_generales_en_agentsmd
-footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 2. Instrucciones y habilidades para agentes. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Un README para agentes; reglas generales que siempre deben seguir.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
@@ -47,9 +47,14 @@ theme: ab
   - Flujo de trabajo.
   - Estructura de carpetas.
   - Entorno de desarrollo.
-````markdown
-Run the create-agents prompt
-````
+---
+
+## ¿Usar prompts de inicialización?
+
+- Los agentes incluyen sus propios prompts de generación de reglas
+- Suelen ser demasiado _verbosos_
+- Mejor que lo hagas artesanlamente o tengas tu propia plantilla/prompt/skill
+
 --- 
 
 ## Conclusión

@@ -18,43 +18,87 @@ Follow this template and save in a markdown file `AGENTS.md`:
 ````markdown
 # Agents Instructions
 
+- **Root_Folder**: `/`
+- **Agents_Folder**: `/.github`
+- **Agents_file**: `/AGENTS.md`
+- **Project_Folder**: `/project`
+
 ## Product Overview
-- {What the product is about in 2-3 short sentences.}
+
+{Short description of the product}
 
 ## Technical Implementation
 
 ### Tech Stack
-- Language: **{language and version}**
-- Framework: **{framework and version}**
-- Database: **{database}**
-- Security: **{security strategy}**
-- Testing: **{testing framework }**
-- Logging: **{logging tool }**
+
+- **Language**: {language and version}
+- **Framework**: {framework and version}
+- **Database**: {database}
+- **Security**: {security strategy}
+- **Testing**: {testing framework }
+- **Logging**: {logging tool }
 
 ### Development workflow
+
 ```bash
 # Set up the project
-# Build/Compile the project
-# Run the project
-# Test the project
-# Deploy the project
+{install command}
+
+# While developing, watch for changes and run tests automatically
+# Watch and compile the project while developing
+{dev command}
+# Watch and run unit tests while writing tests
+{test:dev command}
+# Static linting and type checking after writing code
+{lint command}
+
+# Run unit tests
+{test:unit command}
+# Run end-to-end tests
+{test:e2e command}
+
+# Run all tests before merging or publishing
+{test command}
+
+# Build/Compile the project for production
+{build command}
+# Run the project as a production server
+{start command}
 ```
 
 ### Folder structure
 ```text
-.                         # Project root  
-├── AGENTS.md             # This file with instructions for AI agents
-├── README.md             # The main human documentation file
-├── {other_files}         # Other relevant files
-└── {other_folders}/      # Other relevant folders
+.                         # Project root
+├── AGENTS.md             # Agent instructions for this repository
+├── {Agents_Folder}/      # Agents skills and prompts
+│   └── skills/           # Agent skills for specific tasks
+├── {Project_Folder}/     # Project-specific documentation
+│   ├── ADD.md            # Architecture Design Document
+│   ├── PRD.md            # Product Requirements Document
+│   └── specs/            # Project specifications
+├── README.md             # Project overview
+└── other_files/          # Other relevant files and folders 
 ```
 
 ## Environment
-- Code and documentation must be in English.
+- **OS dev**: {operating system}
+- **Terminal**: {terminal}
+- **Default branch**: {default branch}
+- **Git remote**: {git remote URL}
+
+### Behavior Guidelines
+
+- Code and documentation must be in {language}.
 - Chat responses must be in the language of the user prompt.
-- Sacrifice grammar for conciseness in responses.
-- This is a windows environment using git bash terminal. 
-- My default branch is `main`.
+- Sacrifice grammar for conciseness when needed to fit response limits.
+- When using templates, replace {placeholders} with concrete values.
+- Always lint with {lint command} before staging and committing changes.
+
+### Naming Conventions
+
+Use slugs with hyphens for any identifiers: `add-task`, `fix-bug`, `update-deps`.
+
+
 ````
 
 ## Steps to follow:

@@ -2,7 +2,7 @@
 title: Instrucciones particulares contextuales
 description: El micro management de los agentes.
 url: 2-2-0-instrucciones_particulares_contextuales
-footer: 2. Instrucciones y habilidades para agentes. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 2. Instrucciones y habilidades para agentes.  &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - El micro management de los agentes
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
 
@@ -46,11 +46,6 @@ theme: ab
     - Buenas prácticas: `testing`, `error handling`.
     - Reglas de estilo: `naming`, `formatting`.
 
-````markdown
-./github/instructions/*.instructions.md
-## Language
-## Clean code
-````
 --- 
 
 ## Conclusión

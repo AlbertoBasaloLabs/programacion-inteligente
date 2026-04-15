@@ -2,7 +2,7 @@
 title: Ecosistema y vibraciones
 description: No es magia, es tecnología.
 url: 1-0-0-ecosistema_y_vibraciones
-footer: 1. Ecosistema y vibraciones. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 1. Ecosistema y vibraciones.  &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
