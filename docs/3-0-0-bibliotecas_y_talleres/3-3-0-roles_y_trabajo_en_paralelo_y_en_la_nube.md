@@ -2,7 +2,7 @@
 title: Roles y trabajo en paralelo y en la nube
 description: Orquestando equipos de agentes.
 url: 3-3-0-roles_y_trabajo_en_paralelo_y_en_la_nube
-footer: 3.3. Roles y trabajo en paralelo y en la nube. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy; 
+footer: 3. Bibliotecas y talleres. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - Orquestando equipos de agentes en trabajos largos y complejos.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
@@ -39,18 +39,12 @@ theme: ab
 
 ## Concreción
 
-```markdown
-/resolve-issue 2
-```
-
-```markdown
-@cli Extract the repository from the business logic.
-```
-
-```markdown
-@cloud review latest changes and update agents.md documentation
-```
-
+- Cabecera `YAML` para definir el rol y las herramientas de cada agente.
+ - Modelo, Herramientas, ayudas, etc.
+ - HandOffs: Permite establecer flujos de trabajo entre agentes. 
+   - analyze -> architect -> spec
+   - spec -> plan -> code
+   - code -> test
 ---
 
 ## Conclusión

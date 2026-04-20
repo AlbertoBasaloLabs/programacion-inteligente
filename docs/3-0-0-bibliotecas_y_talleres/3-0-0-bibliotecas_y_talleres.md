@@ -2,7 +2,7 @@
 title: Bibliotecas y talleres
 description: Conocimiento intelectual y trabajo manual.
 url: 3-0-0-bibliotecas_y_talleres
-footer: 3. Bibliotecas y talleres. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 3. Bibliotecas y talleres. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
 marp: true
 theme: ab
 ---
@@ -12,7 +12,7 @@ theme: ab
 - Conocimiento intelectual y trabajo manual.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 

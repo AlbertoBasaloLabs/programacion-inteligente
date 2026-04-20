@@ -2,18 +2,18 @@
 title: Prompt as Code, ficheros en lenguaje formal
 description: Tratar los prompts como código fuente.
 url: 3-1-0-prompt_as_code_ficheros_en_lenguaje_formal
-footer: 3.1. Prompt as Code. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+footer: 3. Bibliotecas y talleres. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
 
 [3. Bibliotecas y talleres](./3-0-0-bibliotecas_y_talleres.md)
-# 3.1. Prompt as Code, ficheros en lenguaje formal
+# 3.1. Prompt as Code
 
-- Tratar los prompts como código fuente.
+- Tratar los prompts como código fuente, ficheros en lenguaje formal
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) &copy;
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
@@ -39,12 +39,10 @@ theme: ab
 
 ## Concreción
 
-- **Prompt de especificación**: `3-1-1-spec.md`
-
-```markdown
-/clean
-/commit 
-```
+- Usa cabecera `YAML` para definir metadatos del _command prompt_.
+  - Herramientas disponibles
+  - Modelo y agente a usar
+  - Argumentos y ayudas para el usuario
 
 ---
 
