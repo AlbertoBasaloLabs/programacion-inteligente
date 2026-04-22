@@ -2,7 +2,7 @@
 title: Análisis de requerimientos y arquitectura del sistema
 description: La primera fase del workflow es entender el problema y diseñar la solución.
 url: 4-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema
-footer: 4.1. Análisis de requerimientos y arquitectura del sistema. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 4.1. Análisis de requerimientos y arquitectura del sistema. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -13,7 +13,7 @@ theme: ab
 - La primera fase del workflow es entender el problema y diseñar la solución.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
 
@@ -28,13 +28,13 @@ theme: ab
 
 ## Conceptos
 
-- **Análisis de requerimientos** - > `PRD.md`:
+- **Análisis de requerimientos** - > `Briefing.md` + `PRD.md`:
   - Identificar y documentar las necesidades del sistema.
   - Definir funcionalidades y restricciones técnicas.
-- **Arquitectura del sistema** -> `ADD.md` 
+- **Arquitectura del sistema** -> `AGENTS.md` + `ADD.md` 
   - Diseñar la estructura y stack tecnológico del software.
   - Establecer patrones y principios arquitectónicos.
-- **Reglas de agentes** -> `AGENTS.md`
+- **Habilidades de agentes** -> `/skills`
   - Guiar en el proceso de desarrollo con agentes IA.
   - Asegurar que los agentes sigan la arquitectura definida.
 
@@ -42,31 +42,34 @@ theme: ab
 
 ## Concreción
 
-- `1` **Analyst Agent**: `Generate PRD from idea or existing project`
-```md
-# Product Requirements Document.
-## Vision and Scope
-## Functional Requirements
-## Technical Requirements
-```
+### `1` **Analyst Agent**: `Generate PRD from idea or existing project`
+
+- Workflow de análisis:
+  - Prompt maestro: define idea, alcance y objetivo de salida.
+  - Subagente 1 + `writing-briefing` -> `project/briefing.md`
+  - Subagente 2 + `writing-prd` (usa briefing) -> `project/PRD.md`
+- Validación:
+  - Existencia de `project/briefing.md` y `project/PRD.md`.
+  - Coherencia entre misión, alcance, FR/TR y reglas de negocio.
 
 ---
 
-- `2` **Architect Agent**: `Generate ADD and AGENTS from PRD and current project`
-```md
-# Architecture Design Document.
-## Stack and tooling
-## Systems architecture
-## Software architecture
-```
-```md
-# Agents Rules Document.
-## Tech stack
-## Dev workflow
-## Folder structure
-## Environment
-## Behaviors
-```
+### `2` **Architect Agent**: `Generate AGENTS rules, ADD and skills from boilerplate or user input`
+
+- Skills del modulo 3:
+  - `writing-rules`
+  - `writing-add`
+  - `adding-skills`
+
+- Flujo recomendado:
+  - Briefing + boilerplate -> (`writing-rules`) -> `AGENTS.md`
+  - `AGENTS.md` -> (`writing-add`) -> `project/ADD.md`
+  - `project/ADD.md` -> (`adding-skills`) -> skills del proyecto
+
+- Resultado esperado:
+  - Reglas claras para agentes.
+  - Arquitectura trazable con ADRs.
+  - Skills alineadas al stack y workflow real.
 
 ---
 

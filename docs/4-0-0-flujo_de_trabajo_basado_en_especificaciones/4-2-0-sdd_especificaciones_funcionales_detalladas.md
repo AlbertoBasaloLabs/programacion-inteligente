@@ -2,7 +2,7 @@
 title: SDD, especificaciones funcionales detalladas
 description: Spec-Driven Development implica detallar qué construir y cómo verificarlo.
 url: 4-2-0-sdd_especificaciones_funcionales_detalladas
-footer: 4.2. SDD, especificaciones funcionales detalladas. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
+footer: 4.2. SDD, especificaciones funcionales detalladas. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
 theme: ab
 ---
@@ -13,17 +13,18 @@ theme: ab
 - Spec-Driven Development implica detallar qué construir y cómo verificarlo.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+> Por [Alberto Basalo](https://albertobasalo.dev)
 
 ---
 
 ## Conexión
 
+- **¿Qué problema concreto vas a resolver ahora?**
+- **¿Cómo lo conviertes en una unidad implementable y verificable?**
 - **¿Cómo comunicar exactamente qué debe hacer el sistema?**
   - Las especificaciones vagas generan código incorrecto o incompleto.
   - La IA necesita detalles precisos sobre funcionalidades y comportamientos.
   - No se puede detallar todo a la vez en un solo prompt.
-
 ---
 
 ## Conceptos
@@ -34,31 +35,70 @@ theme: ab
 - **Spec-Driven Development**:
   - Las especificaciones son el punto de partida del desarrollo.
   - Y el hilo conductor durante la generación y verificación del código.
-
+- **Granularidad**: Cada spec aborda una sola capacidad de negocio para poder planificarla y validarla mejor.
+- **Skill `writing-spec`**: Prompt reutilizable para generar specs consistentes desde el P.R.D.
 ---
 
 ## Concreción
 
-- `3` **Product Owner Agent**: `Write specifications for features, bugs, chores...`
-```md
-# Specification for [feature/bug/chore name]
-## Problem Description
-## Solution Overview
-## Acceptance Criteria
-```
 
-```md
-@Product Owner write the specs for FR2
-```
+### `3` **Product Owner Agent**: `Generate specs from PRD`
+- Estructura base de `project/specs/<codigo>.spec.md`:
+  - Problema
+    - COMO _rol_ QUIERO _acción_ PARA _beneficio_
+  - Solución
+    - Data
+    - Back
+    - Front
+  - Verificación
+    - EL sistema DEBE _comportamiento_
+    - CUANDO _evento_ EL sistema DEBE _respuesta_
+    - SI _condición_ ENTONCES EL sistema DEBE _respuesta_
 
 ---
+
+- Demo:
+  - Seleccionar un requerimiento funcional del `project/PRD.md`.
+  - Ejecutar `writing-spec` para crear `project/specs/<código>.spec.md`.
+  - Revisar problema, solución y verificación para asegurar trazabilidad con el P.R.D.
+
+---
+
+### Backlog de specs
+
+- Estructura de `project/BACKLOG.md`:
+
+| Spec | Depende de | Estado |
+| ---- | ---------- | ------ |
+| sf1  | -          | hecho |
+| sf2  | sf1        | trabajando |
+| st1  | sf1, sf2   | bloqueado |
+| sf3  | -          | pendiente |
+| st2  | sf3        | bloqueado |
+
+---
+
+- Reglas prácticas:
+  - Empieza por specs sin dependencias.
+  - Marca bloqueadas las que no puedan avanzar sin otra previa.
+  - Revisa estados al cerrar cada spec para mantener trazabilidad real.
+
+---
+
+- Demo:
+  - Partir de `project/specs/*.spec.md` ya definidas.
+  - Ejecutar `planning-backlog` para generar o actualizar `project/BACKLOG.md`.
+  - Revisar dependencias y estados para detectar bloqueos antes de implementar.
+
+--- 
 
 ## Conclusión
 
 - Las especificaciones detalladas son el **contrato** del desarrollo.
 - Permiten que la IA genere código **correcto desde el inicio**.
 - Son el **punto de referencia** para verificación y validación.
-
+- El backlog traduce specs en una secuencia de entrega controlada.
+  
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)

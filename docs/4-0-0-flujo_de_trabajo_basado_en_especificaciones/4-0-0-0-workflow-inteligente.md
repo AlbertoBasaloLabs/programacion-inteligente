@@ -2,7 +2,7 @@
 title: Workflow Inteligente
 description: La IA no te quitará el trabajo, pero lo cambiará para siempre.
 url: 4-0-0-0-workflow_inteligente
-footer: Programación Inteligente. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: Programación Inteligente. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
