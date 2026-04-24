@@ -41,9 +41,8 @@ theme: ab
 
 ## Concreción
 
-
-### `3` **Product Owner Agent**: `Generate specs from PRD`
-- Estructura base de `project/specs/<codigo>.spec.md`:
+### Anatomía de una especificación
+- Fichero `project/specs/<id-slug>.spec.md`:
   - Problema
     - COMO _rol_ QUIERO _acción_ PARA _beneficio_
   - Solución
@@ -57,24 +56,16 @@ theme: ab
 
 ---
 
-- Demo:
-  - Seleccionar un requerimiento funcional del `project/PRD.md`.
-  - Ejecutar `writing-spec` para crear `project/specs/<código>.spec.md`.
-  - Revisar problema, solución y verificación para asegurar trazabilidad con el P.R.D.
-
----
-
-### Backlog de specs
-
-- Estructura de `project/BACKLOG.md`:
+### Anatomía de un BACKLOG
+- Fichero `project/BACKLOG.md`:
 
 | Spec | Depende de | Estado |
 | ---- | ---------- | ------ |
-| sf1  | -          | hecho |
-| sf2  | sf1        | trabajando |
+| ~~sf1~~  | -          | hecho |
+| _sf2_  | sf1        | trabajando |
 | st1  | sf1, sf2   | bloqueado |
 | sf3  | -          | pendiente |
-| st2  | sf3        | bloqueado |
+| **_st2_**  | sf3        | bloqueado |
 
 ---
 

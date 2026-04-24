@@ -2,7 +2,7 @@
 title: Verificar que funciona es la parte difícil
 description: El rol del desarrollador evoluciona hacia auditor y tester.
 url: 5-2-0-verificar_que_funciona_es_la_parte_dificil
-footer: 5.2. Verificar que funciona es la parte difícil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
+footer: 5.2. Verificar que funciona es la parte difícil. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
 theme: ab
 ---

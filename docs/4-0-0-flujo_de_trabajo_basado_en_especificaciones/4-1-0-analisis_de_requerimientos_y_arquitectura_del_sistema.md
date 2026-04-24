@@ -42,37 +42,35 @@ theme: ab
 
 ## Concreción
 
-### `1` **Analyst Agent**: `Generate PRD from idea or existing project`
-
-- Workflow de análisis:
-  - Prompt maestro: define idea, alcance y objetivo de salida.
-  - Subagente 1 + `writing-briefing` -> `project/briefing.md`
-  - Subagente 2 + `writing-prd` (usa briefing) -> `project/PRD.md`
-- Validación:
-  - Existencia de `project/briefing.md` y `project/PRD.md`.
-  - Coherencia entre misión, alcance, FR/TR y reglas de negocio.
-
----
-
-### `2` **Architect Agent**: `Generate AGENTS rules, ADD and skills from boilerplate or user input`
-
-- Skills del modulo 3:
-  - `writing-rules`
-  - `writing-add`
-  - `adding-skills`
-
-- Flujo recomendado:
-  - Briefing + boilerplate -> (`writing-rules`) -> `AGENTS.md`
-  - `AGENTS.md` -> (`writing-add`) -> `project/ADD.md`
-  - `project/ADD.md` -> (`adding-skills`) -> skills del proyecto
-
-- Resultado esperado:
-  - Reglas claras para agentes.
-  - Arquitectura trazable con ADRs.
-  - Skills alineadas al stack y workflow real.
+### Anatomía de un briefing
+- Fichero `project/Briefing.md`:
+  - Idea
+    - Problema o necesidad.
+    - Misión u objetivo.
+    - Público objetivo.
+  - Alcance
+    - Qué se incluye
+    - Qué se excluye
+    - Limitaciones y notas
 
 ---
 
+### Anatomía de un P.R.D.
+- Fichero `project/PRD.md`:
+  - Requerimientos
+    - Requerimientos funcionales
+    - Requerimientos técnicos
+  - Dominio del problema
+    - Entidades y lenguaje ubicuo
+    - Reglas de negocio
+
+---
+### Anatomía de un A.D.D.
+- Fichero `project/ADD.md`:
+  - Arquitectura del sistema
+  - Arquitectura de software
+  - Decisiones arquitectónicas (ADR)
+--- 
 ## Conclusión
 
 - El análisis y la arquitectura son la **base sólida** del desarrollo.

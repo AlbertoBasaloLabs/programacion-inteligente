@@ -2,7 +2,7 @@
 title: Generar código es la parte fácil
 description: Con especificaciones y reglas claras, la IA se encarga de la implementación.
 url: 5-1-0-generar_codigo_es_la_parte_facil
-footer: 5.1. Generar código es la parte fácil. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 5.1. Generar código es la parte fácil. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
@@ -38,10 +38,9 @@ theme: ab
 
 ## Concreción
 
-- `5` **Coder Agent**: `Generate code following implementation plan for...`
-  - Lee la especificación y el plan de implementación.
-  - Sigue las reglas y habilidades definidas.
-  - Tu decides si usas TDD, unit testing o... aún no.
+`implementing-plan` : implementar los pasos de un plan con código generado por IA siguiendo reglas y skills para mantener calidad y consistencia.
+
+> Commit de git workflow: `git add . && git commit -m "Implement spec-slug according to plan"`
 
 ---
 

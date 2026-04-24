@@ -2,7 +2,7 @@
 title: Programar, verificar, documentar
 description: La fase de ejecución donde las especificaciones se convierten en realidad.
 url: 5-0-0-programar_verificar_documentar
-footer: 5. Programar, verificar, documentar. [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
+footer: 5. Programar, verificar, documentar.  &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 marp: true
 theme: ab
 ---
@@ -12,7 +12,7 @@ theme: ab
 - La fase de ejecución donde las especificaciones se convierten en realidad.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 ---
 
 ## De la especificación al producto

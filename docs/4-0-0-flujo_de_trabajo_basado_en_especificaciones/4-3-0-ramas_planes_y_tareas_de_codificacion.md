@@ -42,23 +42,29 @@ theme: ab
 
 ## Concreción
 
-- `4` **Engineer Agent**: `Prepare repo and create implementation plan`
-- Skills 
-  - `writing-plan`
-  - `implementing-plan`
-  - `releasing-spec`
+`planning-spec` : planificar las capas físicas de una especificación funcional detallada (SDD) con tareas ordenadas y dependencias claras.
+- `spec-slug.data.plan.md`: base de datos 
+- `spec-slug.back.plan.md`: backend api services
+- `spec-slug.front.plan.md`: frontend ui
+- `spec-slug.test.plan.md`: e2e testing
 
-- Flujo recomendado:
-  - Spec + (`writing-plan`) -> code/test plans
-  - Plans + (`implementing-plan`) -> code + tests
-  - Cambios + (`releasing-spec`) -> changelog, backlog y docs técnicos
+> Inicio de git workflow: `git checkout -b spec-slug`
 
-- Resultado esperado:
-  - Implementación trazable por pasos.
-  - Verificación reproducible por plan de test.
-  - Release documentado en cada cierre de spec.
+---
+### Anatomía de un plan de implementación
 
-
+- Plan para la <Capa> de la <Especificación>
+  - Skills necesarias: `skill-1`, `skill-2`, ...
+  - 1 Nombre de paso 1
+    - Descripción detallada del paso 1.
+    - Ficheros afectados: [`ruta/archivo.ext`]
+    - [ ] Tarea 1.1
+    - [ ] Tarea 1.2
+  - 2 Nombre de paso 2
+    - Descripción detallada del paso 2.
+    - Ficheros afectados: [`ruta/archivo.ext`]
+    - [ ] Tarea 2.1
+    - [ ] Tarea 2.2
 ---
 
 ## Conclusión
