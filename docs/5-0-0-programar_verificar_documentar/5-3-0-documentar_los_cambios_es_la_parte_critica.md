@@ -39,16 +39,17 @@ theme: ab
 
 ## Concreción
 
-- `7` **DevOps Agent**: `Update documentation and release code changes`
+### Anatomía de un CHANGELOG
+- Fichero `project/CHANGELOG.md`:
 ```md
 # Changelog
 ## [Version] - YYYY-MM-DD
 ### Added
 ### Changed
 ### Fixed
----
-- Also: ADD.md, AGENTS.md, PRD.md, spec.md, etc.
 ```
+
+> Git tags and merge commits: `git tag -a vX.Y.Z -m "Release version X.Y.Z"` y `git merge --no-ff feature/spec-slug`
 
 ---
 

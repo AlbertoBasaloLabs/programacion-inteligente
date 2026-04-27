@@ -42,11 +42,9 @@ theme: ab
 
 ## Concreción
 
-- `6` **Tester Agent**: `Write and run tests for implemented code`
-  - Sigue las reglas y habilidades definidas.
-  - Escribe y ejecuta pruebas.
-  - Inicia y detiene servicios si es necesario.
-  - Tiene una estrategia de parada si las pruebas fallan.
+- `testing-spec` : Implementa y ejecuta pruebas e2e.
+  - validar que el código  cumple con los criterios de aceptación definidos en la especificación funcional detallada (SDD) mediante pruebas automatizadas y revisión humana.
+
 ---
 
 ## Conclusión
