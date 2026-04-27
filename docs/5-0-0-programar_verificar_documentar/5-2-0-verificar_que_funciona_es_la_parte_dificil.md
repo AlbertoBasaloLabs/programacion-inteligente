@@ -42,8 +42,10 @@ theme: ab
 
 ## Concreción
 
-- `testing-spec` : Implementa y ejecuta pruebas e2e.
-  - validar que el código  cumple con los criterios de aceptación definidos en la especificación funcional detallada (SDD) mediante pruebas automatizadas y revisión humana.
+- `testing-spec` : Ejecuta pruebas e2e.
+  - validar los criterios de aceptación definidos en la especificación 
+  - identificar fallos o defectos en la implementación.
+  - 
 
 ---
 

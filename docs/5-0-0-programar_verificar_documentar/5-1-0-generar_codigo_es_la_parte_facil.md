@@ -38,7 +38,7 @@ theme: ab
 
 ## Concreción
 
-`implementing-plan` : implementar los pasos de un plan con código generado por IA siguiendo reglas y skills para mantener calidad y consistencia.
+`implement-plan` : implementar los pasos de un plan con código generado por IA siguiendo reglas y skills para mantener calidad y consistencia.
 
 > Commit de git workflow: `git add . && git commit -m "Implement spec-slug according to plan"`
 

@@ -39,6 +39,10 @@ theme: ab
 
 ## Concreción
 
+- `releasing-spec`: al liberar una especificación, actualizar el `BACKLOG`, agregar una entrada en `CHANGELOG` y revisar AGENTS/ADR para reflejar cambios en arquitectura o decisiones técnicas.
+
+---
+
 ### Anatomía de un CHANGELOG
 - Fichero `project/CHANGELOG.md`:
 ```md
@@ -48,8 +52,11 @@ theme: ab
 ### Changed
 ### Fixed
 ```
+---
 
-> Git tags and merge commits: `git tag -a vX.Y.Z -m "Release version X.Y.Z"` y `git merge --no-ff feature/spec-slug`
+> Cambios en el BACKLOG (liberando dependientes)
+> Cambios en arquitectura o decisiones técnicas (AGENTS/ADR)
+> Git tags and merge commits
 
 ---
 
