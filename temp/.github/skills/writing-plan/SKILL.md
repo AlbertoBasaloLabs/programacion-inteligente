@@ -1,70 +1,70 @@
 ---
 name: writing-plan
-description: Create or update physical-layer implementation plans for a spec. Use when preparing execution plans per tier (front, back, e2e) before coding.
+description: Crear o actualizar planes de implementación por physical-layer para una spec. Usar al preparar execution plans por tier (front, back, e2e) antes de codificar.
 ---
 
 # Writing Plan
 
-Create one actionable implementation plan per physical layer for a target spec.
+Crear un plan de implementación accionable por physical layer para una spec objetivo.
 
-## When to Use
+## Cuando Usar
 
-- Starting `/implement-spec`
-- A tier plan is missing, outdated, or inconsistent with the current spec
-- The agent needs ordered tasks before implementation work
+- Al iniciar `/implement-spec`
+- Cuando falta un tier plan, está desactualizado o es inconsistente con la spec actual
+- Cuando el agent necesita tareas ordenadas antes del trabajo de implementación
 
-## Inputs
+## Entradas
 
-- Target spec file in `specs/`
-- Existing plan files: `specs/<spec-slug>.<tier>.plan.md` (if any)
-- Technical constraints from `/AGENTS.md` and `/project/ADR.md`
+- Archivo de la spec objetivo en `specs/`
+- Archivos de plan existentes: `specs/<spec-slug>.<tier>.plan.md` (si hay)
+- Technical constraints desde `/AGENTS.md` y `/project/ADR.md`
 
-## Tier and File Convention
+## Convenciones de Tier y Archivo
 
-- Allowed tiers: `front`, `back`, `e2e`
-- One file per tier: `specs/<spec-slug>.<tier>.plan.md`
-- Do not create duplicate plans for the same tier
+- Tiers permitidos: `front`, `back`, `e2e`
+- Un archivo por tier: `specs/<spec-slug>.<tier>.plan.md`
+- No crear planes duplicados para el mismo tier
 
-## Plan Structure
+## Estructura del Plan
 
-Each plan must include:
-- Context and scope for the tier
-- Ordered steps
-- Task checklist per step
-- Validation criteria for that tier
-- Lifecycle state section:
+Cada plan debe incluir:
+- Contexto y alcance del tier
+- Pasos ordenados
+- Lista de tareas por paso
+- Criterios de validación para ese tier
+- Sección de estado del ciclo de vida:
   - `Plan Status`: `Pending` | `In Progress` | `Completed` | `Blocked` | `Failed`
-  - Task checkboxes (`- [ ]`, `- [x]`) as the task state source
+  - Casillas de verificación de tareas (`- [ ]`, `- [x]`) como la fuente del estado de la tarea
 
-## Status Policy
+## Política de Estado
 
-- New or refreshed plan starts at `Pending`
-- Move to `In Progress` when first task execution begins
-- Set `Completed` only when all tasks are done and tier validation passes
-- Set `Blocked` when an external dependency prevents progress
-- Set `Failed` when validation still fails after agreed remediation attempts
+- Un plan nuevo o refrescado comienza en `Pending`
+- Pasar a `In Progress` cuando comience la ejecución de la primera tarea
+- Marcar `Completed` sólo cuando todas las tareas estén hechas y la validación del tier pase
+- Marcar `Blocked` cuando una dependencia externa impida el progreso
+- Marcar `Failed` cuando la validación siga fallando tras los intentos de remediación acordados
 
-## Procedure
+## Procedimiento
 
-### 1. Analyze Spec Scope
-- [ ] Read Problem/Solution/Verification in the target spec.
-- [ ] Determine which tiers are required (`front`, `back`, `e2e`).
-- [ ] Map acceptance criteria to tier-level implementation outcomes.
+### 1. Analizar el Alcance de la Spec
+- [ ] Leer Problem/Solution/Verification en la spec objetivo.
+- [ ] Determinar qué tiers son requeridos (`front`, `back`, `e2e`).
+- [ ] Mapear los criterios de aceptación a los resultados de implementación por tier.
 
-### 2. Build or Refresh Tier Plans
-- [ ] For each required tier, create/update `specs/<spec-slug>.<tier>.plan.md`.
-- [ ] Keep tasks atomic, ordered, and verifiable.
-- [ ] Include explicit dependencies and blockers per tier.
+### 2. Construir o Actualizar los Planes por Tier
+- [ ] Para cada tier requerido, crear/actualizar `specs/<spec-slug>.<tier>.plan.md`.
+- [ ] Mantener tareas atómicas, ordenadas y verificables.
+- [ ] Incluir dependencias y bloqueos explícitos por tier.
 
-### 3. Initialize States
-- [ ] Set each plan `Plan Status` to `Pending` after drafting or refresh.
-- [ ] Ensure all new tasks start unchecked (`- [ ]`).
+### 3. Inicializar Estados
+- [ ] Poner cada plan `Plan Status` en `Pending` tras el draft o refresh.
+- [ ] Asegurar que todas las nuevas tareas empiecen sin marcar (`- [ ]`).
 
-### 4. Consistency Check
-- [ ] Ensure plan tasks align with spec verification.
-- [ ] Ensure no duplicate or orphan tier plan exists.
-- [ ] Ensure naming convention is consistent for all tiers.
+### 4. Verificación de Consistencia
+- [ ] Asegurar que las tareas del plan estén alineadas con la verificación de la spec.
+- [ ] Asegurar que no existan planes duplicados o huérfanos por tier.
+- [ ] Asegurar que la convención de nombres sea consistente para todos los tiers.
 
 ## Output
 
-One updated/created plan file per required tier, all initialized as `Pending` and ready for `implementing-plan`.
+Un archivo de plan actualizado/creado por cada tier requerido, todos inicializados como `Pending` y listos para `implementing-plan`.

@@ -1,88 +1,88 @@
 ---
 name: release-spec
-description: Close a completed spec and update release documentation.
+description: Cerrar una spec completada y actualizar la documentación de release.
 argument-hint: Spec ID or spec file to release
 ---
 # Release Spec
 
-## Role
+## Rol
 
-Act as a release coordinator who closes completed specs and keeps release artifacts consistent.
+Actuar como coordinador de release que cierra specs completadas y mantiene consistentes los artefactos de release.
 
-## Context
+## Contexto
 
-A project has an implemented spec with validation evidence generated during `/implement-spec`. Input may include spec ID/file, merged PR details, test results, and deployment notes. Write in English by default, or in the user's language if requested.
+Un proyecto tiene una spec implementada con evidencia de validación generada durante `/implement-spec`. La entrada puede incluir ID/archivo de la spec, detalles de PR fusionados, resultados de pruebas y notas de despliegue. Escribir en inglés por defecto, o en el idioma del usuario si se solicita.
 
-### References
-- Target spec, `/project/BACKLOG.md`, `/project/CHANGELOG.md`, `/AGENTS.md`, `/project/ADR.md`
-- Templates: `*.backlog.template.md`, `*.changelog.template.md`, `*.agents.template.md`, `*.adr.template.md`
-- Roadmap flow: `/release-spec` -> done, or `/update-spec` if gaps remain
+### Referencias
+- Spec objetivo, `/project/BACKLOG.md`, `/project/CHANGELOG.md`, `/AGENTS.md`, `/project/ADR.md`
+- Plantillas: `*.backlog.template.md`, `*.changelog.template.md`, `*.agents.template.md`, `*.adr.template.md`
+- Flujo de roadmap: `/release-spec` -> done, o `/update-spec` si quedan brechas
 
 ### Skills
 - `writing-artifact`
 - `updating-backlog`
 
-### Tools
+### Herramientas
 - ReadFile / rg / Glob
 - Question tool (closed options; tool name is implementation-specific)
 - ApplyPatch/Edit tools
 
-## Task
+## Tarea
 
-Confirm release readiness from existing implementation evidence, set `/project/BACKLOG.md` status, add `/project/CHANGELOG.md` entry, and update AGENTS/ADR only when needed.
+Confirmar la preparación para el release a partir de la evidencia de implementación existente, establecer el estado en `/project/BACKLOG.md`, agregar una entrada en `/project/CHANGELOG.md` y actualizar AGENTS/ADR solo cuando sea necesario.
 
-## Constraints
+## Restricciones
 
-- Base release decisions on explicit implementation and validation evidence.
-- Do not mark a spec as completed without evidence.
-- Keep changes minimal, traceable, and template-aligned.
-- Ask closed-option questions if critical release evidence is missing.
-- Keep Human-in-the-Loop orchestration explicit: `/implement-spec` executes plans and validations; `/release-spec` decides release from evidence; `/update-spec` redefines gaps.
-- Do not run full implementation test cycles in `/release-spec`; consume evidence produced by `/implement-spec`.
+- Basar las decisiones de release en evidencia explícita de implementación y validación.
+- No marcar una spec como completada sin evidencia.
+- Mantener los cambios mínimos, trazables y alineados con las plantillas.
+- Hacer preguntas de opción cerrada si falta evidencia crítica de release.
+- Mantener la orquestación Human-in-the-Loop explícita: `/implement-spec` ejecuta planes y validaciones; `/release-spec` decide el release a partir de la evidencia; `/update-spec` redefine las brechas.
+- No ejecutar ciclos completos de prueba de implementación en `/release-spec`; consumir la evidencia producida por `/implement-spec`.
 
-## Steps
+## Pasos
 
-### 1. Analyze Evidence
-Validate release readiness.
-- [ ] Confirm target spec and release scope.
-- [ ] Verify all required tier plans are `Completed` (`front`, `back`, `e2e` when applicable).
-- [ ] Verify implementation evidence exists for acceptance criteria, including E2E evidence when the spec requires E2E coverage.
-- [ ] Record unresolved issues or follow-up work.
-- [ ] Ask closed-option questions if readiness is unclear.
+### 1. Analizar Evidencia
+Validar la preparación para el release.
+- [ ] Confirmar la spec objetivo y el alcance del release.
+- [ ] Verificar que todos los planes de tier requeridos estén `Completed` (`front`, `back`, `e2e` cuando corresponda).
+- [ ] Verificar que exista evidencia de implementación para los criterios de aceptación, incluyendo evidencia E2E cuando la spec requiera cobertura E2E.
+- [ ] Registrar problemas no resueltos o trabajo de seguimiento.
+- [ ] Hacer preguntas de opción cerrada si la preparación no está clara.
 
-### 2. Update BACKLOG Status
-Set workflow state.
-- [ ] Use `updating-backlog` skill to update the target spec row in `/project/BACKLOG.md`.
-- [ ] Set `Completed` only when release evidence is sufficient.
-- [ ] If release is incomplete but recoverable, keep or set `In Progress` and route to `/update-spec`.
-- [ ] If evidence shows unresolved blockers or failed validation, preserve `Blocked` or `Failed` per policy.
+### 2. Actualizar Estado del BACKLOG
+Establecer el estado del flujo de trabajo.
+- [ ] Usar la skill `updating-backlog` para actualizar la fila de la spec objetivo en `/project/BACKLOG.md`.
+- [ ] Establecer `Completed` solo cuando la evidencia de release sea suficiente.
+- [ ] Si el release está incompleto pero es recuperable, mantener o establecer `In Progress` y redirigir a `/update-spec`.
+- [ ] Si la evidencia muestra bloqueos no resueltos o validación fallida, mantener `Blocked` o `Failed` según la política.
 
-### 3. Add CHANGELOG Entry
-Record release outcome.
-- [ ] Create/update `/project/CHANGELOG.md` entry for the spec.
-- [ ] Include delivered scope, validation summary, and follow-up items.
+### 3. Agregar Entrada en CHANGELOG
+Registrar el resultado del release.
+- [ ] Crear/actualizar la entrada en `/project/CHANGELOG.md` para la spec.
+- [ ] Incluir el alcance entregado, resumen de validación y elementos de seguimiento.
 
-### 4. Update Technical Docs
-Apply doc updates only when justified.
+### 4. Actualizar Documentación Técnica
+Aplicar actualizaciones de documentación solo cuando sea justificado.
 - [ ] Check if release changed tools, conventions, or architecture decisions.
 - [ ] Ask for confirmation before editing `/AGENTS.md` or `/project/ADR.md`.
-- [ ] Update only if evidence and confirmation are present; otherwise state no change.
+- [ ] Actualizar solo si hay evidencia y confirmación; de lo contrario, indicar que no hay cambios.
 
-### 5. Final Consistency Check
-Ensure release artifacts are aligned.
-- [ ] Verify consistency across spec, `/project/BACKLOG.md`, `/project/CHANGELOG.md`, and tech docs.
-- [ ] If incomplete, do not release; suggest `/update-spec` as the next Human-in-the-Loop command.
+### 5. Auditoría Final de Consistencia
+Asegurar que los artefactos del release estén alineados.
+- [ ] Verificar la consistencia entre la spec, `/project/BACKLOG.md`, `/project/CHANGELOG.md` y la documentación técnica.
+- [ ] Si está incompleto, no liberar; sugerir `/update-spec` como el siguiente comando Human-in-the-Loop.
 
-## Output
+## Salida
 
-Updated `/project/BACKLOG.md` row, `/project/CHANGELOG.md` release entry, optional AGENTS/ADR updates, and a short release summary with evidence + follow-up.
+Fila actualizada en `/project/BACKLOG.md`, entrada de release en `/project/CHANGELOG.md`, actualizaciones opcionales en AGENTS/ADR, y un resumen breve del release con evidencia y seguimiento.
 
-## Verification
+## Verificación
 
-- [ ] Target spec implementation and validation evidence were reviewed.
-- [ ] Required tier plans are `Completed` before release is approved.
-- [ ] E2E validation is treated as implementation evidence from `/implement-spec` (not executed as a full cycle in `/release-spec`).
-- [ ] `/project/BACKLOG.md` is `Completed` only with sufficient evidence; otherwise status follows policy and next step is `/update-spec`.
-- [ ] `/project/CHANGELOG.md` includes a release entry for the spec.
-- [ ] AGENTS/ADR edits were confirmed before changes and applied only when relevant.
-- [ ] Release documentation is consistent and traceable to the target spec.
+- [ ] Se revisó la evidencia de implementación y validación de la spec objetivo.
+- [ ] Los planes por tier requeridos están `Completed` antes de aprobar el release.
+- [ ] La validación E2E se trata como evidencia de implementación de `/implement-spec` (no se ejecuta como un ciclo completo en `/release-spec`).
+- [ ] `/project/BACKLOG.md` está `Completed` solo con evidencia suficiente; de lo contrario, el estado sigue la política y el siguiente paso es `/update-spec`.
+- [ ] `/project/CHANGELOG.md` incluye una entrada de release para la spec.
+- [ ] Las ediciones de AGENTS/ADR se confirmaron antes de los cambios y se aplicaron solo cuando eran relevantes.
+- [ ] La documentación del release es consistente y trazable a la spec objetivo.

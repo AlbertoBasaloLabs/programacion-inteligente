@@ -7,23 +7,26 @@ argument-hint: Spec ID, spec file path, or backlog row reference
 
 ## Role
 
-Act as an implementation orchestrator who delivers one spec end-to-end through tiered plans.
+Actúa como un implementation orchestrator que entrega una spec end-to-end mediante planes por tier.
 
 ## Context
 
-A project has one target spec in `specs/`, a `/project/BACKLOG.md`, and implementation conventions in `/AGENTS.md` and `/project/ADR.md`. The implementation must be split by physical layer (`front`, `back`, `e2e`) with one plan per tier, then executed in sequence until validation is complete.
+Un proyecto tiene una spec objetivo en `specs/`, un `/project/BACKLOG.md`, y convenciones de implementación en `/AGENTS.md` y `/project/ADR.md`. La implementación debe dividirse por physical layer (`front`, `back`, `e2e`) con un plan por tier, y ejecutarse en secuencia hasta completar la validation.
 
-### References
+### Referencias
+
 - Target spec, `/project/BACKLOG.md`, `/AGENTS.md`, `/project/ADR.md`, source code, test suites
 - Plan files: `specs/<spec-slug>.<tier>.plan.md`
 - Roadmap flow: `/implement-spec` -> `/release-spec` or `/update-spec`
 
 ### Skills
+
 - `writing-plan`
 - `implementing-plan`
 - `updating-backlog`
 
-### Tools
+### Herramientas
+
 - ReadFile / rg / Glob
 - Question tool (closed options; tool name is implementation-specific)
 - ApplyPatch/Edit tools
@@ -31,62 +34,68 @@ A project has one target spec in `specs/`, a `/project/BACKLOG.md`, and implemen
 
 ## Task
 
-Implement one full spec by: (1) creating or refreshing all required physical-layer plans, (2) executing each plan, and (3) keeping task/plan/spec lifecycle states consistent.
+Implementar una spec completa haciendo: (1) crear o refrescar todos los physical-layer plans requeridos, (2) ejecutar cada plan, y (3) mantener los lifecycle states de task/plan/spec consistentes.
 
-## Constraints
+## Restricciones
 
-- Do not implement without a target spec.
-- Keep one plan file per tier and avoid duplicate plan files.
-- Use explicit lifecycle states and update them as evidence changes.
-- Ask closed-option questions for missing critical inputs (tier scope, blockers, ambiguous acceptance).
+- No implementar sin una target spec.
+- Mantener un archivo de plan por tier y evitar archivos de plan duplicados.
+- Usar lifecycle states explícitos y actualizarlos conforme cambie la evidence.
+- Preguntar con closed-option questions cuando falten inputs críticos (tier scope, blockers, ambiguous acceptance).
 
-## Steps
+## Pasos
 
-### 1. Select and Validate Target Spec
-Choose the spec to implement and verify readiness.
-- [ ] Resolve target spec from input (ID, file, or backlog row).
-- [ ] Confirm spec has actionable Solution and Verification sections.
-- [ ] If spec is not implementation-ready, stop and suggest `/update-spec`.
+### 1. Seleccionar y Validar la Spec Objetivo
 
-### 2. Set Initial Spec State
-Mark implementation start.
-- [ ] Use `updating-backlog` to set spec status to `In Progress` in `/project/BACKLOG.md` (if not already).
-- [ ] Preserve or update dependencies only with evidence.
+Elegir la spec a implementar y verificar su readiness.
+- [ ] Resolver la spec objetivo a partir del input (ID, archivo o fila del backlog).
+- [ ] Confirmar que la spec tiene secciones de Solution y Verification accionables.
+- [ ] Si la spec no está lista para implementación, detenerse y sugerir `/update-spec`.
 
-### 3. Create/Refresh Tier Plans
-Generate plans before coding.
-- [ ] Determine required tiers (`front`, `back`, `e2e`) from the spec scope.
-- [ ] Use `writing-plan` skill to create/update one plan per required tier.
-- [ ] Ensure each plan has ordered steps and checkable tasks.
-- [ ] Mark each generated/refreshed plan as `Pending` in the spec tracking section.
+### 2. Establecer el Estado Inicial de la Spec
 
-### 4. Execute Plans
-Implement plans one by one.
-- [ ] Execute each tier plan using `implementing-plan`.
-- [ ] Keep plan/task states updated (`In Progress`, `Completed`, `Failed`, `Blocked`) from actual evidence.
-- [ ] Commit progress per completed plan step when appropriate.
+Marcar el inicio de la implementación.
+- [ ] Usar `updating-backlog` para establecer el estado de la spec en `In Progress` en `/project/BACKLOG.md` (si no lo está ya).
+- [ ] Preservar o actualizar dependencias solo con evidencia.
 
-### 5. Validate End-to-End Outcome
-Gate final implementation status.
-- [ ] Run tier-appropriate validations (tests/build/lint/static checks).
-- [ ] Confirm spec Verification criteria are satisfied.
-- [ ] If implementation is incomplete but recoverable, keep spec `In Progress` and suggest `/update-spec`.
+### 3. Crear/Actualizar Planes por Tier
 
-### 6. Close Implementation State
-Set final spec status.
-- [ ] If all required plans completed and verification passed, keep spec ready for `/release-spec`.
-- [ ] If validation fails after remediation attempts, set spec status to `Failed`.
-- [ ] Keep unresolved blockers reflected as `Blocked`.
+Generar planes antes de codificar.
+- [ ] Determinar los tiers requeridos (`front`, `back`, `e2e`) a partir del alcance de la spec.
+- [ ] Usar la skill `writing-plan` para crear/actualizar un plan por cada tier requerido.
+- [ ] Asegurarse de que cada plan tenga pasos ordenados y tareas verificables.
+- [ ] Marcar cada plan generado/actualizado como `Pending` en la sección de seguimiento de la spec.
 
-## Output
+### 4. Ejecutar Planes
 
-Updated per-tier plan files, implementation changes in code/tests, synchronized lifecycle states (tasks/plans/spec), and a concise implementation report with next command (`/release-spec` or `/update-spec`).
+Implementar los planes uno por uno.
+- [ ] Ejecutar cada plan por tier usando `implementing-plan`.
+- [ ] Mantener los estados de plan/tarea actualizados (`In Progress`, `Completed`, `Failed`, `Blocked`) según la evidencia real.
+- [ ] Hacer commit del progreso por cada paso completado del plan cuando sea apropiado.
 
-## Verification
+### 5. Validar Resultado End-to-End
 
-- [ ] Exactly one target spec was selected and validated.
-- [ ] Required tier plans were created/refreshed before execution.
-- [ ] Plan/task statuses reflect evidence-based progress.
-- [ ] `/project/BACKLOG.md` spec status follows allowed transitions.
-- [ ] Verification criteria from the spec were checked and results recorded.
-- [ ] Final recommendation is explicit: `/release-spec` or `/update-spec`.
+Verificar el estado final de la implementación.
+- [ ] Ejecutar validaciones apropiadas por tier (tests/build/lint/static checks).
+- [ ] Confirmar que los criterios de verificación de la spec se cumplen.
+- [ ] Si la implementación está incompleta pero es recuperable, mantener la spec en `In Progress` y sugerir `/update-spec`.
+
+### 6. Cerrar Estado de Implementación
+
+Establecer el estado final de la spec.
+- [ ] Si todos los planes requeridos se completaron y la verificación pasó, mantener la spec lista para `/release-spec`.
+- [ ] Si la validación falla después de los intentos de remediación, establecer el estado de la spec en `Failed`.
+- [ ] Mantener los bloqueos no resueltos reflejados como `Blocked`.
+
+## Salida
+
+Archivos de plan por tier actualizados, cambios de implementación en código/tests, estados de ciclo de vida sincronizados (tareas/planes/spec), y un informe de implementación conciso con el siguiente comando (`/release-spec` o `/update-spec`).
+
+## Verificación
+
+- [ ] Se seleccionó y validó exactamente una spec objetivo.
+- [ ] Los planes por tier requeridos se crearon/refrescaron antes de la ejecución.
+- [ ] Los estados de plan/tarea reflejan el progreso basado en evidencia.
+- [ ] El estado de la spec en `/project/BACKLOG.md` sigue las transiciones permitidas.
+- [ ] Se verificaron los criterios de la spec y se registraron los resultados.
+- [ ] La recomendación final es explícita: `/release-spec` o `/update-spec`.
