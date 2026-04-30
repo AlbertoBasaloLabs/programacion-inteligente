@@ -34,12 +34,21 @@ theme: ab
 
 ---
 
+### Prompt Engineering
+
+- **Rol**: Condiciona el comportamiento del modelo, asumiendo un rol específico.
+- **Tarea**: Define la tarea a realizar, como un objetivo.
+- **Contexto**: Proporciona información relevante para la tarea.
+- **Pasos**: Guía de pasos a seguir para realizar la tarea.
+- **Salida**: Formato de salida esperado.
+- **Verificación**: Checklist de verificación de la tarea.
+
+---
 ## Concreción
 
-- [ ] Desarrollar sin una plan, chat y sesión de prueba/error.
-  - El boilerplate de un API REST con un health-check endpoint.
-  - Una aplicación web que consuma esa API e informe sobre su estado.
+- [ ] Health-check vibes.
   
+- [ ] Repetir usando Prompt Engineering.
 --- 
 
 ## Conclusión

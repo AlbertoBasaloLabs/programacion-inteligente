@@ -28,17 +28,6 @@ Metodología profesional para desarrollar software con IA...
 
 ## Conceptos
 
-### Prompt Engineering
-
-- **Rol**: Condiciona el comportamiento del modelo, asumiendo un rol específico.
-- **Tarea**: Define la tarea a realizar, como un objetivo.
-- **Contexto**: Proporciona información relevante para la tarea.
-- **Pasos**: Guía de pasos a seguir para realizar la tarea.
-- **Salida**: Formato de salida esperado.
-- **Verificación**: Checklist de verificación de la tarea.
-
----
-
 ### Context Engineering
 
 - **Slops**: 
@@ -56,16 +45,12 @@ Metodología profesional para desarrollar software con IA...
 ---
 
 ## Concreción
- 
 
-### AI-Driven Development
+### Rocket Management Feature 
 
-- **Spec-Driven Development**: Qué construir y cómo verificarlo
-  - `rockets.spec.md`
-- **Rules over Tools**: Cómo desarrollarlo 
-  - `develop.prompt.md` 
-- **Human in the Loop**: Cómo mantenerlo
-  - `release.loop.md` 
+- [ ] Especificar el problema
+- [ ] Diseñar la solución
+- [ ] Comprobar y aceptar
 
 --- 
 
