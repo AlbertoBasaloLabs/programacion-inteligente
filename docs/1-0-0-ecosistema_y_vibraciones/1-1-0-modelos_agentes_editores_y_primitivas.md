@@ -14,6 +14,7 @@ theme: ab
 
 
 #### [Programación Inteligente](programacion_inteligente.md)  
+> _Code smarter!_  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
@@ -54,16 +55,6 @@ El equivalente moderno a las estructuras de datos y control tradicionales.
 
 ---
 
-### GitHub Copilot
-
-- **Editores**: VSCode, Visual Studio 202*, IntelliJ
-- **CLI**: GitHub Copilot CLI, OpenCode CLI
-- **Plataformas**: GitHub Codespaces
-
-- [GitHub Copilot Feature Matrix](https://docs.github.com/en/copilot/reference/copilot-feature-matrix)
-
----
-
 ### Nivel de automatización
 
 - **0** Código manual
@@ -85,12 +76,20 @@ El equivalente moderno a las estructuras de datos y control tradicionales.
 
 ## Concreción
 
-- [↓ VSCode](https://code.visualstudio.com/)
-- [↓ GitHub Copilot](https://github.com/features/copilot)
-- [↓ GitHub Copilot CLI](https://github.com/features/copilot/cli/)
-- [↓ AstroBookings](https://github.com/AlbertoBasaloLabs/astro-bookings)
+- [ ] Escoge un IDE, un agente y sus modelos.
+- [ ] Elige tu stack tecnológico.
+- [ ] Crear el proyecto AstroBookings
 
-> Puedes usar **Github Copilot** en cualquier escenario, en diversos editores y con distintos niveles de automatización.
+--- 
+
+### AstroBookings
+
+A REST API and a web application for the fictional space tourism company (AstroBookings).
+
+Its purpose is to support its employees in their daily operations. Manage the rocket fleet, plan and confirm or cancel launches, as well as record passenger bookings without overbooking. Payments and refunds are processed through a fictional payment gateway.
+
+It is an MVP, so it does not require authentication or storage features.
+
 --- 
 
 ## Conclusión

@@ -14,6 +14,7 @@ Metodología profesional para desarrollar software con IA...
 ...durante todo el ciclo de vida del desarrollo (SDLC).
 
 #### [Programación Inteligente](programacion_inteligente.md)
+> _Code smarter!_ 
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
@@ -27,6 +28,19 @@ Metodología profesional para desarrollar software con IA...
 
 ## Conceptos
 
+### Prompt Engineering
+
+- **Rol**: Condiciona el comportamiento del modelo, asumiendo un rol específico.
+- **Tarea**: Define la tarea a realizar, como un objetivo.
+- **Contexto**: Proporciona información relevante para la tarea.
+- **Pasos**: Guía de pasos a seguir para realizar la tarea.
+- **Salida**: Formato de salida esperado.
+- **Verificación**: Checklist de verificación de la tarea.
+
+---
+
+### Context Engineering
+
 - **Slops**: 
   - La IA derrapa por falta de contexto tecnológico o de negocio
 - **Context**: 
@@ -35,28 +49,30 @@ Metodología profesional para desarrollar software con IA...
 ---
 
 ### Principios AI-DD
-  - **Human in the Loop**: Verificación en pasos cortos, repetibles y controlables
-  - **Rules over Tools**: Guiar con reglas, instrucciones y enseñar habilidades
+  - **Human in the Loop**: Verificación en procesos cortos y repetibles
+  - **Rules over Tools**: Guiar con reglas y enseñar habilidades
   - **Spec-Driven Development**: Explicar en detalle el problema y su verificación
 
 ---
 
 ## Concreción
+ 
 
 ### AI-Driven Development
 
 - **Spec-Driven Development**: Qué construir y cómo verificarlo
   - `rockets.spec.md`
-- **Rules over Tools**: Cómo construirlo ⚒️¿instrucciones/skills?
-  - `to-do` -> working code
-- **Human in the Loop**: Cómo mantenerlo ⚒️¿documentación/verificación?
-  - `to-do` -> release
+- **Rules over Tools**: Cómo desarrollarlo 
+  - `develop.prompt.md` 
+- **Human in the Loop**: Cómo mantenerlo
+  - `release.loop.md` 
 
 --- 
 
 ## Conclusión
 ### AI-Driven Development
-- Seguir workflows de pequeñas tareas controlables y repetibles
+- Las sesiones de chat son insuficientes
+- El detalle es imprescindible y debe mantenerse (como si fuera código)
 - Aportar el contexto técnico mediante reglas, instrucciones y habilidades
 - Aportar el contexto de negocio mediante especificaciones detalladas 
 

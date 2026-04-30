@@ -13,6 +13,7 @@ theme: ab
 - Desarrollar siguiendo el flujo de tus vibraciones sin preocuparse por el código.
 
 #### [Programación Inteligente](programacion_inteligente.md)
+> _Code smarter!_ 
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
@@ -31,31 +32,22 @@ theme: ab
 - **Refinado**: Proceso iterativo de mejora, prueba/error.
 - **Validación**: El humano es el responsable de aceptación manual.
 
---- 
-
-### Anatomía de un prompt.
-
-- **Rol**: Condiciona el comportamiento del modelo, asumiendo un rol específico.
-- **Tarea**: Define la tarea a realizar, como un objetivo.
-- **Contexto**: Proporciona información relevante para la tarea.
-- **Pasos**: Guía de pasos a seguir para realizar la tarea.
-- **Salida**: Formato de salida esperado.
-- **Verificación**: Checklist de verificación de la tarea.
-
 ---
 
 ## Concreción
 
-
-- [ ] Crear un proyecto nuevo sin preocuparte por el código.
-  - Un API rest para gestionar reservas de vuelos espaciales.
+- [ ] Desarrollar sin una plan, chat y sesión de prueba/error.
+  - El boilerplate de un API REST con un health-check endpoint.
+  - Una aplicación web que consuma esa API e informe sobre su estado.
   
 --- 
 
 ## Conclusión
 - El **vibe coding** consiste en 
-  - Desarrollar sin preocuparte por el código.
+  - Desarrollar sin planificar.
   - El resultado es lo único que importa.
+  - El código es un medio, no un fin.
+  - El humano es el responsable de la validación.
 
 #### [Programación Inteligente](programacion_inteligente.md)
 > _No es magia, es tecnología._  
