@@ -49,15 +49,15 @@ Metodología profesional para desarrollar software con IA...
 ### Rocket Management Feature 
 
 - [ ] Especificar el problema
-- [ ] Diseñar la solución
-- [ ] Comprobar y aceptar
+- [ ] Reglas y contexto
+- [ ] Confía pero comprueba
 
 --- 
 
 ## Conclusión
 ### AI-Driven Development
 - Las sesiones de chat son insuficientes
-- El detalle es imprescindible y debe mantenerse (como si fuera código)
+- El detalle es imprescindible y debe mantenerse (**como el código**)
 - Aportar el contexto técnico mediante reglas, instrucciones y habilidades
 - Aportar el contexto de negocio mediante especificaciones detalladas 
 
