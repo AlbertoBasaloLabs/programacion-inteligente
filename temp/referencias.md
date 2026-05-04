@@ -29,8 +29,14 @@ https://code.visualstudio.com/docs/copilot/customization/agent-skills
 
 ## Best practices
 
-- https://github.com/addyosmani/agent-skills
+- https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
 
+### Addy Osmani
+- https://addyosmani.com/blog/agent-skills/
+- https://github.com/addyosmani/agent-skills
 - https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md
 - https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md
-- https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+
+### Matt Pocock
+
+- https://github.com/mattpocock/skills
