@@ -38,5 +38,4 @@ https://code.visualstudio.com/docs/copilot/customization/agent-skills
 - https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md
 
 ### Matt Pocock
-
 - https://github.com/mattpocock/skills

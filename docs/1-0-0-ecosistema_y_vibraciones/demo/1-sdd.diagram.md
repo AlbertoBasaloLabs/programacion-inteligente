@@ -9,7 +9,7 @@ flowchart TD
         REQ["*.spec.md"]:::nd
     end
 
-    subgraph T["TECHNOLOGY"]
+    subgraph A["AGENTS"]
         AGT["AGENTS.md"]:::nd
     end  
 
@@ -20,7 +20,7 @@ flowchart TD
     REQ -->|/codify| COD
     AGT -.-> COD  
 
-    class P,T,S sg
+    class P,A,S sg
 ```
 
 ## Commands
@@ -30,4 +30,5 @@ flowchart TD
 ## Artifacts
 
 - `*.spec.md` - The specification of a requirement or bug to fix.
+
 - `Source Code` - The implementation of the system, including unit tests.
