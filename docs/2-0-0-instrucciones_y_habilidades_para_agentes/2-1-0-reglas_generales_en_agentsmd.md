@@ -13,6 +13,7 @@ theme: ab
 - Un README para agentes; reglas generales que siempre deben seguir.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
+> _Code smarter!_  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
@@ -42,18 +43,18 @@ theme: ab
 ## Concreción
 
 - **¿Qué incluir?**
-  - Descripción del proyecto.
-  - Stack tecnológico.
-  - Flujo de trabajo.
-  - Estructura de carpetas.
   - Entorno de desarrollo.
+  - Descripción del producto.
+  - Stack tecnológico.
+  - Principios generales
 ---
 
 ## ¿Usar prompts de inicialización?
 
 - Los agentes incluyen sus propios prompts de generación de reglas
 - Suelen ser demasiado _verbosos_
-- Mejor que lo hagas artesanlamente o tengas tu propia plantilla/prompt/skill
+- Mejor que lo hagas artesanalmente o tengas tu propia plantilla/prompt/skill
+### `/initialize` 
 
 --- 
 

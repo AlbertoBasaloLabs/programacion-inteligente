@@ -12,7 +12,6 @@ theme: ab
 
 - Programar en lenguaje natural con un ecosistema de herramientas inteligentes.
 
-
 #### [Programación Inteligente](programacion_inteligente.md)  
 > _Code smarter!_  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)

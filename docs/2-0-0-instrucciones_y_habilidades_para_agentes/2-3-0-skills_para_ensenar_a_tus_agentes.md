@@ -12,8 +12,8 @@ theme: ab
 
 - Educar a tu agente con nuevas habilidades.
 
-
 #### [Programación Inteligente](programacion_inteligente.md)  
+> _Code smarter!_  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 
 ---
@@ -47,7 +47,11 @@ theme: ab
       - `assets/`, `references/` y `scripts/`.
 
 > Descubrimiento progresivo
+---
 
+- **¿Cómo se crean o encuentran las _skills_?**
+### `/write-a-skill` 
+### `/find-skills` 
 --- 
 
 ## Conclusión

@@ -12,12 +12,13 @@ theme: ab
 - Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+ 
 ---
 
 ## Los LLM necesitan guías claras
 
-- Lo que tu no aportes, la I.A. lo completará por defecto... o lo _inventará_.
+- Lo que tú no aportes, la I.A. lo completará por defecto... o lo _inventará_.
 - Repetir instrucciones en cada petición es _ineficiente_.
 - Los agentes pueden recordar **reglas y habilidades**.
   

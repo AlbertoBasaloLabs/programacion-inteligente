@@ -19,5 +19,8 @@
     "agents": "robot",
     "prompts": "prompts",
     "skills": "prompts",
-  }
+  },
+  "cSpell.words": [
+    "inicialización"
+  ]
 }
