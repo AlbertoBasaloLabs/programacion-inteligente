@@ -1,3 +1,0 @@
-- Briefing
-- Rama git fin introducción
-- Repaso de agents, skills y specs
