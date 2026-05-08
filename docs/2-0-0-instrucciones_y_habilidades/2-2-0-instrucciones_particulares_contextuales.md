@@ -2,12 +2,12 @@
 title: Instrucciones particulares contextuales
 description: El micro management de los agentes.
 url: 2-2-0-instrucciones_particulares_contextuales
-footer: 2. Instrucciones y habilidades para agentes.  &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 2. Instrucciones y habilidades.  &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
 
-[2. Instrucciones y habilidades para agentes](./2-0-0-instrucciones_y_habilidades_para_agentes.md)  
+[2. Instrucciones y habilidades](./2-0-0-instrucciones_y_habilidades.md)  
 # 2.2. Instrucciones particulares contextuales
 
 - El micro management de los agentes

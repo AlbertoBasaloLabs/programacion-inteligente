@@ -1,13 +1,13 @@
 ---
-title: Flujo de trabajo basado en especificaciones
+title: Especificaciones y planes
 description: Organizar primitivas de programación con IA en un flujo de trabajo profesional.
-url: 4-0-0-flujo_de_trabajo_basado_en_especificaciones
-footer: 4. Flujo de trabajo basado en especificaciones. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
+url: 3-0-0-especificaciones_y_planes
+footer: 3. Especificaciones y planes. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
 theme: ab
 ---
 
-# 4. Flujo de trabajo basado en especificaciones
+# 3. Especificaciones y planes
 
 - Organizar primitivas de programación con IA en un flujo de trabajo profesional.
 
@@ -52,9 +52,9 @@ theme: ab
 
 ## Lecciones
 
-- [`4.1.0`](4-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema.md) Análisis de requerimientos y arquitectura del sistema
-- [`4.2.0`](4-2-0-sdd_especificaciones_funcionales_detalladas.md) SDD, especificaciones funcionales detalladas
-- [`4.3.0`](4-3-0-ramas_planes_y_tareas_de_codificacion.md) Ramas, planes y tareas de codificación
+- [`3.1.0`](3-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema.md) Análisis de requerimientos y arquitectura del sistema
+- [`3.2.0`](3-2-0-sdd_especificaciones_funcionales_detalladas.md) SDD, especificaciones funcionales detalladas
+- [`3.3.0`](3-3-0-ramas_planes_y_tareas_de_codificacion.md) Ramas, planes y tareas de codificación
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  

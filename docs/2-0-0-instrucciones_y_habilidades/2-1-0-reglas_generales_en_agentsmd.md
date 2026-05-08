@@ -2,12 +2,12 @@
 title: Reglas generales en AGENTS.md
 description: Un README para agentes; reglas generales que siempre deben seguir.
 url: 2-1-0-reglas_generales_en_agentsmd
-footer: 2. Instrucciones y habilidades para agentes. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+footer: 2. Instrucciones y habilidades. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
 
-[2. Instrucciones y habilidades para agentes](./2-0-0-instrucciones_y_habilidades_para_agentes.md)  
+[2. Instrucciones y habilidades](./2-0-0-instrucciones_y_habilidades.md)  
 # 2.1. Reglas generales en AGENTS.md
 
 - Un README para agentes; reglas generales que siempre deben seguir.

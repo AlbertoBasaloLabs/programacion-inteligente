@@ -1,13 +1,13 @@
 ---
-title: Instrucciones y habilidades para agentes
+title: Instrucciones y habilidades
 description: Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
-url: 2-0-0-instrucciones_y_habilidades_para_agentes
-footer: 2. Instrucciones y habilidades para agentes. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
+url: 2-0-0-instrucciones_y_habilidades
+footer: 2. Instrucciones y habilidades. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
 marp: true
 theme: ab
 ---
 
-# 2. Instrucciones y habilidades para agentes
+# 2. Instrucciones y habilidades
 
 - Guiar con instrucciones y enseñar a los agentes nuevas habilidades.
 

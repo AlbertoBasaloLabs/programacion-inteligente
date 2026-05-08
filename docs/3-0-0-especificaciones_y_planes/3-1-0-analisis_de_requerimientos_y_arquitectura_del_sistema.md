@@ -1,14 +1,14 @@
 ---
 title: Análisis de requerimientos y arquitectura del sistema
 description: La primera fase del workflow es entender el problema y diseñar la solución.
-url: 4-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema
-footer: 4.1. Análisis de requerimientos y arquitectura del sistema. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+url: 3-1-0-analisis_de_requerimientos_y_arquitectura_del_sistema
+footer: 3.1. Análisis de requerimientos y arquitectura del sistema. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
 
-[4. Flujo de trabajo basado en especificaciones](./4-0-0-flujo_de_trabajo_basado_en_especificaciones.md)  
-# 4.1. Análisis de requerimientos y arquitectura del sistema
+[3. Especificaciones y planes](./3-0-0-especificaciones_y_planes.md)  
+# 3.1. Análisis de requerimientos y arquitectura del sistema
 
 - La primera fase del workflow es entender el problema y diseñar la solución.
 
