@@ -8,27 +8,29 @@ flowchart TD
   HUM[HUMAN]
 
   subgraph P["PRODUCT"]
-      SPC["*.spec.md"]:::nd
-      PLN["*.plan.md"]:::nd
+      SPC["slug.spec.md"]:::nd
   end
 
   subgraph T["TECHNOLOGY"]
       AGT["AGENTS.md"]:::nd
       SKL["skills/"]:::nd
-      AGT -.-> SKL
   end  
 
   subgraph S["SOLUTION"]
+      PLN["slug.tier.plan.md"]:::nd
       COD[Source Code]:::nd
   end
 
   HUM -->|/initialize| AGT
   HUM -->|/write-a-skill| SKL
   HUM -->|/specify| SPC
-  SPC -->|/planify| PLN
-  PLN -->|/codify| COD
+  HUM -->|/planify.fix| PLN
+  AGT -.-> SKL
+  AGT -.-> SPC
   SKL -.-> COD  
   SKL -.-> PLN
+  SPC -->|/planify| PLN
+  PLN -->|/codify| COD
 
   class P,T,S sg
 ```
@@ -37,9 +39,11 @@ flowchart TD
 
 - `/initialize` - Create initial technology documentation (/AGENTS.md and skills/) for a project.
 
+- `/write-a-skill` - Create a new skill from a human need (Can be a rule set, a workflow, or a utility command).
+
 - `/specify` - Create a new specification from a requirement (defines problem, solution, and verification).
 
-- `/planify` - Create a set of implementation plans for an specification (back, front and data)
+- `/planify` - Create a set of implementation plans for an specification or bug-fix (back, front and data)
 
 - `/codify` - Run the implementation cycle for one specification: generate plans, produce code, and validate with tests.
 
@@ -49,8 +53,8 @@ flowchart TD
 
 - `skills/` - Teach your agent how to do things. Make them easy to know when to use.
 
-- `specs/spec-slug.spec` - The source of truth for system behavior; a directory of detailed specifications (problem, solution, verification), one per feature or bug.
+- `spec-slug.spec` - A detailed specification (problem, solution, verification) of a feature or technical requirement.
 
-- `spec-slug.*.plan` - A set of implementation plans derived from a single specification, defining ordered steps and tasks for each tier.
+- `spec-slug.tier.plan` - A set of implementation plans derived from a single specification, or bug-fix, defining ordered steps and tasks for each involved tier.
 
 - `Source Code` - The implementation of the system, including unit tests.
