@@ -1,18 +1,19 @@
 ---
 title: Generar código es la parte fácil
 description: Con especificaciones y reglas claras, la IA se encarga de la implementación.
-url: 5-1-0-generar_codigo_es_la_parte_facil
-footer: 5.1. Generar código es la parte fácil. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
+url: 3-3-0-generar_codigo_es_la_parte_facil
+footer: 3. Especificaciones y planes. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 marp: true
 theme: ab
 ---
 
-[5. Programar, verificar, documentar](./5-0-0-programar_verificar_documentar.md)  
-# 5.1. Generar código es la parte fácil
+[3. Especificaciones y planes](./3-0-0-especificaciones_y_planes.md)  
+# 3.3. Generar código es la parte fácil
 
 - Con especificaciones y reglas claras, la IA se encarga de la implementación.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
+> _Code smarter!_  
 > Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
@@ -38,9 +39,8 @@ theme: ab
 
 ## Concreción
 
-`implement-plan` : implementar los pasos de un plan con código generado por IA siguiendo reglas y skills para mantener calidad y consistencia.
+> `codify <plan-file>` : generar código a partir de un plan de implementación, siguiendo las tareas y reglas definidas para cada capa del sistema.
 
-> Commit de git workflow: `git add . && git commit -m "Implement spec-slug according to plan"`
 
 ---
 
@@ -48,7 +48,6 @@ theme: ab
 
 - La generación de código se vuelve una **commodity**.
 - El valor está en **definir QUÉ hacer** (specs) y **guiar CÓMO hacerlo** (skills).
-- La eficiencia aumenta, pero nunca a costa de la calidad.
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
