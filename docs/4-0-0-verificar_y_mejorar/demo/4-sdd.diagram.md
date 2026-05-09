@@ -1,6 +1,5 @@
 # Level 4 SDD workflow
 
-> ☣️ To Do...
 
 ```mermaid
 flowchart TD
@@ -21,6 +20,7 @@ flowchart TD
   subgraph S["SOLUTION"]
       PLN["slug.tier.plan.md"]:::nd
       COD[Source Code]:::nd
+      E2E["E2E Tests"]:::nd
   end
 
   HUM -->|/initialize| AGT
@@ -33,6 +33,8 @@ flowchart TD
   SKL -.-> PLN
   SPC -->|/planify| PLN
   PLN -->|/codify| COD
+  COD -->|/verify| E2E
+  E2E -->|/simplify| COD
 
   class P,T,S sg
 ```
@@ -49,6 +51,10 @@ flowchart TD
 
 - `/codify` - Run the implementation cycle for one specification: generate plans, produce code, and validate with tests.
 
+- `/verify` - Run end-to-end tests to ensure code meets specifications.
+
+- `/simplify` - Refactor and improve existing code while preserving functionality and architecture.
+
 ## Artifacts
 
 - `/AGENTS.md` - The entry point for any agent joining the project; defines how agents should operate, including rules, workflows, and artifact conventions.
@@ -60,3 +66,5 @@ flowchart TD
 - `spec-slug.tier.plan` - A set of implementation plans derived from a single specification, or bug-fix, defining ordered steps and tasks for each involved tier.
 
 - `Source Code` - The implementation of the system, including unit tests.
+
+- `E2E Tests` - End-to-end tests that verify the implemented code meets the defined specifications and acceptance criteria.
