@@ -4,7 +4,7 @@
 
 ### 1.1. Specify
 
-> `/specify this requirement or bug to fix` 
+> `/specify this requirement` 
 
 ```yaml
 ---
@@ -25,12 +25,12 @@ description : Create a new specification for a feature, defining the problem, so
 
 ### 2.1 Planify
 
-> `/planify this specification file` 
+> `/planify this specification, improvement or bug to fix` 
 
 ```yaml
 ---
 name : planify
-description : Generate a set of implementation plans for a given specification, outlining the ordered steps and tasks required for each tier. To be used with a specification or bug report, to create clear and actionable plans for its implementation.
+description : Generate a set of implementation plans for a given specification, outlining the ordered steps and tasks required for each tier. To be used with a specification, improvement, or bug report, to create clear and actionable plans for its implementation.
 ---
 ```
 
@@ -47,11 +47,16 @@ description : Generate a set of implementation plans for a given specification, 
 ### 3.1 Codify Launches plans
 
 > `codify launches.backend.plan.md`
+
 > `codify launches.frontend.plan.md`
 
 ### 3.2 Spec, plan and codify Booking feature
 
 > `specify the booking feature to allow users to book a passenger ticket for a rocket launch, including details like name, email and phone number, and booking status (created,  cancelled).`
+
 > `planify the booking.spec.md file to create implementation plans for the backend, frontend tiers.`
+
+
 > `codify booking.backend.plan.md`
+
 > `codify booking.frontend.plan.md`

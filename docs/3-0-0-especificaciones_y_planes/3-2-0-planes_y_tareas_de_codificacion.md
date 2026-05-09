@@ -42,20 +42,15 @@ theme: ab
 
 ## Concreción
 
-### Anatomía de un plan de implementación
+### Plan para la <Capa> de la <Especificación>
+- Skills necesarias: `skill-1`, `skill-2`, ...
+- 1 Nombre de paso 1
+  - Descripción detallada del paso 1.
+  - Ficheros afectados: [`ruta/archivo.ext`]
+  - [ ] Tarea 1.1
+  - [ ] Tarea 1.2
+- 2 Nombre de paso 2
 
-- Plan para la <Capa> de la <Especificación>
-  - Skills necesarias: `skill-1`, `skill-2`, ...
-  - 1 Nombre de paso 1
-    - Descripción detallada del paso 1.
-    - Ficheros afectados: [`ruta/archivo.ext`]
-    - [ ] Tarea 1.1
-    - [ ] Tarea 1.2
-  - 2 Nombre de paso 2
-    - Descripción detallada del paso 2.
-    - Ficheros afectados: [`ruta/archivo.ext`]
-    - [ ] Tarea 2.1
-    - [ ] Tarea 2.2
 ---
 
 ## Conclusión

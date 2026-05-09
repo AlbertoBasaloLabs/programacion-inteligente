@@ -42,18 +42,17 @@ theme: ab
 
 ## Concreción
 
-### Anatomía de una especificación
-- Fichero `project/specs/<id-slug>.spec.md`:
-  - Problema
-    - COMO _rol_ QUIERO _acción_ PARA _beneficio_
-  - Solución
-    - Data
-    - Back
-    - Front
-  - Verificación
-    - EL sistema DEBE _comportamiento_
-    - CUANDO _evento_ EL sistema DEBE _respuesta_
-    - SI _condición_ ENTONCES EL sistema DEBE _respuesta_
+### Especificación `project/specs/<id-slug>.spec.md`
+- Problema
+  - COMO _rol_ QUIERO _acción_ PARA _beneficio_
+- Solución
+  - Data
+  - Back
+  - Front
+- Verificación
+  - EL sistema DEBE _comportamiento_
+  - CUANDO _evento_ EL sistema DEBE _respuesta_
+  - SI _condición_ ENTONCES EL sistema DEBE _respuesta_
 
 --- 
 
