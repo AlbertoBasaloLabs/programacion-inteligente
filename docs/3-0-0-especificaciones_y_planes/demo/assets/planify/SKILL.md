@@ -17,7 +17,7 @@ Create a set of implementation plans for a given specification, improvement, or 
 
 - The [Implementation Plan template](./plan.template.md) for writing implementation plans.
 
-And One of the following inputs:
+And one of the following inputs:
 - A specification file that defines the problem, solution, and verification criteria for a feature or technical requirement.
 - An improvement request that describes a desired enhancement, its impact, and expected behavior.
 - A bug report that describes an issue, its impact, and steps to reproduce it.
