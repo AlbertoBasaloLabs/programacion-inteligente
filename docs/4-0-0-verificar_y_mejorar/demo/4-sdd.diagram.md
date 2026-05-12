@@ -10,6 +10,8 @@ flowchart TD
 
   subgraph P["PRODUCT"]
       SPC["slug.spec.md"]:::nd
+      PLN["slug.tier.plan.md"]:::nd
+      RPT["slug.report.md"]:::nd
   end
 
   subgraph T["TECHNOLOGY"]
@@ -18,7 +20,6 @@ flowchart TD
   end  
 
   subgraph S["SOLUTION"]
-      PLN["slug.tier.plan.md"]:::nd
       COD[Source Code]:::nd
       E2E["E2E Tests"]:::nd
   end
@@ -26,15 +27,17 @@ flowchart TD
   HUM -->|/initialize| AGT
   HUM -->|/write-a-skill| SKL
   HUM -->|/specify| SPC
-  HUM -->|/planify.fix| PLN
+  HUM -->|/planify| PLN
+  RPT -->|/planify| PLN
   AGT -.-> SKL
-  AGT -.-> SPC
+  AGT -.-> SPC  
   SKL -.-> COD  
   SKL -.-> PLN
   SPC -->|/planify| PLN
   PLN -->|/codify| COD
   COD -->|/verify| E2E
   E2E -->|/simplify| COD
+  E2E -->|/review| RPT
 
   class P,T,S sg
 ```
@@ -55,6 +58,8 @@ flowchart TD
 
 - `/simplify` - Refactor and improve existing code while preserving functionality and architecture.
 
+- `/review` - Review code for guidelines compliance and best practices.
+
 ## Artifacts
 
 - `/AGENTS.md` - The entry point for any agent joining the project; defines how agents should operate, including rules, workflows, and artifact conventions.
@@ -68,3 +73,5 @@ flowchart TD
 - `Source Code` - The implementation of the system, including unit tests.
 
 - `E2E Tests` - End-to-end tests that verify the implemented code meets the defined specifications and acceptance criteria.
+
+- `slug.report.md` - A report generated during the review process, such as accessibility and compliance reports.

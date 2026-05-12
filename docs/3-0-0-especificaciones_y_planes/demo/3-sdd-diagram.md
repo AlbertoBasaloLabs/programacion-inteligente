@@ -24,7 +24,7 @@ flowchart TD
   HUM -->|/initialize| AGT
   HUM -->|/write-a-skill| SKL
   HUM -->|/specify| SPC
-  HUM -->|/planify.fix| PLN
+  HUM -->|/planify| PLN
   AGT -.-> SKL
   AGT -.-> SPC
   SKL -.-> COD  
