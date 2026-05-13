@@ -67,7 +67,7 @@ flowchart TD
 
 - `{slug}.spec.md` - A detailed specification (problem, solution, verification) of a feature or technical requirement.
 
-- `{slug}.{tier}.plan.md` - A set of implementation plans derived from a single specification, or a report of a bug-fix. 
+- `{slug}.{source?}.{tier?}.plan.md` - A set of implementation plans derived from a single specification, or a report of a bug-fix. 
 
 - `{slug}.report.md` - A report generated during the review process, such as accessibility and compliance reports.
   
