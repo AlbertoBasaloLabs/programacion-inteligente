@@ -1,19 +1,20 @@
 ---
 title: Verificar que funciona es la parte difícil
 description: El rol del desarrollador evoluciona hacia auditor y tester.
-url: 5-2-0-verificar_que_funciona_es_la_parte_dificil
-footer: 5.2. Verificar que funciona es la parte difícil. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
+url: 4-1-0-verificar_que_funciona_es_la_parte_dificil
+footer: 4.1. Verificar  y mejorar. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
 theme: ab
 ---
 
-[5. Programar, verificar, documentar](./5-0-0-programar_verificar_documentar.md)  
-# 5.2. Verificar que funciona es la parte difícil
+[4. Verificar y mejorar](./4-0-0-verificar_y_mejorar.md)  
+# 4.1. Verificar que funciona es la parte difícil
 
 - El rol del desarrollador evoluciona hacia auditor y tester.
 
 #### [Programación Inteligente](programacion_inteligente.md)  
-> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
+> _Code smarter!_  
+> Por [Alberto Basalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy) 
 
 ---
 
@@ -37,23 +38,20 @@ theme: ab
   - Después de cada iteración de codificación.
   - Agente tester y humano.
 
-
 ---
 
 ## Concreción
 
-- `testing-spec` : Ejecuta pruebas e2e.
+- `verify` : Desarrolla y ejecuta pruebas e2e.
   - validar los criterios de aceptación definidos en la especificación 
-  - identificar fallos o defectos en la implementación.
-  - 
+  - identificar fallos o defectos en la funcionalidad. 
 
 ---
 
 ## Conclusión
 
-- La **verificación** consume más tiempo que la codificación.
 - Es la **red de seguridad** necesaria para aprovechar la velocidad de la IA.
-- Las pruebas del código son el punto de partida de un producto mantenible.
+- Las **pruebas funcionales** son el punto de partida de un producto mantenible.
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
