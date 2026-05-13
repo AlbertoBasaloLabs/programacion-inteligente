@@ -47,11 +47,11 @@ flowchart TD
 
 - `/planify` - Create a set of implementation plans for a specification or bug-fix (back, front, and data).
 
-- `/codify` - Run the implementation cycle for one specification: generate plans, produce code, and validate with tests.
+- `/codify` - Writes the code and unit tests following a plan, implementing a specification, or a minor requirement.
 
 - `/verify` - Run end-to-end tests to ensure code meets specifications.
 
-- `/review` - Review code for guidelines compliance and best practices.
+- `/review` - Review code for guideline compliance and best practices.
 
 ## Artifacts
 

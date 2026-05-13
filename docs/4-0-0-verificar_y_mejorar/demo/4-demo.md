@@ -28,7 +28,7 @@ description: Reviews code against a specific guideline type and produces a repor
 ---
 ```
 
--- 
+---
 
 ## 3. Design interfaces
 
