@@ -34,10 +34,18 @@ theme: ab
 
 ---
 
+## La apariencia importa
+
+- **La primera impresión cuenta**
+  - Una aplicación bonita es más querida.
+
+---
+
 ## Lecciones
 
 - [`4.1.0`](4-1-0-verificar_que_funciona_es_la_parte_dificil.md) Verificar que funciona es la parte difícil
 - [`4.2.0`](4-2-0-mejorar_continuamente_con_revisiones.md) Mejorar continuamente con revisiones
+- [`4.3.0`](4-3-0-la_apariencia_importa.md) La apariencia importa
 
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  

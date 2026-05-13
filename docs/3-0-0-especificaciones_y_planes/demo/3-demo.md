@@ -8,8 +8,8 @@
 
 ```yaml
 ---
-name : specify
-description : Create a new specification for a feature, defining the problem, solution, and verification criteria. This serves as the source of truth for implementation and testing.
+name: specify
+description: Writes a specification file for a new feature or complex improvement. Use this skill when the user provides a requirement, user story, or feature description that needs to be formally defined before implementation. Trigger on phrases like "write a spec", "specify this feature", "create a spec for", or whenever a new feature needs a spec file before planning or coding.
 ---
 ```
 
@@ -29,8 +29,8 @@ description : Create a new specification for a feature, defining the problem, so
 
 ```yaml
 ---
-name : planify
-description : Generate a set of implementation plans for a given specification, outlining the ordered steps and tasks required for each tier. To be used with a specification, improvement, or bug report, to create clear and actionable plans for its implementation.
+name: planify
+description: Generates implementation plan files from a spec, bug report, or review report. Use this skill when the user wants to break down a spec, fix, or review into actionable implementation steps. Trigger on phrases like "planify this", "create a plan for", "break this down", or whenever a spec, fix, or review report is ready to be planned before coding.
 ---
 ```
 

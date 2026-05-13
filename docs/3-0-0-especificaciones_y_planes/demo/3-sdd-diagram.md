@@ -1,4 +1,4 @@
-# Level 3 SDD workflow
+# AIDD Workflow
 
 ```mermaid
 flowchart TD
@@ -8,26 +8,25 @@ flowchart TD
   HUM[HUMAN]
 
   subgraph P["PRODUCT"]
-      SPC["slug.spec.md"]:::nd
+      SPC["{slug}.spec.md"]:::nd
+      PLN["{slug}.{source?}.{tier?}.plan.md"]:::nd
   end
 
   subgraph T["TECHNOLOGY"]
       AGT["AGENTS.md"]:::nd
       SKL["skills/"]:::nd
+      RUL["rules/"]:::nd
   end  
 
   subgraph S["SOLUTION"]
-      PLN["slug.tier.plan.md"]:::nd
       COD[Source Code]:::nd
   end
 
   HUM -->|/initialize| AGT
-  HUM -->|/write-a-skill| SKL
   HUM -->|/specify| SPC
   HUM -->|/planify| PLN
-  AGT -.-> SKL
-  AGT -.-> SPC
-  SKL -.-> COD  
+  AGT -.-> SPC  
+  SKL & RUL -.-> COD  
   SKL -.-> PLN
   SPC -->|/planify| PLN
   PLN -->|/codify| COD
@@ -39,22 +38,30 @@ flowchart TD
 
 - `/initialize` - Create initial technology documentation (/AGENTS.md and skills/) for a project.
 
-- `/write-a-skill` - Create a new skill from a human need (Can be a rule set, a workflow, or a utility command).
-
 - `/specify` - Create a new specification from a requirement (defines problem, solution, and verification).
 
-- `/planify` - Create a set of implementation plans for a specification or bug-fix (back, front, and data)
+- `/planify` - Create a set of implementation plans for a specification or bug-fix (back, front, and data).
 
 - `/codify` - Run the implementation cycle for one specification: generate plans, produce code, and validate with tests.
 
+
 ## Artifacts
+
+### Technology
 
 - `/AGENTS.md` - The entry point for any agent joining the project; defines how agents should operate, including rules, workflows, and artifact conventions.
 
 - `skills/` - Teach your agent how to do things. Make them easy to know when to use.
 
+### Product
+
 - `spec-slug.spec` - A detailed specification (problem, solution, verification) of a feature or technical requirement.
 
 - `spec-slug.tier.plan` - A set of implementation plans derived from a single specification, or bug-fix, defining ordered steps and tasks for each involved tier.
+ 
+### Solution
 
 - `Source Code` - The implementation of the system, including unit tests.
+
+
+
