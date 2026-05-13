@@ -6,10 +6,10 @@ flowchart TD
     classDef sg fill:#f1f5f9,stroke:#00f2ff,color:#457b9d 
 
     subgraph P["PRODUCT"]
-        REQ["slug.spec.md"]:::nd
+        REQ["{slug}.spec.md"]:::nd
     end
 
-    subgraph A["AGENTS"]
+    subgraph T["TECHNOLOGY"]
         AGT["AGENTS.md"]:::nd
     end  
 
@@ -20,7 +20,7 @@ flowchart TD
     REQ -->|/codify| COD
     AGT -.-> COD  
 
-    class P,A,S sg
+    class P,T,S sg
 ```
 
 ## Commands
@@ -29,6 +29,20 @@ flowchart TD
 
 ## Artifacts
 
-- `spec-slug.spec` - A detailed specification (problem, solution, verification) of a feature or technical requirement.
+### Technology
+
+- `/AGENTS.md` - The entry point for any agent joining the project; defines how agents should operate, including rules, workflows, and artifact conventions.
+
+- `rules/` - Define rules that agents must follow when writing code.
+
+- `skills/` - Teach your agent how to do things. Make them easy to know when to use.
+
+
+
+### Product
+
+- `{slug}.spec.md` - A detailed specification (problem, solution, verification) of a feature or technical requirement.
+
+### Solution
 
 - `Source Code` - The implementation of the system, including unit tests.
