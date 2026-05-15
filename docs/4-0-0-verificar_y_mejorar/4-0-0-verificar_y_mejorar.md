@@ -1,7 +1,6 @@
 ---
 title: Verificar y mejorar
 description: El rol del desarrollador evoluciona hacia auditor y tester.
-description: Organizar primitivas de programación con IA en un flujo de trabajo profesional.
 url: 4-0-0-verificar_y_mejorar
 footer: 4. Verificar y mejorar. &copy; [AlbertoBasalo](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)  
 marp: true
