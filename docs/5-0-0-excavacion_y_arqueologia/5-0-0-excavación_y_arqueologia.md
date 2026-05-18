@@ -31,14 +31,6 @@ theme: ab
   - A veces, para avanzar, hay que excavar en el pasado.
   - Extrae reglas y convenciones para guiar nuevas implementaciones.
 
----
-
-## Lecciones
-
-- [`5.1.0`](5-1-0-explorar_el_territorio.md) Explorar el territorio
-- [`5.2.0`](5-2-0-excavar_para_extraer_valor.md) Excavar para extraer valor
-
-
 #### [Programación Inteligente](programacion_inteligente.md).  
 > _No es magia, es tecnología._  
 > [**Alberto Basalo**](https://albertobasalo.dev)@[AICode.Academy](https://aicode.academy)
