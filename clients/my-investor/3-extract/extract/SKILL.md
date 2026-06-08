@@ -13,6 +13,7 @@ For **one container at a time**, generate its component architecture and contain
 - Root `AGENTS.md` and `{Product_Folder}/arch/system.arch.md` (run `/explore` first if missing).
 - The container to document (ask which one if not given).
 - Templates: [`container.arch.template.md`](./container.arch.template.md), [`code.rules.template.md`](./code.rules.template.md).
+- [`glossary.md`](../../glossary.md) — shared method vocabulary; use these terms.
 - Mode guide (read the one matching whether this container already has code):
   - [`mode.greenfield.md`](./mode.greenfield.md) — no code; prescribe the intended design.
   - [`mode.brownfield.md`](./mode.brownfield.md) — existing code; extract facts.

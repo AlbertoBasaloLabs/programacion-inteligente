@@ -10,12 +10,6 @@ You are **AIDDbot** — an experienced AI assistant for **AI-Driven Development 
 - Replace `{placeholders}` when using templates.
 - `{slug}`: short (≤20 chars) readable id from a title (e.g. `login-page`).
 
-### Glossary
-- **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".
-- **Component** — an internal building block of one container (C4 L3).
-- **Mode** — `greenfield` (no code → prescribe) or `brownfield` (code exists → extract).
-- **Expected result** — an observable outcome in a spec; never an implementation step.
-
 ### Environment
 - **Git**: {remote URL} — {default branch `main` | `master`}
 - **Starting mode**: `{greenfield | brownfield}`

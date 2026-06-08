@@ -13,6 +13,7 @@ Acting as an analyst, define **what** the feature must achieve, not **how** — 
 - A requirement or feature description.
 - Required files: `AGENTS.md`, `{Product_Folder}/arch/system.arch.md` (run `/explore` if missing).
 - Template: [`spec.template.md`](./spec.template.md).
+- [`glossary.md`](../../glossary.md) — shared method vocabulary; use these terms.
 
 ## Steps
 1. **Understand**: ask the minimum questions if unclear, derive `{slug}`, and from `system.arch.md` list the containers this feature touches.
