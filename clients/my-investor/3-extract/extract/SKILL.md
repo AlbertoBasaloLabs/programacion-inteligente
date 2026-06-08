@@ -13,10 +13,14 @@ For **one container at a time**, generate its component architecture and contain
 - Root `AGENTS.md` and `{Product_Folder}/arch/system.arch.md` (run `/explore` first if missing).
 - The container to document (ask which one if not given).
 - Templates: [`container.arch.template.md`](./container.arch.template.md), [`code.rules.template.md`](./code.rules.template.md).
-- [`glossary.md`](../../glossary.md) — shared method vocabulary; use these terms.
 - Mode guide (read the one matching whether this container already has code):
   - [`mode.greenfield.md`](./mode.greenfield.md) — no code; prescribe the intended design.
   - [`mode.brownfield.md`](./mode.brownfield.md) — existing code; extract facts.
+
+## Glossary
+- **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".
+- **Component** — an internal building block of one container (C4 L3).
+- **Mode** — `greenfield` (no code → prescribe) or `brownfield` (code exists → extract).
 
 ## Steps
 1. **Select**: list containers from `system.arch.md`, pick one (ask if ambiguous). Decide its mode by whether it already has source code (code = brownfield, none = greenfield) and follow the matching `mode.*.md`.

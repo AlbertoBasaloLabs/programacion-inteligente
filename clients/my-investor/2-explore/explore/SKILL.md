@@ -11,11 +11,14 @@ Generate the root `AGENTS.md` and the system architecture document, acting as a 
 
 ## Input
 - Existing codebase at the repo root, if any.
-- [`glossary.md`](../../glossary.md) — shared method vocabulary; use these terms.
 - Mode guide (read the one that matches):
   - [`mode.greenfield.md`](./mode.greenfield.md) — no code; prescribe defaults, ask the user.
   - [`mode.brownfield.md`](./mode.brownfield.md) — existing code; extract facts.
 - Templates: [`AGENTS.template.md`](./AGENTS.template.md), [`system.arch.template.md`](./system.arch.template.md).
+
+## Glossary
+- **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".
+- **Mode** — `greenfield` (no code → prescribe) or `brownfield` (code exists → extract).
 
 ## Steps
 1. **Setup**: infer OS, shell, Git remote. Check root for `AGENTS.md`, `README.md`, and source code. Classify as **greenfield | brownfield**, then read and follow the matching `mode.*.md`.

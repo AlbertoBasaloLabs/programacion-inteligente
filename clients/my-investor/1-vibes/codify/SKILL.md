@@ -28,7 +28,10 @@ One of the following inputs:
 - A specification file with a feature definition.
 - A request made by the user with a concrete requirement.
 - If the input is incomplete or unclear, ask the user for additional details before proceeding.
-- [`glossary.md`](../../glossary.md) — shared method vocabulary; use these terms.
+
+## Glossary
+- **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".
+- **Expected result** — an observable outcome from the spec/plan that the code must satisfy.
 
 ## Steps
 

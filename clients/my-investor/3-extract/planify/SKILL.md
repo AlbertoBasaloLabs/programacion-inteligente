@@ -13,7 +13,11 @@ Acting as a senior software engineer, turn a spec (or bug/review report) into **
 - One of: a spec `{Product_Folder}/specs/{slug}/spec.md`, a bug/review report `{slug}.report.md`, or a short textual requirement.
 - References: `{Product_Folder}/arch/system.arch.md` (containers the feature can touch) and each `{Product_Folder}/arch/{container}.arch.md` (run `/extract` if missing).
 - Templates: [container plan](./plan.template.md), [e2e plan](./e2e.plan.template.md).
-- [`glossary.md`](../../glossary.md) — shared method vocabulary; use these terms.
+
+## Glossary
+- **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".
+- **Component** — an internal building block of one container (C4 L3).
+- **Expected result** — an observable outcome from the spec; never an implementation step.
 
 ## Conventions
 - `{slug}` inherited from the input file name or derived from the requirement.
