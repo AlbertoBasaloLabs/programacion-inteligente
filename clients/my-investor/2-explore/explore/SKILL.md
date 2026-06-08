@@ -12,9 +12,9 @@ Generate the root `AGENTS.md` and the system architecture document, acting as a 
 ## Input
 - Existing codebase at the repo root, if any.
 - Mode guide (read the one that matches):
-  - [`mode.greenfield.md`](./mode.greenfield.md) — no code; prescribe defaults, ask the user.
-  - [`mode.brownfield.md`](./mode.brownfield.md) — existing code; extract facts.
-- Templates: [`AGENTS.template.md`](./AGENTS.template.md), [`system.arch.template.md`](./system.arch.template.md).
+  - [`mode.greenfield.md`](./references/mode.greenfield.md) — no code; prescribe defaults, ask the user.
+  - [`mode.brownfield.md`](./references/mode.brownfield.md) — existing code; extract facts.
+- Templates: [`AGENTS.template.md`](./assets/AGENTS.template.md), [`system.arch.template.md`](./assets/system.arch.template.md).
 
 ## Glossary
 - **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".

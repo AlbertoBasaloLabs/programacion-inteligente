@@ -12,7 +12,7 @@ Acting as an analyst, define **what** the feature must achieve, not **how** — 
 ## Input
 - A requirement or feature description.
 - Required files: `AGENTS.md`, `{Product_Folder}/arch/system.arch.md` (run `/explore` if missing).
-- Template: [`spec.template.md`](./spec.template.md).
+- Template: [`spec.template.md`](./assets/spec.template.md).
 
 ## Glossary
 - **Container** — a runnable unit in `system.arch.md` (`back`, `front`, `db`...). Never "tier".
