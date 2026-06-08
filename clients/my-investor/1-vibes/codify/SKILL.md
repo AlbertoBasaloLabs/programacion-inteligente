@@ -9,7 +9,6 @@ disable-model-invocation: true
 Write code to implement a feature
 
 ## Role
-
 Act as a software engineer with expertise in coding requirements and features.
 
 ## Task
@@ -34,7 +33,6 @@ One of the following inputs:
 - **Expected result** — an observable outcome from the spec/plan that the code must satisfy.
 
 ## Steps
-
 ### Step 1: Think before coding
 - [ ] Reason about the problem and ask the user for clarification if needed.
 
@@ -48,12 +46,10 @@ One of the following inputs:
 - [ ] Keep working until all specified verification steps are successfully completed.
   
 ## Output
-
 - [ ] Fully working code that fulfills the requirements.
 - [ ] Green unit test for critical modules.
 
 ## Verification
-
 - [ ] Code compiles without errors.
 - [ ] Unit test passes.
 - [ ] Smoke test passes (app or servers start).
