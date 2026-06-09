@@ -12,6 +12,10 @@ status: pending | in-progress | done
 
 - As a {role}, I want to **{goal}** so that {benefit}.
 
+### Business rules
+
+- {Business rule 1}
+
 ## Solution overview
 
 > Expected results only — outcomes, not implementation. `/planify` turns these into steps per container.
@@ -24,10 +28,15 @@ status: pending | in-progress | done
 
 {What this container must deliver for the feature, per `system.arch.md`.}
 
-- {Expected result — an observable outcome this container provides.}
-- {Expected result}
+- {An observable outcome this container provides in non-technical language.}
 
-## Acceptance and Release
+## Verification
+
+### Acceptance criteria
 
 - [ ] {EARS-format acceptance criterion}
-- [ ] {Additional criterion}
+
+### Additional criteria
+
+- [ ] {Additional criteria 1}
+
