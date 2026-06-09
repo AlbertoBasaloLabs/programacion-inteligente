@@ -27,21 +27,23 @@ erDiagram
 ```
 
 ### Backend API
-— An endpoint to create a rocket with its capacity and range of action.
-— An endpoint to consult the rocket catalog.
-— An endpoint to update the operational data of a rocket.
-— An endpoint to decommission a rocket.
+- An endpoint to create a rocket with its capacity and range of action.
+- An endpoint to consult the rocket catalog.
+- An endpoint to update the operational data of a rocket.
+- An endpoint to decommission a rocket.
 
 ### Frontend Application
-— A form to register a new rocket with its capacity and range of action.
-— A view to consult the rocket catalog.
-— A form to update the operational data of a rocket.
-— A button to decommission a rocket.
+- A form to register a new rocket with its capacity and range of action.
+- A view to consult the rocket catalog.
+- A form to update the operational data of a rocket.
+- A button to decommission a rocket.
   
-## Acceptance and Release
-— [ ] IF a new rocket is registered with valid data, THEN it should be added to the catalog.
-— [ ] IF the rocket catalog is consulted, THEN it should display all registered rockets.
-— [ ] IF a rocket's operational data is updated, THEN the changes should be reflected in the catalog.
-— [ ] IF a rocket is decommissioned, THEN it should no longer be available for future launches.
-— [ ] WHEN invalid data is provided, THEN the system should return appropriate error messages.
-— [ ] WHEN a rocket is not found by its ID, THEN the system should return a not found error.
+## Verification
+
+### Acceptance criteria
+- [ ] IF a new rocket is registered with valid data, THEN it should be added to the catalog.
+- [ ] IF the rocket catalog is consulted, THEN it should display all registered rockets.
+- [ ] IF a rocket's operational data is updated, THEN the changes should be reflected in the catalog.
+- [ ] IF a rocket is decommissioned, THEN it should no longer be available for future launches.
+- [ ] WHEN invalid data is provided, THEN the system should return appropriate error messages.
+- [ ] WHEN a rocket is not found by its ID, THEN the system should return a not found error.
