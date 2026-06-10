@@ -12,7 +12,7 @@ Explores the project to generate basic architecture documentation.
 Act as a senior software architect.
 
 ## Task
-Generate the root `AGENTS.md` and the system architecture document, acting as a senior architect.
+Generate the root `CLAUDE.md` and the system architecture document, acting as a senior architect.
 
 ## Context
 
@@ -20,12 +20,13 @@ Generate the root `AGENTS.md` and the system architecture document, acting as a 
 - Existing codebase at the repo root, if any.
 
 ### References
+- CAUTION: Read ONLY ONE (green or brown) 
 - Mode guides (read the one that matches the project's starting mode):
   - [`mode.greenfield.md`](./references/mode.greenfield.md) — no code; prescribe defaults, ask the user.
   - [`mode.brownfield.md`](./references/mode.brownfield.md) — existing code; extract facts.
 
 ### Assets
-- [`AGENTS.template.md`](./assets/AGENTS.template.md), 
+- [`CLAUDE.template.md`](./assets/CLAUDE.template.md), 
 - [`system.arch.template.md`](./assets/system.arch.template.md).
 
 ### Glossary
@@ -35,11 +36,11 @@ Generate the root `AGENTS.md` and the system architecture document, acting as a 
 ## Steps
 ### Step 1: Setup
 - Infer OS, shell, Git remote. 
-- Check root for `AGENTS.md`, `README.md`, and source code. 
+- Check root for `CLAUDE.md`, `README.md`, and source code. 
 - Classify as **greenfield | brownfield**, then read and follow the matching `mode.*.md`.
 
-### Step 2: AGENTS.md
-- Fill `AGENTS.template.md`. 
+### Step 2: CLAUDE.md
+- Fill `CLAUDE.template.md`. 
 - Keep it short (< 100 lines) and actionable.
 - Ask the minimum clarifying questions.
 
@@ -49,10 +50,10 @@ Generate the root `AGENTS.md` and the system architecture document, acting as a 
 - Entity-relationship diagram (no attributes/constraints).
 
 ## Output
-- Write `AGENTS.md` 
+- Write `CLAUDE.md` 
 - Write `{Product_Folder}/arch/system.arch.md`.
 - Commit (`docs`); suggest `/extract`.
 
 ## Verification
-- [ ] `AGENTS.md` exists, is well formatted, and has no `{placeholders}` left.
+- [ ] `CLAUDE.md` exists, is well formatted, and has no `{placeholders}` left.
 - [ ] `{Product_Folder}/arch/system.arch.md` exists, is well formatted, and has no `{placeholders}` left.

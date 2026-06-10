@@ -10,10 +10,11 @@ disable-model-invocation: true
 For **one container at a time**, generate its component architecture and container code-rules documents, acting as a senior architect.
 
 ## Input
-- Root `AGENTS.md` and `{Product_Folder}/arch/system.arch.md` (run `/explore` first if missing).
+- Root `CLAUDE.md` and `{Product_Folder}/arch/system.arch.md` (run `/explore` first if missing).
 - The container to document (ask which one if not given).
 - Templates: [`container.arch.template.md`](./assets/container.arch.template.md), [`code.rules.template.md`](./assets/code.rules.template.md).
-- Mode guide (read the one matching whether this container already has code):
+- CAUTION: Read ONLY ONE (green or brown) 
+- Mode guides (read the one that matches the project's starting mode):
   - [`mode.greenfield.md`](./references/mode.greenfield.md) — no code; prescribe the intended design.
   - [`mode.brownfield.md`](./references/mode.brownfield.md) — existing code; extract facts.
 

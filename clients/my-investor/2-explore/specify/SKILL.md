@@ -20,7 +20,7 @@ Output: `{Product_Folder}/specs/{slug}/spec.md`. Write the specification in one 
 
 ### Input
 - A requirement or feature description. Ask the user for additional details if needed.
-- `AGENTS.md`, `{Product_Folder}/arch/system.arch.md` (run `/explore` if missing).
+- `CLAUDE.md`, `{Product_Folder}/arch/system.arch.md` (run `/explore` if missing).
 
 ### Assets
 - [`spec.template.md`](./assets/spec.template.md).
