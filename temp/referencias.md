@@ -65,3 +65,7 @@ https://code.visualstudio.com/docs/copilot/customization/agent-skills
 
 ### Design
 - https://github.com/google-labs-code/design.md/tree/main
+
+### Cursor
+
+https://github.com/cursor/plugins
